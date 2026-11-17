@@ -1,6 +1,9 @@
-# Mettre la page d'attente en ligne
+# Mettre le site et l'appli en ligne
 
-La page (`web/`) est 100 % statique : aucun serveur, aucun cookie.
+Tout le site (`web/` : accueil, appli dans `web/app/`, confidentialité,
+robot) est 100 % statique : aucun serveur, aucun cookie. Les prix sont mis
+à jour chaque nuit par GitHub Actions, qui commite le nouveau catalogue ;
+Cloudflare Pages republie alors le site tout seul.
 
 ## 1. Brancher les inscriptions (Brevo, hébergé dans l'UE, gratuit au départ)
 
@@ -22,7 +25,7 @@ Les noms de champs du formulaire (`EMAIL`, `CODE_POSTAL`, `MAGASINS`,
 `OPT_IN`) correspondent à ces attributs. Si vous choisissez un autre outil,
 adaptez les attributs `name` des champs.
 
-## 2. Héberger gratuitement (Cloudflare Pages)
+## 2. Héberger gratuitement (Cloudflare Pages) — recommandé
 
 GitHub Pages n'est gratuit que pour les dépôts publics ; Cloudflare Pages
 l'est aussi pour un dépôt privé.
@@ -31,6 +34,8 @@ l'est aussi pour un dépôt privé.
 2. Choisissez le dépôt, branche `main`.
 3. Commande de build : *(vide)*. Répertoire de sortie : `web`.
 4. Ajoutez votre domaine (paniermalin.be) dans « Domaines personnalisés ».
+5. L'appli est alors sur `https://paniermalin.be/app/` (ou
+   `https://<projet>.pages.dev/app/` avant d'avoir un domaine).
 
 ## 3. Avant de partager le lien
 

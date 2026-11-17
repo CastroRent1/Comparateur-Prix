@@ -14,7 +14,7 @@ import { extractProducts } from '../jsonld.ts';
  *                                                « Nouveau prix: 0 euro et 59 centimes » (promo)
  *     data-testid="product-block-old-price"      « Ancien prix: 1 euro et 18 centimes »
  *     data-testid="product-block-price-per-unit» « Prix par unité: 13 euros et 09 centimes par kg »
- * - Format : prix ÷ prix unitaire de la même paire (fiable), sinon « Contenu net ».
+ * - Format : « Contenu net » publié ; à défaut prix ÷ prix unitaire affiché.
  * - Promo : Delhaize n'affiche pas sa date de fin → validité limitée au jour du
  *   relevé (prudent : on ne montre jamais une promo peut-être terminée).
  *   « Commandable à partir du … » → promo ignorée (statut incertain).
@@ -76,14 +76,16 @@ export function extractDelhaize(html: string, url: string, now: Date): Offer[] {
     promo = { price: shown!, label: 'Promo', validFrom: today, validTo: today };
   }
 
-  // Le prix unitaire affiché correspond au prix affiché (promo comprise).
-  let size: Quantity | undefined;
-  if (shown && unitValue && unit && unit !== 'piece') {
+  // Format : le « Contenu net » publié fait foi. À défaut, prix ÷ prix
+  // unitaire affiché (même paire, promo comprise) ; à défaut, le nom.
+  // (Constaté : un prix unitaire de multi-achat peut fausser le calcul.)
+  const netText = NET_CONTENT_RE.exec(html)?.[1]?.trim();
+  let size: Quantity | undefined = parseQuantity(netText);
+  if (!size && shown && unitValue && unit && unit !== 'piece') {
     const amount = Math.round((shown / unitValue) * 1000) / 1000;
     if (amount > 0) size = { amount, unit };
   }
-  const netText = NET_CONTENT_RE.exec(html)?.[1]?.trim();
-  size ??= parseQuantity(netText) ?? parseQuantity(ld.name);
+  size ??= parseQuantity(ld.name);
 
   const categoryMatch = /"category"\s*:\s*"([^"]+)"/.exec(html);
   return [

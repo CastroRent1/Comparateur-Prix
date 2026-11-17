@@ -143,6 +143,16 @@ describe('Delhaize', () => {
     expect(o!.promo).toBeUndefined();
   });
 
+  it('le contenu net publié prime sur le format calculé', () => {
+    const [o] = extractDelhaize(delhaizePage({ price: 'Prix: 2 euros et 75 centimes', unit: 'Prix par unité: 3 euros et 67 centimes par kg' }), url, now);
+    expect(o!.size).toEqual({ amount: 0.075, unit: 'kg' }); // « Contenu net 75 g » de la page, pas 2,75 / 3,67
+  });
+
+  it('sans contenu net : format calculé depuis le prix unitaire', () => {
+    const html = delhaizePage({ price: 'Prix: 1 euro et 18 centimes', unit: 'Prix par unité: 15 euros et 73 centimes par kg' }).replace('Contenu net', 'Autre');
+    expect(extractDelhaize(html, url, now)[0]!.size).toEqual({ amount: 0.075, unit: 'kg' });
+  });
+
   it('sans prix affiché : repli sur le JSON-LD', () => {
     const html = delhaizePage({ price: '' }).replace(/<div data-stellar[^>]*>.*?<\/div>/s, '');
     expect(extractDelhaize(html, url, now)[0]!.price).toBe(9.99);
