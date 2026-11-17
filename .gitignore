@@ -6,3 +6,4 @@ node_modules/
 coverage/
 # Sorties de collecte locales (seul data/latest/ est versionné)
 data/tmp/
+*.png
