@@ -24,14 +24,20 @@ jobs:
         run: npm run stores
       - name: Codes postaux (GeoNames)
         run: npm run postcodes
+      - name: Repartir du dernier état du dépôt (prix collectés entre-temps)
+        run: |
+          git config user.name "panier-malin-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/ref && cp data/stores.json data/postcodes.json /tmp/ref/
+          git checkout -- . && git clean -fdq data
+          git pull --rebase origin main
+          cp /tmp/ref/stores.json /tmp/ref/postcodes.json data/
       - name: Reconstruire le catalogue et l'appli
         run: npm run build
       - name: Commiter
         run: |
-          git config user.name "panier-malin-bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/stores.json data/postcodes.json web/app/data/catalog.json web/app/app.js
           if git diff --cached --quiet; then echo "Aucun changement."; exit 0; fi
           git commit -m "Données de référence $(date -u +%Y-%m-%d)"
-          git pull --rebase --autostash origin main
-          git push
+          for i in 1 2 3; do git push && exit 0; git pull --rebase -X theirs origin main || exit 1; npm run build; git add web/app/data/catalog.json web/app/app.js; git commit --amend --no-edit; done
+          exit 1
