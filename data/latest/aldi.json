@@ -1,0 +1,4549 @@
+{
+ "chainId": "aldi",
+ "updatedAt": "2026-11-17T18:42:02.146Z",
+ "lastRun": {
+  "urlsFound": 2970,
+  "pagesFetched": 362,
+  "productsFound": 300,
+  "pagesWithoutProduct": 62,
+  "skippedDisallowed": 0,
+  "errors": 0,
+  "blocked": false,
+  "complete": false,
+  "at": "2026-11-17T18:42:02.146Z"
+ },
+ "offers": [
+  {
+   "chainId": "aldi",
+   "productKey": "0145",
+   "name": "Iced tea, 6 pcs",
+   "brand": "RIVER",
+   "size": {
+    "amount": 2.99,
+    "unit": "l"
+   },
+   "sizeText": "6 x 50 cl",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:32:52.330Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/iced-tea-6-pcs-0145.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0157",
+   "name": "Filets de tilapia",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 5.69,
+   "observedAt": "2026-11-17T18:40:51.944Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filets-de-tilapia-0157.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0200",
+   "name": "Antipasti",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:39:26.334Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/antipasti-0200.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0254",
+   "name": "Glace sandwich, 8 pcs",
+   "brand": "MUCCI",
+   "size": {
+    "amount": 0.72,
+    "unit": "l"
+   },
+   "sizeText": "8 x 90 ml",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:36.268Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/glace-sandwich-8-pcs-0254.html",
+   "category": "ijs"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0255",
+   "name": "Filet de poulet premium",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.39,
+   "observedAt": "2026-11-17T18:30:30.350Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-poulet-premium-0255.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0473",
+   "name": "Carottes râpées ou chou blanc râpé",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.399,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:31:38.367Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/carottes-rapees-ou-chou-blanc-rape-0473.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0500",
+   "name": "Cassonade blonde",
+   "brand": "TIENSE SUIKER",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:38:02.031Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cassonade-blonde-0500.html",
+   "category": "zelf-bakken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0633",
+   "name": "Gyros de poulet",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 5.95,
+   "observedAt": "2026-11-17T18:37:15.083Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gyros-de-poulet-0633.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0738",
+   "name": "Petit pain ciabatta",
+   "sizeText": "pièce",
+   "price": 0.49,
+   "observedAt": "2026-11-17T18:40:40.238Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/petit-pain-ciabatta-0738.html",
+   "category": "broodjes-sandwiches-afbakbrood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0807",
+   "name": "Omega 3 tartinable",
+   "brand": "BELLASAN",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 0.77,
+   "observedAt": "2026-11-17T18:33:20.462Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/omega-3-tartinable-0807.html",
+   "category": "boter-margarine-room"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0809",
+   "name": "Bellasan cuire et rôtir",
+   "brand": "BELLASAN",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:32:18.313Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/bellasan-cuire-et-rotir-0809.html",
+   "category": "boter-margarine-room"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0813",
+   "name": "Margarine tartinable light",
+   "brand": "BELLASAN",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 0.79,
+   "observedAt": "2026-11-17T18:37:33.072Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/margarine-tartinable-light-0813.html",
+   "category": "boter-margarine-room"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0883",
+   "name": "Saucisses de poulet, 8 pcs",
+   "brand": "TUPELO FARM",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "8 x 125 g",
+   "price": 8.99,
+   "observedAt": "2026-11-17T18:32:58.042Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisses-de-poulet-8-pcs-0883.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0885",
+   "name": "Chips de crevettes",
+   "brand": "ASIA GREEN GARDEN",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 1.09,
+   "observedAt": "2026-11-17T18:31:26.521Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chips-de-crevettes-0885.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0931",
+   "name": "Pastis",
+   "brand": "DAVIAUD",
+   "size": {
+    "amount": 0.7,
+    "unit": "l"
+   },
+   "sizeText": "70 cl",
+   "price": 13.49,
+   "observedAt": "2026-11-17T18:32:48.325Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pastis-0931.html",
+   "category": "sterke-dranken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "0949",
+   "name": "Aiguillettes de poulet croustillantes",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:31:14.043Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/aiguillettes-de-poulet-croustillantes-0949.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1103",
+   "name": "Liebfraumilch",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:41:22.271Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/liebfraumilch-1103.html",
+   "category": "witte-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1129",
+   "name": "Tawny Porto",
+   "brand": "PATRICIO",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:36:17.093Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tawny-porto-1129.html",
+   "category": "sterke-dranken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1151",
+   "name": "Sauvignon blanc",
+   "brand": "VALGRANDE",
+   "size": {
+    "amount": 0.751,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:31:36.430Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sauvignon-blanc-1151.html",
+   "category": "witte-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1183",
+   "name": "Figues séchées",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:37:07.147Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/figues-sechees-1183.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1229",
+   "name": "Vin rosé Valgrande",
+   "size": {
+    "amount": 3,
+    "unit": "l"
+   },
+   "sizeText": "3 l",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:41:03.963Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/vin-rose-valgrande-1229.html",
+   "category": "rose-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1266",
+   "name": "Lait demi-écrémé",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 0.95,
+   "observedAt": "2026-11-17T18:38:27.261Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lait-demi-ecreme-1266.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1296",
+   "name": "Bac pliant ALDI",
+   "sizeText": "pièce",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:41:28.142Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/bac-pliant-aldi-1296.html",
+   "category": "draagtassen-overige"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1313",
+   "name": "Saucisses apéro",
+   "brand": "PANDA",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "120 g",
+   "price": 2.39,
+   "observedAt": "2026-11-17T18:41:30.060Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisses-apero-1313.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1516",
+   "name": "Tranches de lard de porc",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:41:49.836Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tranches-de-lard-de-porc-1516.html",
+   "category": "varkensvlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1624",
+   "name": "Fromage fondu à l'emmental",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:34:21.021Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-fondu-a-lemmental-1624.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1648",
+   "name": "Pansements",
+   "brand": "HANSAPLAST",
+   "sizeText": "par boîte",
+   "price": 3.75,
+   "observedAt": "2026-11-17T18:36:11.072Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pansements-1648.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1704",
+   "name": "Minisandwiches, 12 pcs",
+   "size": {
+    "amount": 0.324,
+    "unit": "kg"
+   },
+   "sizeText": "324 g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:34:25.098Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minisandwiches-12-pcs-1704.html",
+   "category": "broodjes-sandwiches-afbakbrood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1709",
+   "name": "Pain de campagne blanc",
+   "size": {
+    "amount": 0.6,
+    "unit": "kg"
+   },
+   "sizeText": "600 g",
+   "price": 1.39,
+   "observedAt": "2026-11-17T18:35:41.047Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pain-de-campagne-blanc-1709.html",
+   "category": "brood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1806",
+   "name": "Pain complet spécial",
+   "brand": "DÉLIPAIN",
+   "size": {
+    "amount": 0.601,
+    "unit": "kg"
+   },
+   "sizeText": "600 g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:32:40.329Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pain-complet-special-1806.html",
+   "category": "brood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1822",
+   "name": "Viande des Grisons",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.08,
+    "unit": "kg"
+   },
+   "sizeText": "80 g",
+   "price": 4.79,
+   "observedAt": "2026-11-17T18:40:48.283Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/viande-des-grisons-1822.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1897",
+   "name": "Dés de tomates",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 0.6,
+   "observedAt": "2026-11-17T18:32:46.320Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/des-de-tomates-1897.html",
+   "category": "conserven"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1905",
+   "name": "Spaghettis",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 0.45,
+   "observedAt": "2026-11-17T18:30:32.452Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/spaghettis-1905.html",
+   "category": "pasta-noedels"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1924",
+   "name": "Choco chips",
+   "brand": "GOLDEN BRIDGE",
+   "size": {
+    "amount": 0.75,
+    "unit": "kg"
+   },
+   "sizeText": "750 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:30:10.664Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/choco-chips-1924.html",
+   "category": "ontbijtgranen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1928",
+   "name": "Tranches épaisses de lard",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:36:55.052Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tranches-epaisses-de-lard-1928.html",
+   "category": "varkensvlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1991",
+   "name": "Yaourt entier aux fruits, 12 pcs",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 1.503,
+    "unit": "kg"
+   },
+   "sizeText": "12 x 125 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:33:22.314Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/yaourt-entier-aux-fruits-12-pcs-1991.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2012",
+   "name": "Sardines à l'huile de tournesol",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "120 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:35:07.147Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sardines-a-lhuile-de-tournesol-2012.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2274",
+   "name": "Pains-saucisse ou Beignets aux pommes, 2 pcs",
+   "size": {
+    "amount": 0.27,
+    "unit": "kg"
+   },
+   "sizeText": "270 g/360 g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:38:43.305Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pains-saucisse-ou-beignets-aux-pommes-2-pcs-2274.html",
+   "category": "koffiekoeken-gebak"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2277",
+   "name": "Yaourt aux fruits, 2 pcs",
+   "brand": "MAMIE NOVA",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 150 g",
+   "price": 4.38,
+   "promo": {
+    "price": 4,
+    "label": "2 pour",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:38:37.337Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/yaourt-aux-fruits-2-pcs-2277.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2304",
+   "name": "Olives fraîches",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.65,
+   "observedAt": "2026-11-17T18:37:23.279Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/olives-fraiches-2304.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2308",
+   "name": "Déodorant",
+   "brand": "LACURA",
+   "size": {
+    "amount": 0.2,
+    "unit": "l"
+   },
+   "sizeText": "200 ml",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:39:02.292Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/deodorant-2308.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2372",
+   "name": "Sojagurt",
+   "brand": "MY VAY",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 1.39,
+   "observedAt": "2026-11-17T18:41:02.281Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sojagurt-2372.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2388",
+   "name": "Salade gourmande",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:39:50.271Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/salade-gourmande-2388.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2537",
+   "name": "Poudre à lessiver",
+   "brand": "TANDIL",
+   "size": {
+    "amount": 4.225,
+    "unit": "kg"
+   },
+   "sizeText": "65 cycles, 4.225 kg",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:32:30.302Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/poudre-a-lessiver-2537.html",
+   "category": "wasmiddelen-wasverzachters"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2568",
+   "name": "Jambon artisanal grillé au four",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:39:00.230Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/jambon-artisanal-grille-au-four-2568.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2570",
+   "name": "Provolone DOP",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.69,
+   "observedAt": "2026-11-17T18:32:11.995Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/provolone-dop-2570.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2683",
+   "name": "Sauce instantanée pour viande, 5 pcs",
+   "brand": "MENUTO",
+   "size": {
+    "amount": 1.25,
+    "unit": "l"
+   },
+   "sizeText": "5 x 250 ml",
+   "price": 1.75,
+   "observedAt": "2026-11-17T18:40:30.281Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sauce-instantanee-pour-viande-5-pcs-2683.html",
+   "category": "sauzen-vinaigrettes-azijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2722",
+   "name": "Handcooked Chips",
+   "brand": "SUNSNACKS",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 1.45,
+   "observedAt": "2026-11-17T18:41:26.471Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/handcooked-chips-2722.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2747",
+   "name": "Escalopes de foie gras de canard, 4 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.14,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 35 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:29:57.477Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/escalopes-de-foie-gras-de-canard-4-pcs-2747.html",
+   "category": "vlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2750",
+   "name": "Tampons hygiéniques",
+   "brand": "SATESSA",
+   "sizeText": "par boîte",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:32:28.293Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tampons-hygieniques-2750.html",
+   "category": "intieme-hygiene"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2771",
+   "name": "Tampons hygiéniques avec applicateur, 20 pcs",
+   "brand": "SATESSA",
+   "size": {
+    "amount": 20,
+    "unit": "piece"
+   },
+   "sizeText": "par boîte",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:30:42.255Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tampons-hygieniques-avec-applicateur-20-pcs-2771.html",
+   "category": "intieme-hygiene"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2807",
+   "name": "Riesling Grand Cru Alsace",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:33:57.960Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/riesling-grand-cru-alsace-2807.html",
+   "category": "witte-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2903",
+   "name": "Sirop de poire-pomme-datte",
+   "brand": "TAMARA",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:40:07.980Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sirop-de-poire-pomme-datte-2903.html",
+   "category": "broodbeleg"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2960",
+   "name": "Godets de lait pour le café, 20 pcs",
+   "brand": "MELRO",
+   "size": {
+    "amount": 0.14,
+    "unit": "l"
+   },
+   "sizeText": "20 x 7 ml",
+   "price": 0.95,
+   "observedAt": "2026-11-17T18:31:47.982Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/godets-de-lait-pour-le-cafe-20-pcs-2960.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "2970",
+   "name": "Compote de pommes avec morceaux, pack de 3",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 0.599,
+    "unit": "kg"
+   },
+   "sizeText": "3 x 200 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:33:59.009Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/compote-de-pommes-avec-morceaux-pack-de-3-2970.html",
+   "category": "conserven"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000094",
+   "name": "Serviettes d'incontinence extra+, 10 pcs",
+   "brand": "Satessa Discreet",
+   "size": {
+    "amount": 10,
+    "unit": "piece"
+   },
+   "sizeText": "le paquet",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:38:35.482Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/serviettes-dincontinence-extra-10-pcs-3000094.html",
+   "category": "intieme-hygiene"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000114",
+   "name": "Fromage du terroir belge",
+   "brand": "BELIGE",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.69,
+   "observedAt": "2026-11-17T18:41:20.268Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-du-terroir-belge-3000114.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000393",
+   "name": "Chewing gum",
+   "brand": "MENTOS",
+   "size": {
+    "amount": 0.11,
+    "unit": "kg"
+   },
+   "sizeText": "110 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:39:20.286Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chewing-gum-3000393.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000413",
+   "name": "Surprise",
+   "brand": "KINDER",
+   "size": {
+    "amount": 0.02,
+    "unit": "kg"
+   },
+   "sizeText": "20 g",
+   "price": 1.35,
+   "observedAt": "2026-11-17T18:33:12.321Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/surprise-3000413.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000419",
+   "name": "Baccolo bianco Puglia IGT",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:38:20.972Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/baccolo-bianco-puglia-igt-3000419.html",
+   "category": "witte-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000639",
+   "name": "Bière blonde sans alcool",
+   "brand": "BUVAL",
+   "size": {
+    "amount": 0.329,
+    "unit": "l"
+   },
+   "sizeText": "33 cl",
+   "price": 0.5,
+   "observedAt": "2026-11-17T18:40:36.253Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/biere-blonde-sans-alcool-3000639.html",
+   "category": "bier"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000646",
+   "name": "Mignonnettes noir de noir, 24 pcs",
+   "brand": "CÔTE D'OR",
+   "size": {
+    "amount": 0.48,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 240 g",
+   "price": 9.78,
+   "promo": {
+    "price": 8.31,
+    "label": "2e à -30%",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:35:51.045Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mignonnettes-noir-de-noir-24-pcs-3000646.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000819",
+   "name": "Nettoyant pour le visage",
+   "brand": "LACURA",
+   "size": {
+    "amount": 0.1,
+    "unit": "l"
+   },
+   "sizeText": "100 ml/250 ml",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:37:21.082Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/nettoyant-pour-le-visage-3000819.html",
+   "category": "gezichtsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000863",
+   "name": "Filet de poulet nature",
+   "brand": "CHATAR",
+   "size": {
+    "amount": 0.13,
+    "unit": "kg"
+   },
+   "sizeText": "130 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:41:06.260Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-poulet-nature-3000863.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000870",
+   "name": "Miel d'acacia",
+   "brand": "MELONIA",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:32:22.333Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/miel-dacacia-3000870.html",
+   "category": "broodbeleg"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3000992",
+   "name": "Steak de sanglier mariné, 2 pcs",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 150 g",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:30:38.313Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/steak-de-sanglier-marine-2-pcs-3000992.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001218",
+   "name": "Dosettes de café dessert, 32 pcs",
+   "brand": "DOUWE EGBERTS",
+   "size": {
+    "amount": 32,
+    "unit": "piece"
+   },
+   "sizeText": "32 pcs",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:36:33.054Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/dosettes-de-cafe-dessert-32-pcs-3001218.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001381",
+   "name": "Gouda jeune",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:34:23.074Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gouda-jeune-3001381.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001391",
+   "name": "Capsules de café, 16 pcs",
+   "brand": "BARISSIMO",
+   "size": {
+    "amount": 16,
+    "unit": "piece"
+   },
+   "sizeText": "16 pcs",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:41:58.094Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/capsules-de-cafe-16-pcs-3001391.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001670",
+   "name": "Primitivo di Manduria 'Ronco di Sassi Riserva'",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 15.99,
+   "observedAt": "2026-11-17T18:32:24.321Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/primitivo-di-manduria-ronco-di-sassi-riserva-3001670.html",
+   "category": "rode-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001783",
+   "name": "Fromage à tartiner",
+   "brand": "MAREDSOUS",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 200 g",
+   "price": 8.98,
+   "promo": {
+    "price": 6.73,
+    "label": "2e à -50%",
+    "validFrom": "2026-11-27",
+    "validTo": "2026-12-03"
+   },
+   "observedAt": "2026-11-17T18:39:18.233Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-a-tartiner-3001783.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001784",
+   "name": "Tradition en tranches",
+   "brand": "MAREDSOUS",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:40:00.330Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tradition-en-tranches-3001784.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001867",
+   "name": "Gouda jeune affiné",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 3.79,
+   "observedAt": "2026-11-17T18:30:46.552Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gouda-jeune-affine-3001867.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001947",
+   "name": "Saucisson d'Ardenne IGP",
+   "brand": "MARCASSOU",
+   "size": {
+    "amount": 0.225,
+    "unit": "kg"
+   },
+   "sizeText": "225 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:33:32.278Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisson-dardenne-igp-3001947.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3001964",
+   "name": "Eau minérale naturelle, 12 pcs",
+   "brand": "ROCHEVAL",
+   "size": {
+    "amount": 5.967,
+    "unit": "l"
+   },
+   "sizeText": "12 x 50 cl",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:37:31.179Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/eau-minerale-naturelle-12-pcs-3001964.html",
+   "category": "water"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002167",
+   "name": "Vol-au-vent",
+   "brand": "BISTRO'VITE",
+   "size": {
+    "amount": 0.8,
+    "unit": "kg"
+   },
+   "sizeText": "800 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:37:25.295Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/vol-au-vent-3002167.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002170",
+   "name": "Saucisses cocktail",
+   "brand": "ZWAN",
+   "size": {
+    "amount": 0.13,
+    "unit": "kg"
+   },
+   "sizeText": "130 g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:35:39.080Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisses-cocktail-3002170.html",
+   "category": "conserven"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002283",
+   "name": "Aliment premium holistique pour chiens",
+   "brand": "ROMEO",
+   "size": {
+    "amount": 1.501,
+    "unit": "kg"
+   },
+   "sizeText": "1.5 kg",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:37:43.096Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/aliment-premium-holistique-pour-chiens-3002283.html",
+   "category": "hond"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002398",
+   "name": "Shampoing sec",
+   "brand": "LACURA",
+   "size": {
+    "amount": 0.2,
+    "unit": "l"
+   },
+   "sizeText": "200 ml",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:41:48.186Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/shampoing-sec-3002398.html",
+   "category": "haarproducten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002461",
+   "name": "Snack au lait, 6 pcs",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.168,
+    "unit": "kg"
+   },
+   "sizeText": "168 g/180 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:36:57.063Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/snack-au-lait-6-pcs-3002461.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002720",
+   "name": "Yaourt nature, 4 pcs",
+   "brand": "OIKOS",
+   "size": {
+    "amount": 0.921,
+    "unit": "kg"
+   },
+   "sizeText": "2 x (4 x 115 g)",
+   "price": 5.18,
+   "promo": {
+    "price": 5,
+    "label": "2 pour",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:32:32.356Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/yaourt-nature-4-pcs-3002720.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002729",
+   "name": "Légumes pour soupe",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:35:47.067Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/legumes-pour-soupe-3002729.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002766",
+   "name": "Chewing-gum Gum White",
+   "brand": "MENTOS",
+   "size": {
+    "amount": 0.06,
+    "unit": "kg"
+   },
+   "sizeText": "60 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:34:29.035Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chewing-gum-gum-white-3002766.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3002963",
+   "name": "Chipolata de campagne, 6 pcs",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:41:10.485Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chipolata-de-campagne-6-pcs-3002963.html",
+   "category": "varkensvlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003331",
+   "name": "Lait entier",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 1.09,
+   "observedAt": "2026-11-17T18:37:49.070Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lait-entier-3003331.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003531",
+   "name": "Friandises en pot",
+   "brand": "SWEETLAND",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:40:56.477Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/friandises-en-pot-3003531.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003566",
+   "name": "Croquettes apéritives farcies, 12 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.24,
+    "unit": "kg"
+   },
+   "sizeText": "240 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:32:02.490Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/croquettes-aperitives-farcies-12-pcs-3003566.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003640",
+   "name": "Capsules de café lungo crema, 20 pcs",
+   "brand": "BARISSIMO",
+   "size": {
+    "amount": 20,
+    "unit": "piece"
+   },
+   "sizeText": "20 pcs",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:32:50.342Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/capsules-de-cafe-lungo-crema-20-pcs-3003640.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003735",
+   "name": "Riz au lait",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 0.35,
+   "observedAt": "2026-11-17T18:33:47.298Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/riz-au-lait-3003735.html",
+   "category": "desserts"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3003854",
+   "name": "Lamelles de poulet",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:30:12.286Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lamelles-de-poulet-3003854.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3004276",
+   "name": "Boisson protéinée",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.332,
+    "unit": "l"
+   },
+   "sizeText": "332 ml",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:35:21.064Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/boisson-proteinee-3004276.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3004582",
+   "name": "Yaourt protéiné",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.25,
+   "observedAt": "2026-11-17T18:32:20.421Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/yaourt-proteine-3004582.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3004600",
+   "name": "Grana padano en bloc",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:31:50.348Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/grana-padano-en-bloc-3004600.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3004899",
+   "name": "Lait condensé",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.188,
+    "unit": "l"
+   },
+   "sizeText": "188 ml",
+   "price": 0.92,
+   "observedAt": "2026-11-17T18:39:46.248Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lait-condense-3004899.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3004968",
+   "name": "Tablettes tout-en-un pour lave-vaisselle, 30 pcs",
+   "brand": "POWER FORCE",
+   "size": {
+    "amount": 30,
+    "unit": "piece"
+   },
+   "sizeText": "30 cycles",
+   "price": 4.69,
+   "observedAt": "2026-11-17T18:38:03.517Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tablettes-tout-en-un-pour-lave-vaisselle-30-pcs-3004968.html",
+   "category": "afwassen-vaatwasmiddelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005005",
+   "name": "Werther's Original sans sucre",
+   "brand": "WERTHER'S ORIGINAL",
+   "size": {
+    "amount": 0.042,
+    "unit": "kg"
+   },
+   "sizeText": "42 g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:35:09.047Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/werthers-original-sans-sucre-3005005.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005079",
+   "name": "yaourt entier",
+   "brand": "GAZI",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:39:10.314Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/yaourt-entier-3005079.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005081",
+   "name": "Anatolian Mix",
+   "brand": "MURATBEY",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.79,
+   "observedAt": "2026-11-17T18:35:35.032Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/anatolian-mix-3005081.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005212",
+   "name": "Escalope de poulet façon italienne, 4 pcs",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 125 g",
+   "price": 6.99,
+   "promo": {
+    "price": 5.59,
+    "label": "-20%",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-28"
+   },
+   "observedAt": "2026-11-17T18:34:05.042Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/escalope-de-poulet-facon-italienne-4-pcs-3005212.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005280",
+   "name": "Lingettes bébé à l'eau extra sensitive, 80 pcs",
+   "brand": "MAMIA",
+   "size": {
+    "amount": 80,
+    "unit": "piece"
+   },
+   "sizeText": "le paquet",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:38:50.614Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lingettes-bebe-a-leau-extra-sensitive-80-pcs-3005280.html",
+   "category": "zakdoekjes-toiletpapier-keukenpapier"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005326",
+   "name": "Mini-escalope de porc",
+   "size": {
+    "amount": 0.8,
+    "unit": "kg"
+   },
+   "sizeText": "800 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:31:06.281Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mini-escalope-de-porc-3005326.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3005525",
+   "name": "Saumon en bellevue",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:31:02.301Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saumon-en-bellevue-3005525.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006037",
+   "name": "Latte caramel",
+   "brand": "BARISSIMO",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "sizeText": "330 ml",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:37:51.066Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/latte-caramel-3006037.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006043",
+   "name": "Véritable lait entier d'Ardenne",
+   "brand": "LAITERIE DES ARDENNES",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:33:14.344Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/veritable-lait-entier-dardenne-3006043.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006583",
+   "name": "Noix de Saint-Jacques",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:38:53.951Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/noix-de-saint-jacques-3006583.html",
+   "category": "zeevruchten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006626",
+   "name": "Côte de porc rôtie",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:40:16.246Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cote-de-porc-rotie-3006626.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006636",
+   "name": "Graines de tournesol Meray, 250 g",
+   "brand": "MERAY",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:41:00.324Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/graines-de-tournesol-meray-250-g-3006636.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006861",
+   "name": "Panini, 4 pcs",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.24,
+    "unit": "kg"
+   },
+   "sizeText": "240 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:34:27.065Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/panini-4-pcs-3006861.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007167",
+   "name": "Pepsi zero sugar",
+   "brand": "PEPSI",
+   "size": {
+    "amount": 1.503,
+    "unit": "l"
+   },
+   "sizeText": "1.5 l",
+   "price": 2.15,
+   "observedAt": "2026-11-17T18:36:09.271Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pepsi-zero-sugar-3007167.html",
+   "category": "frisdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007203",
+   "name": "Baguette bûcheron",
+   "size": {
+    "amount": 0.399,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:31:18.498Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/baguette-bucheron-3007203.html",
+   "category": "brood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007208",
+   "name": "Masques pour les yeux, 2 pcs",
+   "brand": "LACURA SKIN",
+   "size": {
+    "amount": 2,
+    "unit": "piece"
+   },
+   "sizeText": "pièce/le lot",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:39:52.439Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/masques-pour-les-yeux-2-pcs-3007208.html",
+   "category": "gezichtsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007401",
+   "name": "Minicrackers",
+   "brand": "TUC",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 100 g",
+   "price": 3.58,
+   "promo": {
+    "price": 2.51,
+    "label": "2e à -60%",
+    "validFrom": "2026-11-20",
+    "validTo": "2026-11-26"
+   },
+   "observedAt": "2026-11-17T18:37:47.097Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minicrackers-3007401.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007581",
+   "name": "Accessoire ménager",
+   "brand": "VILEDA",
+   "sizeText": "le paquet",
+   "price": 5.58,
+   "promo": {
+    "price": 4,
+    "label": "2 pour",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:34:01.038Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/accessoire-menager-3007581.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007587",
+   "name": "Tic Tac orange & lime",
+   "brand": "TIC TAC",
+   "size": {
+    "amount": 0.049,
+    "unit": "kg"
+   },
+   "sizeText": "49 g",
+   "price": 2.25,
+   "observedAt": "2026-11-17T18:33:33.712Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tic-tac-orange-et-lime-3007587.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007734",
+   "name": "Wraps protéinés, 8 pcs",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.32,
+    "unit": "kg"
+   },
+   "sizeText": "320 g",
+   "price": 1.59,
+   "promo": {
+    "price": 1.25,
+    "label": "-21%",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:34:13.031Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/wraps-proteines-8-pcs-3007734.html",
+   "category": "broodjes-sandwiches-afbakbrood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007751",
+   "name": "Bière blonde, 4 pcs",
+   "brand": "OMER.",
+   "size": {
+    "amount": 1.32,
+    "unit": "l"
+   },
+   "sizeText": "4 x 33 cl",
+   "price": 6.19,
+   "observedAt": "2026-11-17T18:33:55.286Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/biere-blonde-4-pcs-3007751.html",
+   "category": "bier"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007783",
+   "name": "Poudre à lessiver",
+   "brand": "DASH",
+   "sizeText": "2 x 40 cycles",
+   "price": 37.98,
+   "promo": {
+    "price": 28.48,
+    "label": "2e à -50%",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:41:18.305Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/poudre-a-lessiver-3007783.html",
+   "category": "wasmiddelen-wasverzachters"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007786",
+   "name": "Macarons, 12 pcs",
+   "brand": "PÂTISSIER GAULTHIER",
+   "size": {
+    "amount": 0.144,
+    "unit": "kg"
+   },
+   "sizeText": "144 g",
+   "price": 4.29,
+   "observedAt": "2026-11-17T18:37:55.282Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/macarons-12-pcs-3007786.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007798",
+   "name": "Thon, pack de 4",
+   "brand": "SAUPIQUET",
+   "size": {
+    "amount": 0.48,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 120 g",
+   "price": 11.99,
+   "promo": {
+    "price": 8.99,
+    "label": "3+1 GRATUIT",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:34:47.080Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/thon-pack-de-4-3007798.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007819",
+   "name": "Pâte à tartiner aux noisettes",
+   "brand": "NUTELLA",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 4.88,
+   "observedAt": "2026-11-17T18:35:13.049Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pate-a-tartiner-aux-noisettes-3007819.html",
+   "category": "broodbeleg"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008059",
+   "name": "Port Salut",
+   "brand": "PORT SALUT",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "le 100 g",
+   "price": 2.45,
+   "observedAt": "2026-11-17T18:38:22.996Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/port-salut-3008059.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008061",
+   "name": "Pinot noir Pays d'Oc IGP",
+   "brand": "JEAN GINER",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:36:13.079Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pinot-noir-pays-doc-igp-3008061.html",
+   "category": "rode-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008235",
+   "name": "Figurines de Saint-Nicolas",
+   "brand": "LIBEERT",
+   "size": {
+    "amount": 0.135,
+    "unit": "kg"
+   },
+   "sizeText": "135 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:41:14.273Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/figurines-de-saint-nicolas-3008235.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008243",
+   "name": "Barres de chocolat fourrées, 3 pcs",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.135,
+    "unit": "kg"
+   },
+   "sizeText": "135 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:30:03.461Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/barres-de-chocolat-fourrees-3-pcs-3008243.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008420",
+   "name": "Skyr aux fruits",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 1.85,
+   "observedAt": "2026-11-17T18:36:35.084Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/skyr-aux-fruits-3008420.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008421",
+   "name": "Figurines en spéculoos, 4 pcs",
+   "brand": "LOTUS",
+   "size": {
+    "amount": 0.143,
+    "unit": "kg"
+   },
+   "sizeText": "143 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:35:03.065Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/figurines-en-speculoos-4-pcs-3008421.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008459",
+   "name": "Aliment premium pour chiens",
+   "brand": "ROMEO",
+   "size": {
+    "amount": 0.399,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:38:33.259Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/aliment-premium-pour-chiens-3008459.html",
+   "category": "hond"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008482",
+   "name": "Sacs de congélation",
+   "brand": "POWER FORCE",
+   "sizeText": "le lot",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:33:00.379Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sacs-de-congelation-3008482.html",
+   "category": "folie-huishoudzakken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008490",
+   "name": "Rondelles d’oignons",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:12.234Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/rondelles-doignons-3008490.html",
+   "category": "diepvries-pizza-maaltijden-snacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008520",
+   "name": "Amandes",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.69,
+   "observedAt": "2026-11-17T18:41:12.419Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/amandes-3008520.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008653",
+   "name": "Mars minis mix",
+   "brand": "MARS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 4.59,
+   "observedAt": "2026-11-17T18:30:16.259Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mars-minis-mix-3008653.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008654",
+   "name": "Nettoie-tout",
+   "brand": "AJAX",
+   "size": {
+    "amount": 1.251,
+    "unit": "l"
+   },
+   "sizeText": "1.25 l",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:38:44.705Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/nettoie-tout-3008654.html",
+   "category": "schoonmaakmiddelen-schoonmaakartikelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008662",
+   "name": "Menthe original",
+   "brand": "KING",
+   "size": {
+    "amount": 0.044,
+    "unit": "kg"
+   },
+   "sizeText": "44 g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:38:19.289Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/menthe-original-3008662.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008681",
+   "name": "Mouchoirs avec lotion et parfum, 15 x 10 pcs",
+   "brand": "SUBLIMO",
+   "size": {
+    "amount": 10,
+    "unit": "piece"
+   },
+   "sizeText": "le paquet",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:37:13.083Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mouchoirs-avec-lotion-et-parfum-15-x-10-pcs-3008681.html",
+   "category": "zakdoekjes-toiletpapier-keukenpapier"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008740",
+   "name": "Fruits surgelés",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g/750 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:32:56.450Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fruits-surgeles-3008740.html",
+   "category": "diepvries-groenten-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008741",
+   "name": "Mélange de fruits",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g/600 g",
+   "price": 3.45,
+   "observedAt": "2026-11-17T18:34:09.046Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-de-fruits-3008741.html",
+   "category": "diepvries-groenten-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008859",
+   "name": "Crème douche exotique",
+   "brand": "LACURA",
+   "size": {
+    "amount": 0.3,
+    "unit": "l"
+   },
+   "sizeText": "300 ml",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:40:54.475Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/creme-douche-exotique-3008859.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008898",
+   "name": "Rasoirs jetables pour hommes ou femmes",
+   "brand": "LACURA",
+   "size": {
+    "amount": 10,
+    "unit": "piece"
+   },
+   "sizeText": "10 pcs",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:35:01.056Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/rasoirs-jetables-pour-hommes-ou-femmes-3008898.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009290",
+   "name": "Chocowafer",
+   "brand": "BISCOTTO",
+   "size": {
+    "amount": 0.144,
+    "unit": "kg"
+   },
+   "sizeText": "144 g",
+   "price": 1.75,
+   "observedAt": "2026-11-17T18:32:26.330Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chocowafer-3009290.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009362",
+   "name": "Frites au four",
+   "brand": "PRIMO FRIES",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:29:59.449Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/frites-au-four-3009362.html",
+   "category": "frietjes-aardappelproducten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009555",
+   "name": "Savon hygiénique pour les mains",
+   "brand": "LACURA",
+   "size": {
+    "amount": 0.3,
+    "unit": "l"
+   },
+   "sizeText": "300 ml",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:36:03.040Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/savon-hygienique-pour-les-mains-3009555.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009583",
+   "name": "Frites sticks paprika",
+   "brand": "SUNSNACKS",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 0.89,
+   "observedAt": "2026-11-17T18:37:19.361Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/frites-sticks-paprika-3009583.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009608",
+   "name": "Friandises végétaliennes",
+   "brand": "SWEETLAND",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:31:44.415Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/friandises-vegetaliennes-3009608.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009610",
+   "name": "Tapis et bâtons",
+   "brand": "SWEETLAND",
+   "size": {
+    "amount": 0.175,
+    "unit": "kg"
+   },
+   "sizeText": "175 g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:40:10.236Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tapis-et-batons-3009610.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009794",
+   "name": "Herbes aromatiques",
+   "brand": "LE GUSTO",
+   "size": {
+    "amount": 0.02,
+    "unit": "kg"
+   },
+   "sizeText": "40 g/20 g/80 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:32:07.998Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/herbes-aromatiques-3009794.html",
+   "category": "kruiden-smaakversterkers"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009795",
+   "name": "Mélange d'épices",
+   "brand": "LE GUSTO",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:35:27.071Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-depices-3009795.html",
+   "category": "kruiden-smaakversterkers"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009829",
+   "name": "Bonbons sans sucre",
+   "brand": "FRESH & FREE",
+   "size": {
+    "amount": 0.05,
+    "unit": "kg"
+   },
+   "sizeText": "50 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:31:32.361Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/bonbons-sans-sucre-3009829.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009898",
+   "name": "Fanta zero ou Sprite zero, 8 pcs",
+   "size": {
+    "amount": 1.996,
+    "unit": "l"
+   },
+   "sizeText": "8 x 25 cl",
+   "price": 5.49,
+   "observedAt": "2026-11-17T18:38:29.267Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fanta-zero-ou-sprite-zero-8-pcs-3009898.html",
+   "category": "frisdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3009915",
+   "name": "Pudding protéiné",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:40:12.284Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pudding-proteine-3009915.html",
+   "category": "desserts"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010196",
+   "name": "Pils, 18 pcs",
+   "brand": "JUPILER",
+   "size": {
+    "amount": 6.382,
+    "unit": "l"
+   },
+   "sizeText": "18 x 35.5 cl",
+   "price": 19.07,
+   "promo": {
+    "price": 15.89,
+    "label": "15+3 gratuits",
+    "validFrom": "2026-11-20",
+    "validTo": "2026-11-26"
+   },
+   "observedAt": "2026-11-17T18:35:31.058Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pils-18-pcs-3010196.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010386",
+   "name": "Salade-repas",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:33:35.341Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/salade-repas-3010386.html",
+   "category": "salades-pastasalades"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010585",
+   "name": "Lave-vitres",
+   "brand": "POWER FORCE",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 0.69,
+   "observedAt": "2026-11-17T18:40:42.281Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lave-vitres-3010585.html",
+   "category": "schoonmaakmiddelen-schoonmaakartikelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010715",
+   "name": "Mélange de noix en gobelet",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.09,
+    "unit": "kg"
+   },
+   "sizeText": "90 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:31:30.330Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-de-noix-en-gobelet-3010715.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010829",
+   "name": "Éclairs",
+   "brand": "PÂTISSIER GAULTHIER",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180 g",
+   "price": 2.75,
+   "observedAt": "2026-11-17T18:34:41.051Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/eclairs-3010829.html",
+   "category": "koffiekoeken-gebak"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3010886",
+   "name": "Boisson de sport isotonique, 6 pcs",
+   "brand": "RIVER",
+   "size": {
+    "amount": 3,
+    "unit": "l"
+   },
+   "sizeText": "6 x 50 cl",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:36:51.512Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/boisson-de-sport-isotonique-6-pcs-3010886.html",
+   "category": "energy-drinks-sportdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011039",
+   "name": "Eau gazeuse à la framboise et à la fraise",
+   "brand": "FOU D'O",
+   "size": {
+    "amount": 2.99,
+    "unit": "l"
+   },
+   "sizeText": "6 x 50 cl",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:30:20.275Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/eau-gazeuse-a-la-framboise-et-a-la-fraise-3011039.html",
+   "category": "water"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011042",
+   "name": "Tarte aux cerises ou tarte aux abricots",
+   "brand": "PÂTISSIER GAULTHIER",
+   "size": {
+    "amount": 0.8,
+    "unit": "kg"
+   },
+   "sizeText": "800 g",
+   "price": 5.79,
+   "observedAt": "2026-11-17T18:32:06.342Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tarte-aux-cerises-ou-tarte-aux-abricots-3011042.html",
+   "category": "koffiekoeken-gebak"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011107",
+   "name": "Rôti à l'ardennaise",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g, poids variable",
+   "price": 6.99,
+   "promo": {
+    "price": 4.96,
+    "label": "-29%",
+    "validFrom": "2026-11-20",
+    "validTo": "2026-11-21"
+   },
+   "observedAt": "2026-11-17T18:31:54.017Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/roti-a-lardennaise-3011107.html",
+   "category": "vlees-eoy"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011118",
+   "name": "Bellini",
+   "brand": "MARTINI",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "25 cl",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:32:44.339Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/bellini-3011118.html",
+   "category": "bubbels"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011315",
+   "name": "Mélange de noix",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:38:05.386Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-de-noix-3011315.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011332",
+   "name": "Riz basmati",
+   "brand": "BON-RI",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:36:05.057Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/riz-basmati-3011332.html",
+   "category": "rijst-couscous"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011471",
+   "name": "Capsules de café ristretto",
+   "brand": "DOUWE EGBERTS",
+   "size": {
+    "amount": 20,
+    "unit": "piece"
+   },
+   "sizeText": "2 x 20 pcs",
+   "price": 10.98,
+   "promo": {
+    "price": 9.33,
+    "label": "2e à -30%",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:37:35.062Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/capsules-de-cafe-ristretto-3011471.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011498",
+   "name": "Chiffonade",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.05,
+    "unit": "kg"
+   },
+   "sizeText": "50 g",
+   "price": 1.39,
+   "observedAt": "2026-11-17T18:31:10.293Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chiffonade-3011498.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011529",
+   "name": "Mélange de snacks",
+   "brand": "SUN SNACKS",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:40:58.341Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-de-snacks-3011529.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011552",
+   "name": "Chocolat au lait avec morceaux de spéculoos",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.69,
+   "observedAt": "2026-11-17T18:31:08.369Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chocolat-au-lait-avec-morceaux-de-speculoos-3011552.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011629",
+   "name": "Tablettes pour lave-vaisselle, 59 pcs",
+   "brand": "DREFT",
+   "size": {
+    "amount": 59,
+    "unit": "piece"
+   },
+   "sizeText": "2 x 59 cycles",
+   "price": 79.98,
+   "promo": {
+    "price": 39.99,
+    "label": "1+1 gratuit",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:34:59.025Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tablettes-pour-lave-vaisselle-59-pcs-3011629.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3011899",
+   "name": "Dessert à la noisette et au lait, 4 pcs",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 100 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:31:04.284Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/dessert-a-la-noisette-et-au-lait-4-pcs-3011899.html",
+   "category": "desserts"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012202",
+   "name": "Mozzarella de bufflonne",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "125 g",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:35:05.217Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mozzarella-de-bufflonne-3012202.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012239",
+   "name": "Saucisse grillée",
+   "brand": "CURRYSTAR",
+   "size": {
+    "amount": 0.48,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 240 g",
+   "price": 4.98,
+   "promo": {
+    "price": 4,
+    "label": "2 pour",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:39:41.907Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisse-grillee-3012239.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012485",
+   "name": "Pousses de soja",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:33:24.342Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pousses-de-soja-3012485.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012487",
+   "name": "Ketchup au curry",
+   "brand": "LE GUSTO",
+   "size": {
+    "amount": 0.874,
+    "unit": "l"
+   },
+   "sizeText": "875 ml",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:16.239Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/ketchup-au-curry-3012487.html",
+   "category": "sauzen-vinaigrettes-azijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012661",
+   "name": "Galettes bio au riz et au maïs avec sel marin",
+   "brand": "BIO",
+   "size": {
+    "amount": 0.13,
+    "unit": "kg"
+   },
+   "sizeText": "130 g/135 g",
+   "price": 0.82,
+   "observedAt": "2026-11-17T18:33:49.217Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/galettes-bio-au-riz-et-au-mais-avec-sel-marin-3012661.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012667",
+   "name": "Galettes salées au maïs",
+   "brand": "BISCOTTO",
+   "size": {
+    "amount": 0.104,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 26 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:38:39.405Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/galettes-salees-au-mais-3012667.html",
+   "category": "beschuiten-toast-crackers"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012692",
+   "name": "Chocolat Dubaï style",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.14,
+    "unit": "kg"
+   },
+   "sizeText": "140 g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:37:45.098Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chocolat-dubai-style-3012692.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012702",
+   "name": "Pâtes farcies premium",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:31:16.289Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pates-farcies-premium-3012702.html",
+   "category": "pasta-noedels"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012929",
+   "name": "Boisson à l’avoine barista",
+   "brand": "MY VAY",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:34:11.030Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/boisson-a-lavoine-barista-3012929.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012942",
+   "name": "Minichocolats, 30 pcs",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:40:24.273Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minichocolats-30-pcs-3012942.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013060",
+   "name": "Fromage râpé Tex Mex",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:39:58.227Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-rape-tex-mex-3013060.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013104",
+   "name": "Tomates Roma XXL",
+   "size": {
+    "amount": 1.502,
+    "unit": "kg"
+   },
+   "sizeText": "1.5 kg",
+   "price": 4.04,
+   "promo": {
+    "price": 3.29,
+    "label": "-18%",
+    "validFrom": "2026-11-12",
+    "validTo": "2026-11-21"
+   },
+   "observedAt": "2026-11-17T18:39:44.676Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/tomates-roma-xxl-3013104.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013106",
+   "name": "Bâtonnets de chocolat",
+   "brand": "MOSER ROTH",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:34:02.786Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/batonnets-de-chocolat-3013106.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013163",
+   "name": "Pâtes express",
+   "brand": "DELICATO",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:36:07.120Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pates-express-3013163.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013193",
+   "name": "Barres de muesli premium, 5 pcs",
+   "brand": "GOLDEN BRIDGE",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "5 x 25 g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:38:09.293Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/barres-de-muesli-premium-5-pcs-3013193.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013197",
+   "name": "Minisnacks au salami",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "125 g/150 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:34:15.054Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minisnacks-au-salami-3013197.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013211",
+   "name": "Filet de saumon, 3 pcs",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.375,
+    "unit": "kg"
+   },
+   "sizeText": "375 g",
+   "price": 8.99,
+   "observedAt": "2026-11-17T18:30:58.467Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-saumon-3-pcs-3013211.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013223",
+   "name": "Biscuits de dessert premium",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.05,
+    "unit": "kg"
+   },
+   "sizeText": "50 g/125 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:33:02.415Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/biscuits-de-dessert-premium-3013223.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013267",
+   "name": "Mélange aux brocolis",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1 kg",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:34:57.037Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-aux-brocolis-3013267.html",
+   "category": "diepvries-groenten-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013430",
+   "name": "Nuggets de poulet",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:30:05.470Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/nuggets-de-poulet-3013430.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013432",
+   "name": "Martino",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.29,
+   "observedAt": "2026-11-17T18:33:37.290Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/martino-3013432.html",
+   "category": "broodbeleg"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013479",
+   "name": "Gommes aux fruits",
+   "brand": "SWEETLAND",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:31:40.306Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gommes-aux-fruits-3013479.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013487",
+   "name": "Snacks pour chats",
+   "brand": "CACHET",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:34:53.032Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/snacks-pour-chats-3013487.html",
+   "category": "kat"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013702",
+   "name": "Boudoirs",
+   "brand": "BISCOTTO",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:41:54.197Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/boudoirs-3013702.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3013708",
+   "name": "Biscuits Prince",
+   "brand": "LU",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:31:42.299Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/biscuits-prince-3013708.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014102",
+   "name": "Dentifrice haleine pure",
+   "brand": "SIGNAL",
+   "size": {
+    "amount": 0.075,
+    "unit": "l"
+   },
+   "sizeText": "75 ml",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:40:26.297Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/dentifrice-haleine-pure-3014102.html",
+   "category": "tandverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014312",
+   "name": "Plat préparé",
+   "brand": "BISTRO'VITE",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:33:16.344Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/plat-prepare-3014312.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014446",
+   "name": "Laisse ou collier pour chiens",
+   "brand": "ROMEO",
+   "sizeText": "pièce",
+   "price": 5.99,
+   "promo": {
+    "price": 5,
+    "label": "-17%",
+    "validFrom": "2026-11-18",
+    "validTo": "2026-11-21"
+   },
+   "observedAt": "2026-11-17T18:36:59.076Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/laisse-ou-collier-pour-chiens-3014446.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014582",
+   "name": "Frangipane, 4 pcs",
+   "brand": "LOTUS",
+   "size": {
+    "amount": 0.208,
+    "unit": "kg"
+   },
+   "sizeText": "208 g",
+   "price": 2.09,
+   "observedAt": "2026-11-17T18:33:26.577Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/frangipane-4-pcs-3014582.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014635",
+   "name": "Roses, 40 cm",
+   "sizeText": "par bouquet",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:37:39.536Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/roses-40-cm-3014635.html",
+   "category": "bloemen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014652",
+   "name": "Nic Nacs au chocolat",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:33:28.283Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/nic-nacs-au-chocolat-3014652.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014792",
+   "name": "Boules de chocolat",
+   "brand": "MOSER ROTH",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:06.474Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/boules-de-chocolat-3014792.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014893",
+   "name": "M&M'S peanut",
+   "brand": "M&M'S",
+   "size": {
+    "amount": 0.082,
+    "unit": "kg"
+   },
+   "sizeText": "82 g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:39:28.255Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/metms-peanut-3014893.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3014969",
+   "name": "Croquettes de crevettes au four, 6 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.24,
+    "unit": "kg"
+   },
+   "sizeText": "240 g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:35:17.050Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/croquettes-de-crevettes-au-four-6-pcs-3014969.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015084",
+   "name": "Coca-Cola zero",
+   "brand": "COCA-COLA ZERO",
+   "size": {
+    "amount": 0.5,
+    "unit": "l"
+   },
+   "sizeText": "50 cl",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:38:17.530Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/coca-cola-zero-3015084.html",
+   "category": "frisdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015085",
+   "name": "Canneberges",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:33:39.336Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/canneberges-3015085.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015101",
+   "name": "Lait demi-écrémé sans lactose, 6 pcs",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 3.007,
+    "unit": "l"
+   },
+   "sizeText": "6 x 50 cl",
+   "price": 4.15,
+   "observedAt": "2026-11-17T18:40:28.253Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lait-demi-ecreme-sans-lactose-6-pcs-3015101.html",
+   "category": "melk"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015153",
+   "name": "Shampoing ou après-shampoing",
+   "brand": "ELSÈVE",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "250 ml/300 ml",
+   "price": 5.29,
+   "observedAt": "2026-11-17T18:39:14.281Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/shampoing-ou-apres-shampoing-3015153.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015199",
+   "name": "Pilons de poulet",
+   "size": {
+    "amount": 0.6,
+    "unit": "kg"
+   },
+   "sizeText": "600 g",
+   "price": 3.09,
+   "observedAt": "2026-11-17T18:39:48.249Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pilons-de-poulet-3015199.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015210",
+   "name": "Bombe dessert, 2 pcs",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "120 g",
+   "price": 4.49,
+   "promo": {
+    "price": 4,
+    "label": "PROMO",
+    "validFrom": "2026-11-16",
+    "validTo": "2026-11-21"
+   },
+   "observedAt": "2026-11-17T18:38:46.293Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/bombe-dessert-2-pcs-3015210.html",
+   "category": "desserts"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015382",
+   "name": "Filet de cabillaud",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g, poids variable",
+   "price": 6.79,
+   "promo": {
+    "price": 5.49,
+    "label": "-19%",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-28"
+   },
+   "observedAt": "2026-11-17T18:40:46.261Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-cabillaud-3015382.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015411",
+   "name": "Fromage à pâte dure râpé",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "120 g",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:36:31.085Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-a-pate-dure-rape-3015411.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015442",
+   "name": "Nebbiolo Langhe DOC",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:33:45.313Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/nebbiolo-langhe-doc-3015442.html",
+   "category": "rode-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015810",
+   "name": "Fanta orange",
+   "brand": "FANTA",
+   "size": {
+    "amount": 0.5,
+    "unit": "l"
+   },
+   "sizeText": "50 cl",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:37:59.069Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fanta-orange-3015810.html",
+   "category": "frisdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015887",
+   "name": "Pain blanc carré",
+   "size": {
+    "amount": 0.399,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:35:15.057Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pain-blanc-carre-3015887.html",
+   "category": "brood"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3016462",
+   "name": "Finest Platinum",
+   "brand": "GORDON",
+   "size": {
+    "amount": 0.5,
+    "unit": "l"
+   },
+   "sizeText": "50 cl",
+   "price": 3.29,
+   "observedAt": "2026-11-17T18:39:38.285Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/finest-platinum-3016462.html",
+   "category": "bier"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3017026",
+   "name": "Ariel pods original",
+   "brand": "ARIEL",
+   "sizeText": "30 cycles",
+   "price": 19.69,
+   "observedAt": "2026-11-17T18:41:44.062Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/ariel-pods-original-3017026.html",
+   "category": "wasmiddelen-wasverzachters"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3120",
+   "name": "Pizza funghi, 2 pcs",
+   "brand": "PIZZA",
+   "size": {
+    "amount": 0.731,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 365 g",
+   "price": 3.69,
+   "observedAt": "2026-11-17T18:41:40.070Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pizza-funghi-2-pcs-3120.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3126",
+   "name": "Glaces pour enfants",
+   "brand": "MUCCI",
+   "size": {
+    "amount": 0.32,
+    "unit": "l"
+   },
+   "sizeText": "320 ml/495 ml/ 500 ml/525 ml",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:34:31.038Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/glaces-pour-enfants-3126.html",
+   "category": "ijs"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3134",
+   "name": "Noix de cajou salées",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:36:01.094Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/noix-de-cajou-salees-3134.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3195",
+   "name": "Scampis",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:39:22.306Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/scampis-3195.html",
+   "category": "zeevruchten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3213",
+   "name": "Pizza quatre fromages, 2 pcs",
+   "brand": "CASA MORANDO",
+   "size": {
+    "amount": 0.68,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 340 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:35:45.136Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pizza-quatre-fromages-2-pcs-3213.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3295",
+   "name": "Minipizzas, 12 pcs",
+   "brand": "CASA MORANDO",
+   "size": {
+    "amount": 0.36,
+    "unit": "kg"
+   },
+   "sizeText": "12 x 30 g",
+   "price": 3.29,
+   "observedAt": "2026-11-17T18:35:11.056Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minipizzas-12-pcs-3295.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3306",
+   "name": "Filtres à café, 10 pcs",
+   "brand": "BARISSIMO",
+   "size": {
+    "amount": 0.075,
+    "unit": "kg"
+   },
+   "sizeText": "10 x 7.5 g",
+   "price": 2.45,
+   "observedAt": "2026-11-17T18:36:45.089Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filtres-a-cafe-10-pcs-3306.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3308",
+   "name": "Café doux",
+   "brand": "BARISSIMO",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 6.49,
+   "observedAt": "2026-11-17T18:35:19.073Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cafe-doux-3308.html",
+   "category": "koffie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3503",
+   "name": "Madeleines au beurre bretonnes",
+   "brand": "ARIOSO",
+   "size": {
+    "amount": 0.42,
+    "unit": "kg"
+   },
+   "sizeText": "420 g",
+   "price": 2.55,
+   "observedAt": "2026-11-17T18:34:54.958Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/madeleines-au-beurre-bretonnes-3503.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3574",
+   "name": "Carrés confiture",
+   "brand": "PÂTISSIER GAULTHIER",
+   "size": {
+    "amount": 0.27,
+    "unit": "kg"
+   },
+   "sizeText": "6 x 45 g",
+   "price": 2.39,
+   "observedAt": "2026-11-17T18:36:23.124Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/carres-confiture-3574.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3581",
+   "name": "Biscuits de l'étudiant",
+   "brand": "BISCOTTO",
+   "size": {
+    "amount": 0.328,
+    "unit": "kg"
+   },
+   "sizeText": "8 x 41 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:41:36.056Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/biscuits-de-letudiant-3581.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3591",
+   "name": "Galettes fourrées",
+   "brand": "VALERIE",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:37:05.271Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/galettes-fourrees-3591.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3593",
+   "name": "Minibiscuits chocolatés fourrés au lait, 6 pcs",
+   "brand": "BISCOTTO",
+   "size": {
+    "amount": 0.225,
+    "unit": "kg"
+   },
+   "sizeText": "6 x 37.5 g",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:39:56.276Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/minibiscuits-chocolates-fourres-au-lait-6-pcs-3593.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3758",
+   "name": "Merguez, 6 pcs",
+   "size": {
+    "amount": 0.35,
+    "unit": "kg"
+   },
+   "sizeText": "350 g",
+   "price": 4.89,
+   "observedAt": "2026-11-17T18:37:09.102Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/merguez-6-pcs-3758.html",
+   "category": "varkensvlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3930",
+   "name": "Gaufrettes au chocolat fourrées",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:40:04.311Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gaufrettes-au-chocolat-fourrees-3930.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3983",
+   "name": "Bâtonnets de chocolat, 11 pcs",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "2 x (11 x 18.2 g)",
+   "price": 3.98,
+   "promo": {
+    "price": 3.38,
+    "label": "2e à -30%",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:35:49.051Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/batonnets-de-chocolat-11-pcs-3983.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3985",
+   "name": "Chocolat au praliné",
+   "brand": "CHOCEUR",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:24.228Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chocolat-au-praline-3985.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4031",
+   "name": "Snack friture",
+   "brand": "PRIMO SNACKS",
+   "size": {
+    "amount": 0.56,
+    "unit": "kg"
+   },
+   "sizeText": "560 g/640 g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:40:20.325Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/snack-friture-4031.html",
+   "category": "diepvries-pizza-maaltijden-snacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4355",
+   "name": "Fromage régional français",
+   "brand": "CLOVIS LEFRANC",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g/180 g/200 g",
+   "price": 3.69,
+   "observedAt": "2026-11-17T18:41:56.063Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-regional-francais-4355.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4362",
+   "name": "Haricots verts",
+   "brand": "ALL SEASONS",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:33:53.369Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/haricots-verts-4362.html",
+   "category": "conserven"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4368",
+   "name": "Système de rasage",
+   "brand": "LACURA",
+   "sizeText": "le paquet",
+   "price": 3.69,
+   "observedAt": "2026-11-17T18:35:33.069Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/systeme-de-rasage-4368.html",
+   "category": "lichaamsverzorging"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4398",
+   "name": "Mini-gaufres au sucre avec fantaisie au cacao, 12 pcs",
+   "brand": "VALERIE",
+   "size": {
+    "amount": 0.39,
+    "unit": "kg"
+   },
+   "sizeText": "12 x 32.5 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:39:32.295Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mini-gaufres-au-sucre-avec-fantaisie-au-cacao-12-pcs-4398.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4424",
+   "name": "Kir royal",
+   "size": {
+    "amount": 2.248,
+    "unit": "l"
+   },
+   "sizeText": "3 x 75 cl",
+   "price": 11.97,
+   "promo": {
+    "price": 7.98,
+    "label": "2+1 GRATUIT",
+    "validFrom": "2026-11-27",
+    "validTo": "2026-12-03"
+   },
+   "observedAt": "2026-11-17T18:40:44.283Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/kir-royal-4424.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4440",
+   "name": "Figurines en chocolat au lait",
+   "size": {
+    "amount": 0.204,
+    "unit": "kg"
+   },
+   "sizeText": "204 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:40:34.449Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/figurines-en-chocolat-au-lait-4440.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4604",
+   "name": "Aliment pour chats, 12 pcs",
+   "brand": "CACHET",
+   "size": {
+    "amount": 1.198,
+    "unit": "kg"
+   },
+   "sizeText": "12 x 100 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:31:34.013Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/aliment-pour-chats-12-pcs-4604.html",
+   "category": "kat"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4625",
+   "name": "Aliment sec pour chiens",
+   "brand": "ROMEO",
+   "size": {
+    "amount": 9.987,
+    "unit": "kg"
+   },
+   "sizeText": "10 kg",
+   "price": 7.49,
+   "observedAt": "2026-11-17T18:30:01.465Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/aliment-sec-pour-chiens-4625.html",
+   "category": "hond"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4723",
+   "name": "Pesto",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:34:39.062Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pesto-4723.html",
+   "category": "sauzen-vinaigrettes-azijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4759",
+   "name": "Cava brut nature",
+   "brand": "PERE DE MONCADA",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:38:25.345Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cava-brut-nature-4759.html",
+   "category": "bubbels"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4895",
+   "name": "Emmental light râpé",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:38:13.273Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/emmental-light-rape-4895.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4940",
+   "name": "Cougnou au sucre, 4 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 100 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:30:23.947Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cougnou-au-sucre-4-pcs-4940.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4983",
+   "name": "Cougnou aux raisins secs, 4 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 100 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:35:53.096Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cougnou-aux-raisins-secs-4-pcs-4983.html",
+   "category": "chocolade-snoep-eoy"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "4985",
+   "name": "Massepain au praliné",
+   "brand": "Seasons Best",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:37:11.060Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/massepain-au-praline-4985.html",
+   "category": "chocolade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5062",
+   "name": "Sac Fairtrade",
+   "sizeText": "pièce",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:31:00.499Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sac-fairtrade-5062.html",
+   "category": "fairtrade"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5180",
+   "name": "Cabernet sauvignon/Merlot",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "25 cl",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:32:10.496Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/cabernet-sauvignonmerlot-5180.html",
+   "category": "rode-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5187",
+   "name": "Préparation pour pain blanc",
+   "brand": "ALBONA",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 0.65,
+   "observedAt": "2026-11-17T18:30:36.295Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/preparation-pour-pain-blanc-5187.html",
+   "category": "zelf-bakken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5328",
+   "name": "Filets de saumon, 2 pcs",
+   "brand": "GOLDEN SEAFOOD",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 250 g",
+   "price": 11.98,
+   "promo": {
+    "price": 5.99,
+    "label": "1+1 gratuit",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-28"
+   },
+   "observedAt": "2026-11-17T18:36:21.066Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filets-de-saumon-2-pcs-5328.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5355",
+   "name": "Brochettes de viande",
+   "brand": "PRIMO SNACKS",
+   "size": {
+    "amount": 0.55,
+    "unit": "kg"
+   },
+   "sizeText": "5 x 110 g",
+   "price": 6.49,
+   "observedAt": "2026-11-17T18:38:07.282Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/brochettes-de-viande-5355.html",
+   "category": "diepvries-pizza-maaltijden-snacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5361",
+   "name": "Mini dim sum avec sauce chili, 20 pcs",
+   "brand": "GOURMET FINEST CUISINE",
+   "size": {
+    "amount": 0.23,
+    "unit": "kg"
+   },
+   "sizeText": "230 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:33:18.330Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/mini-dim-sum-avec-sauce-chili-20-pcs-5361.html",
+   "category": "tapas-dips"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5374",
+   "name": "Plat préparé",
+   "brand": "BISTRO'VITE",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:38:11.456Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/plat-prepare-5374.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5405",
+   "name": "Chiffons de nettoyage, 4 pcs",
+   "brand": "POWER FORCE",
+   "size": {
+    "amount": 4,
+    "unit": "piece"
+   },
+   "sizeText": "le paquet",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:34:17.055Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chiffons-de-nettoyage-4-pcs-5405.html",
+   "category": "schoonmaakmiddelen-schoonmaakartikelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5769",
+   "name": "Pastilles fruitées, pack de 2",
+   "brand": "FRESH & FREE",
+   "size": {
+    "amount": 0.04,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 20 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:40:14.207Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pastilles-fruitees-pack-de-2-5769.html",
+   "category": "snoep-kauwgom-muntjes"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "5872",
+   "name": "Dessert à la crème",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 0.77,
+   "observedAt": "2026-11-17T18:42:00.074Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/dessert-a-la-creme-5872.html",
+   "category": "desserts"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6041",
+   "name": "Culottes d'incontinence M,14 pcs",
+   "brand": "Satessa Discreet",
+   "size": {
+    "amount": 14,
+    "unit": "piece"
+   },
+   "sizeText": "le paquet",
+   "price": 7.75,
+   "observedAt": "2026-11-17T18:30:40.361Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/culottes-dincontinence-m14-pcs-6041.html",
+   "category": "intieme-hygiene"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6056",
+   "name": "Coca-Cola regular",
+   "brand": "COCA-COLA",
+   "size": {
+    "amount": 3.985,
+    "unit": "l"
+   },
+   "sizeText": "4 x 1 l",
+   "price": 7.28,
+   "promo": {
+    "price": 5.46,
+    "label": "3+1 GRATUIT",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:34:45.223Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/coca-cola-regular-6056.html",
+   "category": "frisdrank"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6126",
+   "name": "Blizzard",
+   "size": {
+    "amount": 0.825,
+    "unit": "l"
+   },
+   "sizeText": "3 x 275 ml",
+   "price": 4.47,
+   "promo": {
+    "price": 2.98,
+    "label": "2+1 GRATUIT",
+    "validFrom": "2026-11-13",
+    "validTo": "2026-11-19"
+   },
+   "observedAt": "2026-11-17T18:30:28.291Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/blizzard-6126.html",
+   "category": "prijsverlagingen-lux"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6219",
+   "name": "Choux de Bruxelles",
+   "size": {
+    "amount": 1.496,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 750 g",
+   "price": 3.98,
+   "promo": {
+    "price": 1.99,
+    "label": "1 + 1 gratuit",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-28"
+   },
+   "observedAt": "2026-11-17T18:31:56.395Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/choux-de-bruxelles-6219.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6260",
+   "name": "Champignons fins",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 1.29,
+   "promo": {
+    "price": 0.99,
+    "label": "-23 %",
+    "validFrom": "2026-11-16",
+    "validTo": "2026-11-21"
+   },
+   "observedAt": "2026-11-17T18:41:08.405Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/champignons-fins-6260.html",
+   "category": "groenten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6379",
+   "name": "Rioja DOC Crianza 'Rivallana'",
+   "size": {
+    "amount": 0.75,
+    "unit": "l"
+   },
+   "sizeText": "75 cl",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:41:46.060Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/rioja-doc-crianza-rivallana-6379.html",
+   "category": "rode-wijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6402",
+   "name": "Fromage à raclette aromatisé",
+   "brand": "LE CAVALIER",
+   "size": {
+    "amount": 0.6,
+    "unit": "kg"
+   },
+   "sizeText": "3 x 200 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:36:53.285Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-a-raclette-aromatise-6402.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6406",
+   "name": "Fromage parmesan",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 4.39,
+   "observedAt": "2026-11-17T18:37:27.109Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-parmesan-6406.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6443",
+   "name": "Chips au sel",
+   "brand": "SUN SNACKS",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:30:18.306Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chips-au-sel-6443.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6446",
+   "name": "Chips gaufrées",
+   "brand": "SUNSNACKS",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:41:32.200Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/chips-gaufrees-6446.html",
+   "category": "chips-aperitiefsnacks"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6487",
+   "name": "Mélange de noix",
+   "brand": "TRADER JOE'S",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:38:52.455Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/melange-de-noix-6487.html",
+   "category": "noten-gedroogd-fruit"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6515",
+   "name": "Fromage fouetté maigre",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 0.59,
+   "observedAt": "2026-11-17T18:39:40.195Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-fouette-maigre-6515.html",
+   "category": "yoghurt"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6577",
+   "name": "Jus d'orange frais",
+   "brand": "RIO D'ORO",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:30:34.334Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/jus-dorange-frais-6577.html",
+   "category": "sappen-smoothies"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6578",
+   "name": "Édulcorant stévia",
+   "brand": "MOUNTAIN",
+   "size": {
+    "amount": 0.075,
+    "unit": "kg"
+   },
+   "sizeText": "75 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:37:53.086Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/edulcorant-stevia-6578.html",
+   "category": "zelf-bakken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6592",
+   "name": "Fromage râpé pour pâtes",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:31:58.388Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-rape-pour-pates-6592.html",
+   "category": "prijsverlagingen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6600",
+   "name": "Crème légère",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "250 ml",
+   "price": 0.75,
+   "observedAt": "2026-11-17T18:39:34.247Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/creme-legere-6600.html",
+   "category": "boter-margarine-room"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6603",
+   "name": "Sauce",
+   "brand": "DELICATO",
+   "size": {
+    "amount": 0.33,
+    "unit": "kg"
+   },
+   "sizeText": "330 g",
+   "price": 2.69,
+   "observedAt": "2026-11-17T18:30:56.383Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/sauce-6603.html",
+   "category": "sauzen-vinaigrettes-azijn"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6612",
+   "name": "Pizza",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.35,
+    "unit": "kg"
+   },
+   "sizeText": "350 g",
+   "price": 1.45,
+   "observedAt": "2026-11-17T18:36:15.204Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pizza-6612.html",
+   "category": "kant-en-klare-maaltijden"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6622",
+   "name": "Rondelles de pommes de terre",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 0.79,
+   "observedAt": "2026-11-17T18:37:03.108Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/rondelles-de-pommes-de-terre-6622.html",
+   "category": "aardappelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6623",
+   "name": "Saumon bio fumé",
+   "brand": "BIO",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:34:43.097Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saumon-bio-fume-6623.html",
+   "category": "vis"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6625",
+   "name": "Streaky bacon",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.08,
+    "unit": "kg"
+   },
+   "sizeText": "80 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:32:16.328Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/streaky-bacon-6625.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6627",
+   "name": "Petites pommes de terre cuites",
+   "brand": "DAYLICIOUS",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:37:29.108Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/petites-pommes-de-terre-cuites-6627.html",
+   "category": "aardappelen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6703",
+   "name": "Pâté",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.17,
+    "unit": "kg"
+   },
+   "sizeText": "170 g",
+   "price": 1.55,
+   "observedAt": "2026-11-17T18:36:25.075Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pate-6703.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6713",
+   "name": "Jambon de la Forêt-Noire",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:41:16.278Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/jambon-de-la-foret-noire-6713.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6730",
+   "name": "Saucisses viennoises",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 200 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:34:33.039Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisses-viennoises-6730.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6744",
+   "name": "Jambon dégraissé",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.25,
+   "observedAt": "2026-11-17T18:40:22.259Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/jambon-degraisse-6744.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6786",
+   "name": "Saucisson de jambon",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 0.89,
+   "observedAt": "2026-11-17T18:30:26.308Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/saucisson-de-jambon-6786.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6790",
+   "name": "Lardons, pack de 2",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "2 x 100 g",
+   "price": 2.25,
+   "observedAt": "2026-11-17T18:36:47.074Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/lardons-pack-de-2-6790.html",
+   "category": "varkensvlees"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6840",
+   "name": "Filet de poulet en tranches rondes",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 2.69,
+   "observedAt": "2026-11-17T18:32:00.105Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-poulet-en-tranches-rondes-6840.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6844",
+   "name": "Gaufres aux cerises",
+   "size": {
+    "amount": 0.32,
+    "unit": "kg"
+   },
+   "sizeText": "320 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:36:41.278Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gaufres-aux-cerises-6844.html",
+   "category": "koeken"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6877",
+   "name": "Eau minérale",
+   "brand": "ROCHEVAL",
+   "size": {
+    "amount": 1.52,
+    "unit": "l"
+   },
+   "sizeText": "1.5 l",
+   "price": 0.38,
+   "observedAt": "2026-11-17T18:39:29.940Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/eau-minerale-6877.html",
+   "category": "water"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "6971",
+   "name": "Filet de cuisse de poulet",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 5.59,
+   "observedAt": "2026-11-17T18:36:29.070Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/filet-de-cuisse-de-poulet-6971.html",
+   "category": "gevogelte"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7040",
+   "name": "Pain de viande",
+   "brand": "DÉLIFIN",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 1.85,
+   "observedAt": "2026-11-17T18:30:22.287Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/pain-de-viande-7040.html",
+   "category": "charcuterie"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7340",
+   "name": "Carte de recharge Lycamobile 20 euros",
+   "sizeText": "pièce",
+   "price": 20,
+   "observedAt": "2026-11-17T18:41:24.244Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/carte-de-recharge-lycamobile-20-euros-7340.html",
+   "category": "cadeaubonnen-herlaadkaarten"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7466",
+   "name": "Soupe instantanée",
+   "brand": "ROYCO",
+   "sizeText": "par boîte",
+   "price": 1.37,
+   "observedAt": "2026-11-17T18:33:41.222Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/soupe-instantanee-7466.html",
+   "category": "soepen"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7506",
+   "name": "Monte maxi, 4 pcs",
+   "brand": "ZOTT",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "4 x 100 g",
+   "price": 3.29,
+   "observedAt": "2026-11-17T18:36:37.041Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/monte-maxi-4-pcs-7506.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7612",
+   "name": "Crème glacée vanille premium",
+   "brand": "MUCCI",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1 l",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:35:29.225Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/creme-glacee-vanille-premium-7612.html",
+   "category": "ijs"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "7804",
+   "name": "Gouda jeune affiné",
+   "brand": "MILSANI",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:32:42.012Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/gouda-jeune-affine-7804.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "8023",
+   "name": "Crackers bio",
+   "brand": "KEMPI BIO",
+   "size": {
+    "amount": 0.165,
+    "unit": "kg"
+   },
+   "sizeText": "165 g",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:33:43.282Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/crackers-bio-8023.html",
+   "category": "beschuiten-toast-crackers"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "8182",
+   "name": "Fromage crémeux, 3 pcs",
+   "brand": "BOURSIN",
+   "size": {
+    "amount": 0.24,
+    "unit": "kg"
+   },
+   "sizeText": "3 x 80 g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:31:22.356Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/fromage-cremeux-3-pcs-8182.html"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "8576",
+   "name": "Feuilles de lasagne",
+   "brand": "CUCINA",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:42:02.145Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/feuilles-de-lasagne-8576.html",
+   "category": "pasta-noedels"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "9160",
+   "name": "Croissants, 8 pcs",
+   "brand": "LYS DE FRANCE",
+   "size": {
+    "amount": 0.44,
+    "unit": "kg"
+   },
+   "sizeText": "8 x 55 g",
+   "price": 2.55,
+   "observedAt": "2026-11-17T18:34:07.037Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/croissants-8-pcs-9160.html",
+   "category": "koffiekoeken-gebak"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "9840",
+   "name": "Caprice des Dieux",
+   "brand": "CAPRICE DES DIEUX",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 2.65,
+   "observedAt": "2026-11-17T18:39:08.623Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/caprice-des-dieux-9840.html",
+   "category": "kaas"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "9866",
+   "name": "Multipack de chips, 15 pcs",
+   "brand": "SUNSNACKS",
+   "size": {
+    "amount": 0.375,
+    "unit": "kg"
+   },
+   "sizeText": "15 x 25 g",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:32:34.294Z",
+   "sourceUrl": "https://www.aldi.be/fr/product/multipack-de-chips-15-pcs-9866.html",
+   "category": "chips-aperitiefsnacks"
+  }
+ ]
+}
