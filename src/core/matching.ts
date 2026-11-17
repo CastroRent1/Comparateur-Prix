@@ -128,3 +128,107 @@ export function findMatches<T extends ProductLike>(
     .filter((c) => c.score >= threshold)
     .sort((x, y) => y.score - x.score);
 }
+
+// ---------------------------------------------------------------------------
+// Équivalences entre enseignes (marques de distributeur comprises)
+// ---------------------------------------------------------------------------
+
+export interface IndexedProduct extends ProductLike {
+  id: number;
+  chainId: string;
+}
+
+export interface Equivalent {
+  id: number;
+  score: number;
+}
+
+export interface EquivalenceOptions {
+  /** Score minimal (0-1) pour proposer un équivalent. */
+  threshold?: number;
+  /** Écart de format toléré (0,3 = ±30 %) ; au-delà, pas d'équivalence. */
+  sizeTolerance?: number;
+  /** Nombre d'équivalents gardés par enseigne. */
+  perChain?: number;
+}
+
+/**
+ * Index d'équivalence : similarité de Dice pondérée par l'IDF des mots
+ * (un mot rare comme « myrtilles » compte plus qu'un mot courant comme
+ * « bio »). Les marques sont ignorées dans le nom (une marque de
+ * distributeur ne doit pas empêcher l'équivalence), mais deux produits de
+ * même marque nationale reçoivent un bonus.
+ */
+export class EquivalenceIndex {
+  private readonly tokens = new Map<number, string[]>();
+  private readonly brands = new Map<number, string>();
+  private readonly sizes = new Map<number, Quantity | undefined>();
+  private readonly byToken = new Map<string, number[]>();
+  private readonly idf = new Map<string, number>();
+  private readonly products = new Map<number, IndexedProduct>();
+
+  constructor(products: IndexedProduct[], private readonly privateLabels: Set<string> = new Set()) {
+    for (const p of products) {
+      this.products.set(p.id, p);
+      const brandToks = new Set(p.brand ? tokenize(p.brand) : []);
+      const toks = [...new Set(tokenize(p.name).filter((t) => !brandToks.has(t) && t.length > 1))];
+      this.tokens.set(p.id, toks);
+      this.brands.set(p.id, normalizeText(p.brand ?? ''));
+      this.sizes.set(p.id, sizeOf(p));
+      for (const t of toks) {
+        let list = this.byToken.get(t);
+        if (!list) this.byToken.set(t, (list = []));
+        list.push(p.id);
+      }
+    }
+    const n = products.length || 1;
+    for (const [t, list] of this.byToken) this.idf.set(t, Math.log(1 + n / list.length));
+  }
+
+  private weight(toks: string[]): number {
+    let w = 0;
+    for (const t of toks) w += this.idf.get(t) ?? 0;
+    return w;
+  }
+
+  score(a: number, b: number, sizeTolerance = 0.3): number {
+    const ta = this.tokens.get(a) ?? [];
+    const tb = new Set(this.tokens.get(b) ?? []);
+    const qa = this.sizes.get(a);
+    const qb = this.sizes.get(b);
+    if (qa && qb && !sizesCompatible(qa, qb, sizeTolerance)) return 0;
+    let common = 0;
+    for (const t of ta) if (tb.has(t)) common += this.idf.get(t) ?? 0;
+    const denom = this.weight(ta) + this.weight([...tb]);
+    if (denom === 0) return 0;
+    let s = (2 * common) / denom;
+    const ba = this.brands.get(a);
+    const bb = this.brands.get(b);
+    if (ba && ba === bb && !this.privateLabels.has(ba)) s = Math.min(1, s + 0.15);
+    if (!qa || !qb) s *= 0.85;
+    return Math.round(s * 1000) / 1000;
+  }
+
+  /** Meilleurs équivalents de `id` dans chaque autre enseigne. */
+  equivalents(id: number, opts: EquivalenceOptions = {}): Map<string, Equivalent[]> {
+    const { threshold = 0.55, sizeTolerance = 0.3, perChain = 3 } = opts;
+    const self = this.products.get(id);
+    const result = new Map<string, Equivalent[]>();
+    if (!self) return result;
+    // Candidats : produits partageant au moins un mot du nom, en partant des plus rares.
+    const toks = [...(this.tokens.get(id) ?? [])].sort((x, y) => (this.idf.get(y) ?? 0) - (this.idf.get(x) ?? 0));
+    const candidates = new Set<number>();
+    for (const t of toks.slice(0, 4)) for (const c of this.byToken.get(t) ?? []) candidates.add(c);
+    for (const c of candidates) {
+      const other = this.products.get(c)!;
+      if (other.chainId === self.chainId) continue;
+      const s = this.score(id, c, sizeTolerance);
+      if (s < threshold) continue;
+      let list = result.get(other.chainId);
+      if (!list) result.set(other.chainId, (list = []));
+      list.push({ id: c, score: s });
+    }
+    for (const [k, list] of result) result.set(k, list.sort((x, y) => y.score - x.score).slice(0, perChain));
+    return result;
+  }
+}

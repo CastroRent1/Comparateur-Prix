@@ -27,11 +27,28 @@ versionné, site statique.
   magasins de même `priceRef`.
 - **Classement** : aucune enseigne ne paie pour être mieux classée ;
   placement sponsorisé toujours signalé.
-- **Collecte planifiée désactivée** (`collect.yml`) tant que l'avocat n'a
-  pas donné son feu vert écrit.
+- **Collecte nocturne active** (`collect.yml`) par décision du porteur de
+  projet (17/11/2026) : l'appli d'abord, l'avocat ensuite si nécessaire.
+  À suspendre immédiatement en cas de mise en demeure d'une enseigne.
+- **Enseigne qui bloque = enseigne exclue** : Colruyt (page AntiBot),
+  Carrefour (Cloudflare), Albert Heijn (403) ne sont PAS collectées. Ne
+  jamais chercher à passer outre (autre IP, navigateur automatisé, etc.).
 - **RGPD** : pas de cookie ni de traceur sur le site ; aucune donnée
   individuelle d'achat vendue, jamais.
 - Ne jamais commiter `.env` ni de clé API.
+
+## Architecture
+- Collecte : `src/collect/` — sitemaps publics → pages produit →
+  extracteur par enseigne (`src/collect/extractors/`). Aldi : JSON Next.js
+  (`apiData` → `PRODUCT_DETAIL_GET`). Delhaize : prix affiché (aria-label),
+  le JSON-LD ne fait pas foi ; promos limitées au jour du relevé.
+- Données : `data/latest/<enseigne>.json` (prix), `data/stores.json`
+  (OpenStreetMap, ODbL), `data/postcodes.json` (GeoNames, CC BY 4.0).
+- Catalogue : `npm run catalog` → `web/app/data/catalog.json`, avec les
+  équivalents entre enseignes (`EquivalenceIndex`, seuil 0,55, format ±30 %).
+- Appli : `src/web/` (TypeScript, sans framework) → `npm run build:app` →
+  `web/app/app.js` (commité ; la CI vérifie qu'il est à jour).
+- Site statique `web/` (accueil, appli, confidentialité, robot).
 
 ## Conventions
 - TypeScript strict, ESM, imports avec extension `.ts` (exécuté par tsx).

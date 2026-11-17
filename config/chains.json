@@ -1,5 +1,5 @@
 {
-  "$comment": "Couverture affichée à l'utilisateur. Ne JAMAIS passer une enseigne en 'full' sans prix réguliers réellement collectés (pratique trompeuse). Les blocs 'collect' marqués aVerifier=true n'ont pas encore été testés sur le site réel.",
+  "$comment": "Couverture affichée à l'utilisateur. Ne JAMAIS passer une enseigne en 'full' sans prix réguliers réellement collectés (pratique trompeuse). État vérifié le 17/11/2026 avec le user-agent PanierMalinBot.",
   "chains": [
     {
       "id": "aldi",
@@ -7,14 +7,28 @@
       "domain": "aldi.be",
       "coverage": "full",
       "priceScope": "national",
-      "coverageNote": "Mêmes prix dans tous les magasins Aldi de Belgique.",
+      "coverageNote": "Mêmes prix dans tous les magasins Aldi de Belgique. Promotions comprises.",
       "collect": {
-        "method": "sitemap-jsonld",
+        "method": "sitemap",
+        "extractor": "aldi",
         "origin": "https://www.aldi.be",
-        "sitemaps": [],
-        "productUrlPattern": "/fr/.+\\.html$",
-        "sitemapPattern": "fr|product|produit",
-        "aVerifier": true
+        "sitemaps": ["https://www.aldi.be/fr/sitemaps/.aldi-nord-sitemap-products.xml"],
+        "productUrlPattern": "^https://www\\.aldi\\.be/fr/product/[a-z0-9-]+-\\d+\\.html$"
+      }
+    },
+    {
+      "id": "delhaize",
+      "name": "Delhaize",
+      "domain": "delhaize.be",
+      "coverage": "full",
+      "priceScope": "national",
+      "coverageNote": "Prix habituels de la boutique en ligne (promotions non incluses). Certains magasins franchisés peuvent différer.",
+      "collect": {
+        "method": "sitemap",
+        "extractor": "delhaize",
+        "origin": "https://www.delhaize.be",
+        "sitemaps": ["https://www.delhaize.be/sitemap/delhaizesitemapindex.xml"],
+        "productUrlPattern": "^https://www\\.delhaize\\.be/fr/shop/(Epicerie-sucree|Epicerie-salee|Cremerie-fromage-et-alternatives-vegetales|Viandes-poissons-et-produits-vegetariens|Boissons-froides-et-chaudes|Surgeles|Conserves|Fruits-et-legumes-frais|Boulangerie-et-patisserie|Apero-et-entrees|Vite-et-vraiment-bon|Regime-specifique|Bio-Eco-et-Fairtrade)/.+/p/[A-Z0-9]+$"
       }
     },
     {
@@ -23,15 +37,7 @@
       "domain": "colruyt.be",
       "coverage": "none",
       "priceScope": "store",
-      "coverageNote": "Prix différents selon le magasin : affichés pour un magasin de référence de votre zone."
-    },
-    {
-      "id": "delhaize",
-      "name": "Delhaize",
-      "domain": "delhaize.be",
-      "coverage": "none",
-      "priceScope": "national",
-      "coverageNote": "Prix de la boutique en ligne ; certains magasins franchisés peuvent différer."
+      "coverageNote": "Pas encore disponible : le site de Colruyt refuse les robots, nous respectons ce choix."
     },
     {
       "id": "carrefour",
@@ -39,7 +45,7 @@
       "domain": "carrefour.be",
       "coverage": "none",
       "priceScope": "format",
-      "coverageNote": "Prix différents selon le format (Hyper, Market, Express) : affichés pour un format de référence."
+      "coverageNote": "Pas encore disponible : le site de Carrefour refuse les robots, nous respectons ce choix."
     },
     {
       "id": "ah",
@@ -47,7 +53,7 @@
       "domain": "ah.be",
       "coverage": "none",
       "priceScope": "national",
-      "coverageNote": "Prix de la boutique en ligne Albert Heijn Belgique."
+      "coverageNote": "Pas encore disponible : le site d'Albert Heijn refuse les robots, nous respectons ce choix."
     },
     {
       "id": "lidl",
@@ -55,7 +61,7 @@
       "domain": "lidl.be",
       "coverage": "none",
       "priceScope": "national",
-      "coverageNote": "Promotions seulement : Lidl ne publie pas ses prix réguliers en ligne."
+      "coverageNote": "Pas encore disponible : Lidl ne publie pas ses prix habituels en ligne. Promotions prévues plus tard."
     }
   ]
 }

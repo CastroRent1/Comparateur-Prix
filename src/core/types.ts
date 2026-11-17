@@ -80,6 +80,8 @@ export interface Offer {
   observedAt: string;
   /** Page publique d'où provient le prix. */
   sourceUrl: string;
+  /** Rayon tel que publié par l'enseigne (fait, pas de texte descriptif). */
+  category?: string;
 }
 
 export interface GeoPoint {

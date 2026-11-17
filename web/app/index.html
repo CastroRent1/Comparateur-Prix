@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panier Malin — comparer mon panier</title>
+  <meta name="description" content="Faites votre liste de courses et voyez quel supermarché près de chez vous est le moins cher, avec la date de chaque prix.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231f7a4d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9h18l-2 10H5L3 9z'/%3E%3Cpath d='M8 9l4-6 4 6'/%3E%3C/svg%3E">
+</head>
+<body class="loading">
+  <header class="site app-header">
+    <div class="wrap header-row">
+      <a class="logo" href="../">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18l-2 10H5L3 9z"/><path d="M8 9l4-6 4 6"/><path d="M9 13v3M15 13v3"/></svg>
+        Panier Malin
+      </a>
+      <span class="badge beta">Version d'essai</span>
+    </div>
+  </header>
+
+  <main class="wrap app">
+    <p id="app-error" class="warn" hidden></p>
+
+    <section class="card place-card" aria-labelledby="place-title">
+      <h2 id="place-title" class="h-small">Où faites-vous vos courses ?</h2>
+      <div class="place-row">
+        <div class="place-now"><span class="muted small">Commune :</span> <strong id="place-label">…</strong>
+          <button id="place-clear" class="link small" hidden>changer</button></div>
+        <label class="radius"><span class="muted small">Rayon</span>
+          <select id="radius">
+            <option value="2">2 km</option>
+            <option value="5">5 km</option>
+            <option value="10">10 km</option>
+            <option value="20">20 km</option>
+          </select>
+        </label>
+      </div>
+      <div class="place-input">
+        <input id="place" type="search" inputmode="search" autocomplete="postal-code" placeholder="Code postal ou commune (ex. 1060)" aria-label="Code postal ou commune">
+        <button id="locate" type="button" class="secondary">Me localiser</button>
+      </div>
+      <ul id="place-suggest" class="suggest"></ul>
+      <p id="place-msg" class="muted small" role="status"></p>
+      <p id="stores-missing" class="muted small" hidden>L'annuaire des magasins n'est pas encore chargé : comparaison des prix en ligne par enseigne.</p>
+    </section>
+
+    <div class="app-grid">
+      <div>
+        <section class="card" aria-labelledby="search-title">
+          <h2 id="search-title" class="h-small">Ajouter des produits</h2>
+          <input id="q" type="search" placeholder="Rechercher : lait, pâtes, café…" autocomplete="off" aria-label="Rechercher un produit">
+          <ul id="results" class="hits" aria-live="polite"></ul>
+        </section>
+
+        <section class="card" aria-labelledby="list-title">
+          <h2 id="list-title" class="h-small">Ma liste <span id="list-count" class="muted"></span></h2>
+          <div id="list"></div>
+          <p class="muted small">Votre liste reste sur cet appareil. Rien n'est envoyé.</p>
+        </section>
+      </div>
+
+      <section class="card sticky" aria-labelledby="rank-title">
+        <h2 id="rank-title" class="h-small">Le moins cher</h2>
+        <div id="ranking" aria-live="polite"></div>
+      </section>
+    </div>
+
+    <section class="card" aria-labelledby="cov-title">
+      <h2 id="cov-title" class="h-small">Ce que nous comparons</h2>
+      <ul id="coverage" class="coverage-list"></ul>
+      <p class="muted small" id="data-info"></p>
+      <p class="muted small">Aucune enseigne ne paie pour être mieux classée. Les produits d'enseignes différentes sont rapprochés automatiquement (nom et format) : vérifiez les équivalents et changez-les si besoin.</p>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p><a href="../confidentialite.html">Confidentialité</a> · <a href="../robot.html">Notre robot de relevé des prix</a> · <a href="../">Accueil</a></p>
+      <p id="attributions" class="small"></p>
+      <p class="small">Aucun cookie, aucun traceur.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

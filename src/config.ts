@@ -1,11 +1,14 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import type { Chain, Coverage, PriceScope } from './core/types.ts';
+import { EXTRACTORS, type ExtractorName } from './collect/extractors/index.ts';
 
 export const ROOT = fileURLToPath(new URL('..', import.meta.url));
 
 export interface CollectConfig {
-  method: 'sitemap-jsonld';
+  method: 'sitemap';
+  /** Extracteur de src/collect/extractors (jsonld, aldi, delhaize…). */
+  extractor: ExtractorName;
   origin: string;
   /** Sitemaps explicites ; vide = ceux déclarés dans robots.txt. */
   sitemaps: string[];
@@ -37,7 +40,8 @@ export function parseChains(raw: unknown): ChainConfig[] {
     ids.add(c.id as string);
     const collect = c.collect as CollectConfig | undefined;
     if (collect) {
-      if (collect.method !== 'sitemap-jsonld') throw new Error(`${where} : collect.method inconnu`);
+      if (collect.method !== 'sitemap') throw new Error(`${where} : collect.method inconnu`);
+      if (!(collect.extractor in EXTRACTORS)) throw new Error(`${where} : collect.extractor inconnu "${collect.extractor}"`);
       if (!/^https:\/\/[^/]+$/.test(collect.origin)) throw new Error(`${where} : collect.origin doit être https://hôte sans slash final`);
       new RegExp(collect.productUrlPattern); // lève si invalide
       if (collect.sitemapPattern) new RegExp(collect.sitemapPattern);

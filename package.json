@@ -15,10 +15,16 @@
     "demo": "tsx src/demo.ts",
     "collect": "tsx src/collect/run.ts",
     "archive-legal": "tsx scripts/archive-legal.ts",
-    "web": "npx --yes serve@14.2.4 web -l 4173"
+    "web": "npx --yes serve@14.2.4 web -l 4173",
+    "catalog": "tsx scripts/build-catalog.ts",
+    "stores": "tsx scripts/build-stores.ts",
+    "postcodes": "tsx scripts/build-postcodes.ts",
+    "build:app": "esbuild src/web/app.ts --bundle --minify --format=esm --target=es2020 --outfile=web/app/app.js",
+    "build": "npm run catalog && npm run build:app"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "esbuild": "^0.24.2",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
     "vitest": "^3.2.0"

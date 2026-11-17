@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import type { Offer } from '../core/types.ts';
-import type { RunStats } from './collectors/sitemap-jsonld.ts';
+import type { RunStats } from './collectors/sitemap-pages.ts';
 
 /**
  * Fichier de prix par enseigne : data/latest/<enseigne>.json.

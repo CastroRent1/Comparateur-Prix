@@ -21,15 +21,16 @@
   <main>
     <div class="wrap hero">
       <div>
-        <p class="eyebrow">Bientôt à Bruxelles et en Wallonie</p>
+        <p class="eyebrow">Version d'essai · Bruxelles et Wallonie</p>
         <h1>Le panier le moins cher près de chez vous, magasin par magasin.</h1>
         <p class="lead">Vous faites votre liste de courses. Panier Malin vous dit quel supermarché proche est le moins cher aujourd'hui, avec le prix de <strong>votre</strong> magasin, pas une moyenne nationale.</p>
         <p class="lead">Gratuit, en français, et honnête sur ce qu'il sait et ne sait pas.</p>
+        <p><a class="cta" href="app/">Comparer mon panier maintenant →</a></p>
       </div>
 
       <div class="card" id="inscription">
-        <h2 style="font-size:1.25rem;margin-bottom:6px">Être prévenu du lancement</h2>
-        <p class="hint" style="margin:0 0 16px">Un e-mail au lancement, rien d'autre. Désinscription en un clic.</p>
+        <h2 style="font-size:1.25rem;margin-bottom:6px">Être prévenu des nouveautés</h2>
+        <p class="hint" style="margin:0 0 16px">Un e-mail quand de nouvelles enseignes arrivent, rien d'autre. Désinscription en un clic.</p>
         <!--
           data-endpoint : URL du formulaire de votre outil d'e-mailing (ex. Brevo, hébergé dans l'UE).
           Vide = inscriptions pas encore ouvertes (rien n'est envoyé). Voir docs/page-attente.md.
@@ -57,7 +58,7 @@
           </fieldset>
           <div class="field">
             <label class="consent"><input type="checkbox" name="OPT_IN" value="1" required>
-              <span>J'accepte de recevoir un e-mail au lancement de Panier Malin. Mes données sont traitées comme décrit dans la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
+              <span>J'accepte de recevoir des e-mails sur les nouveautés de Panier Malin. Mes données sont traitées comme décrit dans la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
           </div>
           <button type="submit">Me prévenir</button>
           <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
@@ -88,22 +89,19 @@
 
     <section>
       <div class="wrap">
-        <h2>Ce que nous prévoyons de couvrir au lancement</h2>
+        <h2>Ce que nous comparons aujourd'hui</h2>
         <div class="card table-scroll">
           <table class="coverage">
-            <thead><tr><th>Enseigne</th><th>Couverture prévue</th><th>Précision</th></tr></thead>
+            <thead><tr><th>Enseigne</th><th>Couverture</th><th>Précision</th></tr></thead>
             <tbody>
-              <tr><td>Colruyt</td><td><span class="tag full">Panier complet</span></td><td>Prix d'un magasin de référence de votre zone</td></tr>
-              <tr><td>Delhaize</td><td><span class="tag full">Panier complet</span></td><td>Prix de la boutique en ligne</td></tr>
-              <tr><td>Carrefour</td><td><span class="tag full">Panier complet</span></td><td>Prix d'un format de référence</td></tr>
-              <tr><td>Albert Heijn</td><td><span class="tag full">Panier complet</span></td><td>Prix de la boutique en ligne</td></tr>
-              <tr><td>Aldi</td><td><span class="tag full">Panier complet</span></td><td>Mêmes prix dans toute la Belgique</td></tr>
-              <tr><td>Lidl</td><td><span class="tag promos">Promotions seulement</span></td><td>Pas de prix habituels publiés en ligne</td></tr>
-              <tr><td>Intermarché, Spar</td><td><span class="tag promos">Promotions seulement</span></td><td>Dans un second temps</td></tr>
+              <tr><td>Aldi</td><td><span class="tag full">Comparé</span></td><td>Mêmes prix dans toute la Belgique, promotions comprises</td></tr>
+              <tr><td>Delhaize</td><td><span class="tag full">Comparé</span></td><td>Prix habituels de la boutique en ligne (alimentation)</td></tr>
+              <tr><td>Colruyt, Carrefour, Albert Heijn</td><td><span class="tag promos">Pas encore</span></td><td>Leurs sites refusent les robots : nous respectons ce choix</td></tr>
+              <tr><td>Lidl</td><td><span class="tag promos">Pas encore</span></td><td>Pas de prix habituels publiés en ligne</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="hint" style="margin-top:10px">Couverture prévue, susceptible d'évoluer avant le lancement. Le prix en magasin et sur le site de l'enseigne fait toujours foi.</p>
+        <p class="hint" style="margin-top:10px">Prix relevés chaque nuit sur les sites des enseignes. Le prix en magasin et sur le site de l'enseigne fait toujours foi.</p>
       </div>
     </section>
 
@@ -132,7 +130,7 @@
 
   <footer class="site">
     <div class="wrap">
-      <p><a href="confidentialite.html">Confidentialité</a> · <a href="robot.html">Notre robot de relevé des prix</a></p>
+      <p><a href="app/">L'appli</a> · <a href="confidentialite.html">Confidentialité</a> · <a href="robot.html">Notre robot de relevé des prix</a></p>
       <p>Aucun cookie, aucun traceur publicitaire sur ce site.</p>
     </div>
   </footer>

@@ -3,6 +3,7 @@
  *
  *   npm run collect -- aldi                    collecte (200 pages max par défaut)
  *   npm run collect -- aldi --max-pages 5000
+ *   npm run collect -- delhaize --shard 0/2     une tranche sur deux (relevé alterné)
  *   npm run collect -- aldi --explore          affiche robots.txt + exemples d'URL des sitemaps,
  *                                              pour calibrer productUrlPattern
  *
@@ -12,7 +13,8 @@
 import { parseArgs } from 'node:util';
 import { BOT, loadChains, ROOT } from '../config.ts';
 import { PoliteFetcher } from './http.ts';
-import { collectSitemapJsonLd, discoverSitemaps } from './collectors/sitemap-jsonld.ts';
+import { collectSitemapPages, discoverSitemaps, type RunStats, type Shard } from './collectors/sitemap-pages.ts';
+import type { Offer } from '../core/types.ts';
 import { parseSitemap } from './sitemap.ts';
 import { mergeOffers, readPriceFile, writePriceFile } from './store.ts';
 
@@ -22,6 +24,7 @@ const { values, positionals } = parseArgs({
     'max-pages': { type: 'string', default: '200' },
     'delay-ms': { type: 'string', default: '2000' },
     explore: { type: 'boolean', default: false },
+    shard: { type: 'string' },
   },
 });
 
@@ -64,21 +67,37 @@ async function main(): Promise<number> {
     log(`ATTENTION : la config de collecte de ${chain.id} n'a pas encore été vérifiée sur le site réel (aVerifier=true). Lancez d'abord --explore.`);
   }
 
-  const { offers, stats } = await collectSitemapJsonLd(fetcher, chain, {
-    maxPages: Number(values['max-pages']),
-    log,
-  });
+  let shard: Shard | undefined;
+  if (values.shard) {
+    const m = /^(\d+)\/(\d+)$/.exec(values.shard);
+    if (!m || Number(m[1]) >= Number(m[2])) {
+      console.error('--shard attend la forme i/n avec i < n, ex. 0/2');
+      return 1;
+    }
+    shard = { index: Number(m[1]), count: Number(m[2]) };
+  }
 
   const path = `${ROOT}data/latest/${chain.id}.json`;
-  const now = new Date();
-  const previous = readPriceFile(path);
-  const merged = mergeOffers(previous?.offers ?? [], offers, now);
-  writePriceFile(path, {
-    chainId: chain.id,
-    updatedAt: now.toISOString(),
-    lastRun: { ...stats, at: now.toISOString() },
-    offers: merged,
+  const previous = readPriceFile(path)?.offers ?? [];
+  const save = (fresh: Offer[], stats: RunStats) => {
+    const now = new Date();
+    const merged = mergeOffers(previous, fresh, now);
+    writePriceFile(path, {
+      chainId: chain.id,
+      updatedAt: now.toISOString(),
+      lastRun: { ...stats, at: now.toISOString() },
+      offers: merged,
+    });
+    return merged;
+  };
+
+  const { offers, stats } = await collectSitemapPages(fetcher, chain, {
+    maxPages: Number(values['max-pages']),
+    shard,
+    log,
+    onCheckpoint: (partial, s) => save(partial, { ...s }),
   });
+  const merged = save(offers, stats);
 
   log(`terminé : ${JSON.stringify(stats)} ; ${merged.length} offres dans ${path} ; ${fetcher.requestCount} requêtes HTTP`);
   if (stats.blocked) return 2;

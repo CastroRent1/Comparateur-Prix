@@ -129,3 +129,9 @@ footer.site p { margin: 4px 0; }
 .prose h1 { font-size: 2rem; }
 .prose h2 { font-size: 1.25rem; margin-top: 28px; }
 .todo { background: var(--warn-soft); color: var(--warn); padding: 1px 6px; border-radius: 6px; font-weight: 600; }
+.cta {
+  display: inline-block; background: var(--brand); color: #fff; font-weight: 700; text-decoration: none;
+  padding: 13px 20px; border-radius: 10px;
+}
+.cta:hover { background: var(--brand-strong); color: #fff; }
+@media (prefers-color-scheme: dark) { .cta, .cta:hover { color: #0d1a13; } }

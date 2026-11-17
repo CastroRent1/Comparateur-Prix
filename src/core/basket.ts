@@ -1,6 +1,6 @@
 import { classifyFreshness, DISCLAIMER, isPromoActive, type Freshness } from './freshness.ts';
 import { distanceKm } from './geo.ts';
-import type { Chain, GeoPoint, Offer, Store } from './types.ts';
+import type { Chain, GeoPoint, Offer, Quantity, Store } from './types.ts';
 
 /**
  * Calcul du « panier le moins cher près de chez moi », magasin par magasin.
@@ -19,6 +19,18 @@ export interface BasketLine {
   label: string;
   quantity: number;
   offers: Offer[];
+  /**
+   * Format voulu (celui du produit choisi). Un équivalent d'un autre format
+   * est alors compté au prorata de son prix unitaire (« ramené à 1 kg »).
+   */
+  targetSize?: Quantity;
+}
+
+/** Facteur pour ramener une offre au format voulu (1 si inutile ou impossible). */
+export function scaleFactor(target: Quantity | undefined, size: Quantity | undefined): number {
+  if (!target || !size || target.unit !== size.unit || size.amount <= 0) return 1;
+  const f = target.amount / size.amount;
+  return Math.abs(f - 1) <= 0.02 ? 1 : f;
 }
 
 export interface BasketOptions {
@@ -40,6 +52,8 @@ export interface PricedLine {
   isPromo: boolean;
   /** Fraîcheur du prix utilisé. Une promo en cours de validité est toujours « fresh ». */
   freshness: Freshness;
+  /** ≠ 1 si le prix a été ramené au format voulu. */
+  scale: number;
 }
 
 export interface StoreBasket {
@@ -154,11 +168,14 @@ export function computeBasket(
     const missing: StoreBasket['missing'] = [];
 
     for (const line of lines) {
-      let best: { offer: Offer; eff: Effective } | undefined;
+      let best: { offer: Offer; eff: Effective; scale: number } | undefined;
       for (const offer of line.offers) {
         if (!offerAppliesToStore(offer, chain, store)) continue;
-        const eff = effectivePrice(offer, opts);
-        if (eff && (!best || eff.cents < best.eff.cents)) best = { offer, eff };
+        const raw = effectivePrice(offer, opts);
+        if (!raw) continue;
+        const scale = scaleFactor(line.targetSize, offer.size);
+        const eff = { ...raw, cents: Math.round(raw.cents * scale) };
+        if (!best || eff.cents < best.eff.cents) best = { offer, eff, scale };
       }
       if (!best) {
         missing.push({ lineId: line.id, label: line.label });
@@ -176,6 +193,7 @@ export function computeBasket(
         lineTotal: lineCents / 100,
         isPromo: best.eff.isPromo,
         freshness: best.eff.freshness,
+        scale: best.scale,
       });
     }
 

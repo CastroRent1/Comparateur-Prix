@@ -114,3 +114,28 @@ describe('computeBasket', () => {
     expect(res.disclaimer).toMatch(/fait foi/);
   });
 });
+
+describe('ramené au même format', () => {
+  it('compte un 500 g au prorata pour un panier en 1 kg', async () => {
+    const { scaleFactor } = await import('../src/core/basket.ts');
+    expect(scaleFactor({ amount: 1, unit: 'kg' }, { amount: 0.5, unit: 'kg' })).toBe(2);
+    expect(scaleFactor({ amount: 1, unit: 'kg' }, { amount: 0.99, unit: 'kg' })).toBe(1);
+    expect(scaleFactor({ amount: 1, unit: 'kg' }, { amount: 1, unit: 'l' })).toBe(1);
+    const res = computeBasket(
+      [
+        {
+          id: 'riz',
+          label: 'Riz 1 kg',
+          quantity: 1,
+          targetSize: { amount: 1, unit: 'kg' },
+          offers: [offer('aldi', 1.2, { size: { amount: 0.5, unit: 'kg' } })],
+        },
+      ],
+      [stores[0]!],
+      chains,
+      { now },
+    );
+    expect(res.stores[0]!.total).toBe(2.4);
+    expect(res.stores[0]!.priced[0]!.scale).toBe(2);
+  });
+});

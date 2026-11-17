@@ -16,3 +16,7 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
+      - name: Le bundle de l'appli est à jour
+        run: |
+          npm run build:app
+          git diff --exit-code web/app/app.js || (echo "::error::web/app/app.js n'est pas à jour : lancez npm run build:app et commitez." && exit 1)

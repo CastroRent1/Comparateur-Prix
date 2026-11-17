@@ -3,7 +3,23 @@
 Principe : coûts fixes proches de zéro, critères d'arrêt fixés d'avance.
 Checkjebon a survécu là où des modèles plus ambitieux ont fait faillite.
 
-## Étape 0 — Vérifications (4 à 6 semaines) ← nous sommes ici
+## État au 17/11/2026
+
+Décision du porteur de projet : **l'appli d'abord**, l'avocat ensuite si
+nécessaire. L'étape 1 (prototype web) est donc faite avant la fin de
+l'étape 0 :
+
+- ✅ Appli web : recherche, liste, équivalents entre enseignes, magasins
+  proches, classement, libellés de fraîcheur, comparaison honnête des
+  paniers incomplets.
+- ✅ Collecte nocturne Aldi + Delhaize (GitHub Actions).
+- ⛔ Colruyt, Carrefour, Albert Heijn bloquent les robots : exclus. Pistes
+  licites : leur demander l'accès (partenariat, flux de prix), ou attendre
+  une obligation légale de publication (modèle croate).
+- ☐ Rendez-vous avocat (dossier prêt) — recommandé avant toute
+  communication publique large.
+
+## Étape 0 — Vérifications (4 à 6 semaines)
 
 | Tâche | Qui | État |
 |---|---|---|
