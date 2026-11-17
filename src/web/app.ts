@@ -226,7 +226,20 @@ function storeCard(s: StoreBasket, rank: number, cmp: Comparison, cheapest: numb
   </li>`;
 }
 
+function renderBottomBar(cmp: Comparison): void {
+  const bar = $('#bottom-bar');
+  const best = cmp.result.stores.find((s) => s.complete) ?? cmp.result.stores[0];
+  if (!best || state.items.length === 0) {
+    bar.hidden = true;
+    return;
+  }
+  const where = cmp.mode === 'nearby' ? `${best.store.name} · ${km(best.distanceKm)}` : best.chain.name;
+  bar.innerHTML = `<span>Le moins cher : ${esc(where)}${best.complete ? '' : ' (incomplet)'}</span><strong>${formatEuro(best.total)} ›</strong>`;
+  bar.hidden = false;
+}
+
 function renderResults(cmp: Comparison): void {
+  renderBottomBar(cmp);
   const box = $('#ranking');
   if (state.items.length === 0) {
     box.innerHTML = '<p class="empty">Ajoutez des produits pour voir quel magasin est le moins cher.</p>';

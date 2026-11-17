@@ -1,17 +1,17 @@
 {
  "chainId": "delhaize",
- "updatedAt": "2026-11-17T18:40:10.287Z",
+ "updatedAt": "2026-11-17T18:46:53.669Z",
  "lastRun": {
   "urlsFound": 9598,
-  "pagesFetched": 300,
-  "productsFound": 300,
+  "pagesFetched": 500,
+  "productsFound": 500,
   "pagesWithoutProduct": 0,
   "skippedDisallowed": 0,
   "errors": 0,
   "blocked": false,
   "complete": false,
   "shard": "0/2",
-  "at": "2026-11-17T18:40:10.287Z"
+  "at": "2026-11-17T18:46:53.669Z"
  },
  "offers": [
   {
@@ -45,6 +45,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F1993101200576700000",
+   "name": "Lard petit-déjeuner Maxi pack",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.35,
+    "unit": "kg"
+   },
+   "sizeText": "350g",
+   "price": 6.19,
+   "observedAt": "2026-11-17T18:41:46.335Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Lard/Lard-en-tranches/Lard-petit-dejeuner-Maxi-pack/p/F1993101200576700000",
+   "category": "Lard en tranches"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F1993110900128400000",
    "name": "Crêpes Bruges",
    "brand": "Geal",
@@ -72,6 +87,21 @@
    "observedAt": "2026-11-17T18:32:11.584Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Beurres-et-margarines/Beurre-sale/Beurre-frigotartinable-Sale/p/F1993111900105700000",
    "category": "Beurre salé"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F1995050200352800000",
+   "name": "Jus Clémentine Brique Pure Classic",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1l",
+   "price": 3.19,
+   "observedAt": "2026-11-17T18:45:00.362Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Jus-frais-et-smoothies/Jus-frais/Jus-Clementine-Brique-Pure-Classic/p/F1995050200352800000",
+   "category": "Jus frais"
   },
   {
    "chainId": "delhaize",
@@ -134,6 +164,51 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2003032600107800000",
+   "name": "oeufs Bruns Larges",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.756,
+    "unit": "kg"
+   },
+   "sizeText": "756g",
+   "price": 4.29,
+   "observedAt": "2026-11-17T18:43:12.349Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Oeufs/Oeufs-frais/oeufs-Bruns-Larges/p/F2003032600107800000",
+   "category": "Oeufs frais"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2005021800927200000",
+   "name": "Dès de filets Dinde",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "300g",
+   "price": 9,
+   "observedAt": "2026-11-17T18:40:28.265Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Dinde/Decoupe-de-dinde/Des-de-filets-Dinde/p/F2005021800927200000",
+   "category": "Decoupe de dinde"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2007100500851400000",
+   "name": "Pain trio Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.6,
+    "unit": "kg"
+   },
+   "sizeText": "600g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:45:45.832Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pain-frais-baguettes-et-petits-pains/Pain-frais/Pain-multi-cereales/Pain-trio-Bio/p/F2007100500851400000",
+   "category": "Pain multi-céréales"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2008011100183600000",
    "name": "Gouda Tranches",
    "brand": "Dilea",
@@ -161,6 +236,35 @@
    "observedAt": "2026-11-17T18:34:05.205Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Frais/Lait-battu-Bio/p/F2008080500194400000",
    "category": "Frais"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2008110500127000000",
+   "name": "Dessert Crème Chocolat",
+   "brand": "Danette",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "0.5 kg",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:45:57.713Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Puddings-et-flans/Dessert-Creme-Chocolat/p/F2008110500127000000",
+   "category": "Puddings et flans"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2009061200213110000",
+   "name": "Ravioli Épinards-Ricotta",
+   "brand": "Bertagni",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:44:46.374Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-cuisiner/Pates-fraiches-et-sauces/Pates-farcies/Ravioli-Epinards-Ricotta/p/F2009061200213110000",
+   "category": "Pâtes farcies"
   },
   {
    "chainId": "delhaize",
@@ -194,6 +298,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2009072200583310000",
+   "name": "Jambonneau Sauce moutarde",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.65,
+    "unit": "kg"
+   },
+   "sizeText": "650g",
+   "price": 9.75,
+   "observedAt": "2026-11-17T18:41:26.279Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Jambons-cuits/Jambon-classique/Jambonneau-Sauce-moutarde/p/F2009072200583310000",
+   "category": "Jambon classique"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2009081400577610000",
    "name": "Fine St Agaune",
    "brand": "Saint Agaune",
@@ -221,6 +340,21 @@
    "observedAt": "2026-11-17T18:36:33.169Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Saucissons-secs/Saucissons-belges/Petits-saucissons-secs/p/F2009102600564610000",
    "category": "Saucissons belges"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2009102800215810000",
+   "name": "Filet de hareng Sauce tartare",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "400g",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:45:04.365Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Hareng/Filet-de-hareng-Sauce-tartare/p/F2009102800215810000",
+   "category": "Hareng"
   },
   {
    "chainId": "delhaize",
@@ -312,6 +446,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2012021400555000000",
+   "name": "Mini salamis 100% Poulet",
+   "brand": "Aoste",
+   "size": {
+    "amount": 0.08,
+    "unit": "kg"
+   },
+   "sizeText": "0.08 kg",
+   "price": 5.65,
+   "observedAt": "2026-11-17T18:42:02.482Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Saucissons-secs/Saucissons-belges/Mini-salamis-100-Poulet/p/F2012021400555000000",
+   "category": "Saucissons belges"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2012100100210600000",
+   "name": "Confit d'oignons Vinaigre balsamique",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180g",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:43:50.479Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Entrees/Fois-gras-et-accompagnements/Confit-d-oignons-Vinaigre-balsamique/p/F2012100100210600000",
+   "category": "Fois gras et accompagnements"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2013031800262910000",
    "name": "Filet de sole limande Sans peau",
    "brand": "Delhaize",
@@ -372,6 +536,35 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2014051600121300000",
+   "name": "Crème anglaise Vanille bourbon",
+   "brand": "Elle & Vire",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "sizeText": "352 g",
+   "price": 6.79,
+   "observedAt": "2026-11-17T18:40:14.260Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Ingredients-desserts/Creme-anglaise-Vanille-bourbon/p/F2014051600121300000",
+   "category": "Ingrédients desserts"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2014060300203130000",
+   "name": "Pattes de poulpe",
+   "brand": "Angulas Aguinaga",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:40:32.287Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Preparations-de-poisson-frais/Pattes-de-poulpe/p/F2014060300203130000",
+   "category": "Préparations de poisson frais"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2014071500569900000",
    "name": "Escalopes Dinde Bio",
    "brand": "Delhaize",
@@ -384,6 +577,36 @@
    "observedAt": "2026-11-17T18:34:37.446Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Dinde/Decoupe-de-dinde/Escalopes-Dinde-Bio/p/F2014071500569900000",
    "category": "Decoupe de dinde"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2014080600267400000",
+   "name": "9 Mini Burger Boeuf",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180g",
+   "price": 8.49,
+   "observedAt": "2026-11-17T18:43:40.417Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/9-Mini-Burger-Boeuf/p/F2014080600267400000",
+   "category": "Apéritifs chauds"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2014120500135700000",
+   "name": "Emmental Toasty",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 1.85,
+   "observedAt": "2026-11-17T18:40:36.281Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-tranches/Autres-fromages-en-tranches/Emmental-Toasty/p/F2014120500135700000",
+   "category": "Autres fromages en tranches"
   },
   {
    "chainId": "delhaize",
@@ -417,6 +640,16 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2016030100365320000",
+   "name": "Herbes pour thé Bio",
+   "brand": "Delhaize",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:45:39.650Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Fruits-et-legumes-frais/Legumes-frais/Herbes-pour-the-Bio/p/F2016030100365320000",
+   "category": "Herbes et épices emballées"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2016090600247000000",
    "name": "Anchois Marinés",
    "brand": "Medusa",
@@ -446,6 +679,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2017120800370440000",
+   "name": "Yaourt Myrtille Bifidus Probiotiques",
+   "brand": "Activia",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "0.5 kg",
+   "price": 3.25,
+   "observedAt": "2026-11-17T18:45:08.379Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Pour-la-sante/Yaourt-Myrtille-Bifidus-Probiotiques/p/F2017120800370440000",
+   "category": "Pour la santé"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2017121400370800000",
    "name": "Skyr Yaourt Nature",
    "brand": "Arla",
@@ -458,6 +706,66 @@
    "observedAt": "2026-11-17T18:39:14.120Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Skyr-kefir-et-yaourt-turc/Skyr-Yaourt-Nature/p/F2017121400370800000",
    "category": "Skyr, kéfir et yaourt turc"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2018022300013140000",
+   "name": "Olives au fromage",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:45:35.654Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs-froids/Olives/Olives-au-fromage/p/F2018022300013140000",
+   "category": "Olives"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2018041000015850000",
+   "name": "Pains Panini",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300g",
+   "price": 2.09,
+   "observedAt": "2026-11-17T18:41:50.288Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/Burgers-wraps-pita-et-specialites/Pains-Panini/p/F2018041000015850000",
+   "category": "Burgers, wraps, pita et specialités"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2018041800016050000",
+   "name": "Yaourt Maigre Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1.047kg",
+   "price": 1.69,
+   "observedAt": "2026-11-17T18:41:14.308Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Nature/Yaourt-nature/Yaourt-Maigre-Bio/p/F2018041800016050000",
+   "category": "Yaourt nature"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2018061900018830000",
+   "name": "Celeri Rave Cat1",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1000g",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:43:36.352Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Legumes-frais/Poireaux-celeris-et-autres-legumes-a-soupe/Celeris/Celeri-Rave-Cat1/p/F2018061900018830000",
+   "category": "Céléris"
   },
   {
    "chainId": "delhaize",
@@ -506,6 +814,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2018120400028080000",
+   "name": "Joues Porc Iberico",
+   "brand": "Ibericq",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 7.2,
+   "observedAt": "2026-11-17T18:43:18.347Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Joues-Porc-Iberico/p/F2018120400028080000",
+   "category": "Fondue, gourmet et grill"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2019010700028750000",
    "name": "Caviar Classic Belge",
    "brand": "Royal Belgian Caviar",
@@ -518,6 +841,21 @@
    "observedAt": "2026-11-17T18:32:07.583Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Autres-specialites/Caviar-Classic-Belge/p/F2019010700028750000",
    "category": "Autres spécialités"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019011500029150000",
+   "name": "Ananas",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.325,
+    "unit": "kg"
+   },
+   "sizeText": "350g",
+   "price": 4,
+   "observedAt": "2026-11-17T18:46:17.688Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Fruits-frais/Fruit-snacks/Ananas/p/F2019011500029150000",
+   "category": "Fruit snacks"
   },
   {
    "chainId": "delhaize",
@@ -546,6 +884,36 @@
    "price": 4.27,
    "observedAt": "2026-11-17T18:32:23.584Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Bacon-noble/p/F2019051300037680000",
+   "category": "Autre charcuterie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019051400037730000",
+   "name": "Pain de viande poulet",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "130g",
+   "price": 3.07,
+   "observedAt": "2026-11-17T18:40:12.308Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Pain-de-viande-poulet/p/F2019051400037730000",
+   "category": "Autre charcuterie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019051400037780000",
+   "name": "Jambon de ferme",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "130g",
+   "price": 4.5,
+   "observedAt": "2026-11-17T18:43:26.335Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Jambon-de-ferme/p/F2019051400037780000",
    "category": "Autre charcuterie"
   },
   {
@@ -580,6 +948,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2019093000045260000",
+   "name": "Soup tomate basil Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "price": 2.39,
+   "observedAt": "2026-11-17T18:46:21.679Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Soupes-fraiches/Soup-tomate-basil-Bio/p/F2019093000045260000",
+   "category": "Soupes fraîches"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2019102900046240000",
    "name": "Yaourt Nature Entier À la grecque",
    "brand": "Oikos",
@@ -592,6 +974,21 @@
    "observedAt": "2026-11-17T18:35:05.138Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-a-la-grecque/Yaourt-Nature-Entier-A-la-grecque/p/F2019102900046240000",
    "category": "Yaourt à la grecque"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019110500046300000",
+   "name": "Salade de concombre",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.185,
+    "unit": "kg"
+   },
+   "sizeText": "185g",
+   "price": 0.75,
+   "observedAt": "2026-11-17T18:42:42.530Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Salades-a-tartiner/Vegetarien-a-tartiner/Salade-de-concombre/p/F2019110500046300000",
+   "category": "Végétarien à tartiner"
   },
   {
    "chainId": "delhaize",
@@ -622,6 +1019,21 @@
    "observedAt": "2026-11-17T18:31:53.923Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Salami/Salami-de-porc/Salami-sans-ail/p/F2019120900048100000",
    "category": "Salami de porc"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019121300048470000",
+   "name": "Mix Pains Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300g",
+   "price": 3.45,
+   "observedAt": "2026-11-17T18:40:46.279Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/A-cuire/Pain-blanc/Mix-Pains-Bio/p/F2019121300048470000",
+   "category": "Pain blanc"
   },
   {
    "chainId": "delhaize",
@@ -661,6 +1073,21 @@
    "observedAt": "2026-11-17T18:38:54.200Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Legumes-frais/Aubergines-courgettes-concombres-et-poivrons/Poivrons/Poivron-Rouge/p/F2020032400055550000",
    "category": "Poivrons"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2020032600055840000",
+   "name": "100% mie Complet",
+   "brand": "Harrys",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:43:22.675Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/Pain-preemballe-en-tranches/Pain-toast/100-mie-Complet/p/F2020032600055840000",
+   "category": "Pain toast"
   },
   {
    "chainId": "delhaize",
@@ -723,6 +1150,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2020072700063740000",
+   "name": "Liégeois Vanille",
+   "brand": "La Laitière",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 3.95,
+   "observedAt": "2026-11-17T18:45:47.681Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Puddings-et-flans/Liegeois-Vanille/p/F2020072700063740000",
+   "category": "Puddings et flans"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2020100100069570000",
+   "name": "Pain Toast Complet",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:45:16.349Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/Pain-preemballe-en-tranches/Pain-toast/Pain-Toast-Complet/p/F2020100100069570000",
+   "category": "Pain toast"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2020101600070030000",
    "name": "Tabouleh Feta Bio",
    "brand": "Foodmaker",
@@ -750,6 +1207,36 @@
    "observedAt": "2026-11-17T18:30:03.533Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/Viennoiseries/Viennoiserie-et-autre/Pain-au-chocolat-x8/p/F2020110300070840000",
    "category": "Viennoiserie et autre"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2020111200071740000",
+   "name": "Fromage Tartinable Extra Protéines",
+   "brand": "Philadelphia",
+   "size": {
+    "amount": 0.175,
+    "unit": "kg"
+   },
+   "sizeText": "175 g",
+   "price": 3.95,
+   "observedAt": "2026-11-17T18:44:08.335Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-a-tartiner/Fromage-Tartinable-Extra-Proteines/p/F2020111200071740000",
+   "category": "Fromage à tartiner"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2020121600073050000",
+   "name": "Yaourt auth Grec 10%",
+   "brand": "Mevgal",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 3.45,
+   "observedAt": "2026-11-17T18:46:39.669Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-a-la-grecque/Yaourt-auth-Grec-10-/p/F2020121600073050000",
+   "category": "Yaourt à la grecque"
   },
   {
    "chainId": "delhaize",
@@ -868,6 +1355,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2021083000086190000",
+   "name": "Fromage à tartiner Nature",
+   "brand": "La Vache qui rit",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 5.29,
+   "observedAt": "2026-11-17T18:45:25.663Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-a-tartiner/Fromage-a-tartiner-Nature/p/F2021083000086190000",
+   "category": "Fromage à tartiner"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2021092100086890000",
    "name": "Fuet",
    "brand": "Delhaize",
@@ -925,6 +1427,21 @@
    "observedAt": "2026-11-17T18:37:50.096Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Pates-et-lasagnes/Macaroni-Creamy/p/F2022021000095080000",
    "category": "Pâtes et lasagnes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2022032300097570000",
+   "name": "Filet Poulet Parmesan Plat au four",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.47,
+    "unit": "kg"
+   },
+   "sizeText": "470g",
+   "price": 8.19,
+   "observedAt": "2026-11-17T18:40:16.257Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Preparations-de-poulet/Filet-Poulet-Parmesan-Plat-au-four/p/F2022032300097570000",
+   "category": "Préparations de poulet"
   },
   {
    "chainId": "delhaize",
@@ -988,6 +1505,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2022070500103240000",
+   "name": "Falafel Végan",
+   "brand": "Garden Gourmet",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 3.59,
+   "observedAt": "2026-11-17T18:42:36.345Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Vegetarien/Falafels/Falafel-Vegan/p/F2022070500103240000",
+   "category": "Falafels"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2022072000103960000",
    "name": "Margarine Cuire et rôtir Végétal",
    "brand": "The Flower Farm",
@@ -1048,6 +1580,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2022111600110990000",
+   "name": "Kiwi Vert",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1kg",
+   "price": 4.39,
+   "observedAt": "2026-11-17T18:42:10.307Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Fruits-frais/Kiwis/Kiwi-vert/Kiwi-Vert/p/F2022111600110990000",
+   "category": "Kiwi vert"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2023020800116020000",
    "name": "Échalot",
    "brand": "Delhaize",
@@ -1063,6 +1610,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2023022700117520000",
+   "name": "ABB Beefburger",
+   "brand": "Abbelen",
+   "size": {
+    "amount": 0.32,
+    "unit": "kg"
+   },
+   "price": 4.19,
+   "observedAt": "2026-11-17T18:46:43.696Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Burgers-hot-dogs-et-snacks/ABB-Beefburger/p/F2023022700117520000",
+   "category": "Burgers, hot dogs et snacks"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2023030600118190000",
    "name": "Filet de dinde",
    "brand": "Aoste",
@@ -1075,6 +1636,21 @@
    "observedAt": "2026-11-17T18:32:15.631Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Viandes-cuites/Dinde-cuite/Filet-de-dinde/p/F2023030600118190000",
    "category": "Dinde cuite"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2023031500118470000",
+   "name": "Filet de Saumon Ecopack",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.6,
+    "unit": "kg"
+   },
+   "sizeText": "420g",
+   "price": 15.99,
+   "observedAt": "2026-11-17T18:42:58.355Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Saumon/Filet-de-Saumon-Ecopack/p/F2023031500118470000",
+   "category": "Saumon"
   },
   {
    "chainId": "delhaize",
@@ -1106,6 +1682,51 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2023102400127110000",
+   "name": "Salade de chou Sans gluten",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200g",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:41:00.336Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Salades/Salade-de-chou-Sans-gluten/p/F2023102400127110000",
+   "category": "Salades"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2023113000127850000",
+   "name": "Pie D'Angloys",
+   "brand": "Pié d'Angloys",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 5.39,
+   "observedAt": "2026-11-17T18:45:53.717Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Pie-D-Angloys/p/F2023113000127850000",
+   "category": "Autres fromages de dessert"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024022700132140000",
+   "name": "Skyr Citron",
+   "brand": "Yoplait",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:42:16.337Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Skyr-kefir-et-yaourt-turc/Skyr-Citron/p/F2024022700132140000",
+   "category": "Skyr, kéfir et yaourt turc"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2024030600132870000",
    "name": "Lait battu Fraise",
    "brand": "Balade",
@@ -1117,6 +1738,51 @@
    "observedAt": "2026-11-17T18:30:25.575Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Frais/Lait-battu-Fraise/p/F2024030600132870000",
    "category": "Frais"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024031900133370000",
+   "name": "Brookies Mini",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180g",
+   "price": 4.89,
+   "observedAt": "2026-11-17T18:41:30.277Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Patisserie/Cakes-et-gaufres/Brookies-Mini/p/F2024031900133370000",
+   "category": "Cakes et gaufres"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024032000133420000",
+   "name": "JEUNE 5TR",
+   "brand": "Flandrien",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150 g",
+   "price": 3.75,
+   "observedAt": "2026-11-17T18:41:44.331Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-tranches/Gouda/JEUNE-5TR/p/F2024032000133420000",
+   "category": "Gouda"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024051300135430000",
+   "name": "Spiringue Porc 2 pièces",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.35,
+    "unit": "kg"
+   },
+   "sizeText": "280g",
+   "price": 2.62,
+   "observedAt": "2026-11-17T18:44:40.388Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Porc/Spiringue-Porc-2-pieces/p/F2024051300135430000",
+   "category": "Porc"
   },
   {
    "chainId": "delhaize",
@@ -1135,6 +1801,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2024052100136020000",
+   "name": "Saumon Fumé à chaud Norvègien",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150g",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:45:06.396Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-fumes/Saumon/Saumon-Fume-a-chaud-Norvegien/p/F2024052100136020000",
+   "category": "Saumon"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2024061200137270000",
    "name": "Boulettes Campagne",
    "brand": "Delhaize",
@@ -1150,6 +1831,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2024071000140690000",
+   "name": "Pains blanc Petit Bio Sans gluten",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180g",
+   "price": 3.39,
+   "observedAt": "2026-11-17T18:43:44.445Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Pains-preemballes/Pain-sans-gluten/Pains-blanc-Petit-Bio-Sans-gluten/p/F2024071000140690000",
+   "category": "Pain sans gluten"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2024072300141920000",
    "name": "Yaourt Entier Myrtilles Bio",
    "brand": "Delhaize",
@@ -1162,6 +1858,21 @@
    "observedAt": "2026-11-17T18:37:36.120Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Fruits/Yaourt-aux-fruits/Yaourt-Entier-Myrtilles-Bio/p/F2024072300141920000",
    "category": "Yaourt aux fruits"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024072500142470000",
+   "name": "Chicons jambon",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.57,
+    "unit": "kg"
+   },
+   "sizeText": "570g",
+   "price": 6.69,
+   "observedAt": "2026-11-17T18:44:42.565Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-classiques/Chicons-jambon/p/F2024072500142470000",
+   "category": "Plats classiques"
   },
   {
    "chainId": "delhaize",
@@ -1210,6 +1921,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2024080500144460000",
+   "name": "Préparé Nature Boeuf Belge",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "360g",
+   "price": 6.4,
+   "observedAt": "2026-11-17T18:43:42.613Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Boeuf/Prepare-Nature-Boeuf-Belge/p/F2024080500144460000",
+   "category": "Boeuf"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024080600144550000",
+   "name": "Apero Luxe 30P",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.7,
+    "unit": "kg"
+   },
+   "sizeText": "700g",
+   "price": 18.99,
+   "observedAt": "2026-11-17T18:44:06.349Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/Apero-Luxe-30P/p/F2024080600144550000",
+   "category": "Apéritifs chauds"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2024080900145090000",
    "name": "Skyr noix de coco",
    "brand": "Danone",
@@ -1222,6 +1963,49 @@
    "observedAt": "2026-11-17T18:35:51.148Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Skyr-kefir-et-yaourt-turc/Skyr-noix-de-coco/p/F2024080900145090000",
    "category": "Skyr, kéfir et yaourt turc"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024082200145820000",
+   "name": "Fromage Corsendonk Belge Bloc",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "price": 5.4,
+   "observedAt": "2026-11-17T18:40:26.317Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Fromage-Corsendonk-Belge-Bloc/p/F2024082200145820000",
+   "category": "Autres fromages de dessert"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024082600146320000",
+   "name": "APO Filet Mignon Saus Poivre",
+   "brand": "A pinch of",
+   "size": {
+    "amount": 0.55,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 12.99,
+   "observedAt": "2026-11-17T18:44:22.592Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-classiques/APO-Filet-Mignon-Saus-Poivre/p/F2024082600146320000",
+   "category": "Plats classiques"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024120400150060000",
+   "name": "Filet Pangasius Nature",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.175,
+    "unit": "kg"
+   },
+   "price": 2.29,
+   "observedAt": "2026-11-17T18:41:58.335Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Autres-poissons/Filet-Pangasius-Nature/p/F2024120400150060000",
+   "category": "Autres poissons"
   },
   {
    "chainId": "delhaize",
@@ -1251,6 +2035,21 @@
    "price": 10.99,
    "observedAt": "2026-11-17T18:32:51.260Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Preparations-de-poisson-frais/Pain-de-Saumon/p/F2024120600150240000",
+   "category": "Préparations de poisson frais"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024120600150280000",
+   "name": "Scampi Curry",
+   "brand": "Revi",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:40:50.309Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Preparations-de-poisson-frais/Scampi-Curry/p/F2024120600150280000",
    "category": "Préparations de poisson frais"
   },
   {
@@ -1311,6 +2110,21 @@
    "observedAt": "2026-11-17T18:38:26.388Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/Gyoza-Poulet/p/F2025020600153250000",
    "category": "Apéritifs chauds"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025020700153420000",
+   "name": "Falafel Betterave rouge Vegan",
+   "brand": "Garden Gourmet",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:44:44.389Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Vegetarien/Falafels/Falafel-Betterave-rouge-Vegan/p/F2025020700153420000",
+   "category": "Falafels"
   },
   {
    "chainId": "delhaize",
@@ -1389,6 +2203,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2025050900157060000",
+   "name": "Boulettes Sauce tomate",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500g",
+   "price": 6.49,
+   "observedAt": "2026-11-17T18:43:24.342Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-classiques/Boulettes-Sauce-tomate/p/F2025050900157060000",
+   "category": "Plats classiques"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2025051200157130000",
    "name": "Saumon Filet Vin blanc",
    "brand": "Delhaize",
@@ -1404,6 +2233,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2025051200157150000",
+   "name": "Paella Valenciana",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.525,
+    "unit": "kg"
+   },
+   "sizeText": "525g",
+   "price": 8.99,
+   "observedAt": "2026-11-17T18:43:02.562Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-classiques/Paella-Valenciana/p/F2025051200157150000",
+   "category": "Plats classiques"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025062600159340000",
+   "name": "Tagliette Pancetta",
+   "brand": "Citterio",
+   "size": {
+    "amount": 0.09,
+    "unit": "kg"
+   },
+   "sizeText": "90 g",
+   "price": 2.39,
+   "observedAt": "2026-11-17T18:45:02.570Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Lard/Lard-en-des/Tagliette-Pancetta/p/F2025062600159340000",
+   "category": "Lard en dés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2025071000159980000",
    "name": "Hochepout choux de Bruxelles",
    "brand": "Delhaize",
@@ -1415,6 +2274,36 @@
    "price": 2.29,
    "observedAt": "2026-11-17T18:36:25.219Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Legumes-prets-a-l-emploi/Legumes-predecoupes/Legumes-pre-coupes-a-cuisiner/Hochepout-choux-de-Bruxelles/p/F2025071000159980000",
+   "category": "Légumes et fruits"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025071600160180000",
+   "name": "Dessert Mousse Noix de coco Chocolat",
+   "brand": "Taste of Inspirations",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "75g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:42:28.354Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Mousses/Dessert-Mousse-Noix-de-coco-Chocolat/p/F2025071600160180000",
+   "category": "Mousses"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025071600160390000",
+   "name": "Quartiers de patates douces aux herbes",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:45:25.409Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-cuisiner/Composants-du-repas/Legumes-et-fruits/Quartiers-de-patates-douces-aux-herbes/p/F2025071600160390000",
    "category": "Légumes et fruits"
   },
   {
@@ -1479,6 +2368,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2025111700205090000",
+   "name": "Camembert AOP",
+   "brand": "Taste of Inspirations",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 5.49,
+   "observedAt": "2026-11-17T18:44:14.349Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Camembert-et-brie/Camembert-AOP/p/F2025111700205090000",
+   "category": "Camembert et brie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025121100242950000",
+   "name": "Drink Protéinée UHT Café",
+   "brand": "Hipro",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "sizeText": "0.345 kg",
+   "price": 3.55,
+   "observedAt": "2026-11-17T18:41:34.282Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Drink-Proteinee-UHT-Cafe/p/F2025121100242950000",
+   "category": "Yaourt protéiné"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2025122400243280000",
    "name": "Pommes de terre Cuisine Salade",
    "brand": "Delhaize",
@@ -1491,6 +2410,16 @@
    "observedAt": "2026-11-17T18:33:18.957Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Legumes-frais/Pommes-de-terre/Pommes-de-terre-a-chair-ferme/Pommes-de-terre-Cuisine-Salade/p/F2025122400243280000",
    "category": "Pommes de terre à chair ferme"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026011400244180000",
+   "name": "Margarine A tartiner 35% m.g.",
+   "brand": "Delhaize",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:44:36.384Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Beurres-et-margarines/Margarine-a-tartiner/Margarine-A-tartiner-35-m-g-/p/F2026011400244180000",
+   "category": "Margarine à tartiner"
   },
   {
    "chainId": "delhaize",
@@ -1584,6 +2513,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026032600252010000",
+   "name": "Onigiri Thon",
+   "brand": "Soosh",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "125 g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:42:46.374Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Encas/Onigiri-Thon/p/F2026032600252010000",
+   "category": "Encas"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026040100253260000",
+   "name": "Dip Ricotta herbs",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.11,
+    "unit": "kg"
+   },
+   "sizeText": "110g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:41:22.462Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Dips-et-tapenades/Dips/Dip-Ricotta-herbs/p/F2026040100253260000",
+   "category": "Dips"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026040200253360000",
    "name": "Patate douce au chili madras",
    "brand": "Delhaize",
@@ -1614,6 +2573,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026060200336530000",
+   "name": "Croissant Fromage Mini",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:45:49.660Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/Croissant-Fromage-Mini/p/F2026060200336530000",
+   "category": "Apéritifs chauds"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026060300336750000",
    "name": "Shot Myrtille Lavande",
    "brand": "Delhaize",
@@ -1629,6 +2602,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026060300336820000",
+   "name": "Hotdog Mini",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.15,
+    "unit": "kg"
+   },
+   "sizeText": "150g",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:44:12.351Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/Hotdog-Mini/p/F2026060300336820000",
+   "category": "Apéritifs chauds"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026060800337150000",
    "name": "Apple juice",
    "brand": "Innocent",
@@ -1640,6 +2628,21 @@
    "observedAt": "2026-11-17T18:34:33.204Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Jus-frais-et-smoothies/Jus-frais/Apple-juice/p/F2026060800337150000",
    "category": "Jus frais"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026061100337560000",
+   "name": "Apéro Assiette d'apéritif espagnol",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.17,
+    "unit": "kg"
+   },
+   "sizeText": "170g",
+   "price": 4.99,
+   "observedAt": "2026-11-17T18:42:38.376Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Plats-aperitifs/Apero-Assiette-d-aperitif-espagnol/p/F2026061100337560000",
+   "category": "Plats apéritifs"
   },
   {
    "chainId": "delhaize",
@@ -1673,6 +2676,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026070900339170000",
+   "name": "Yaourt A la grecque Fraise",
+   "brand": "Danone",
+   "size": {
+    "amount": 0.44,
+    "unit": "kg"
+   },
+   "sizeText": "0.44 kg",
+   "price": 2.89,
+   "observedAt": "2026-11-17T18:45:29.661Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-a-la-grecque/Yaourt-A-la-grecque-Fraise/p/F2026070900339170000",
+   "category": "Yaourt à la grecque"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026070900339180000",
    "name": "Yaourt A la grecque Vanille",
    "brand": "Danone",
@@ -1685,6 +2703,49 @@
    "observedAt": "2026-11-17T18:34:23.261Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-a-la-grecque/Yaourt-A-la-grecque-Vanille/p/F2026070900339180000",
    "category": "Yaourt à la grecque"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026072800340870000",
+   "name": "Légumes à soup",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.75,
+    "unit": "kg"
+   },
+   "sizeText": "750g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:43:32.337Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Fruits-et-legumes-frais/Legumes-prets-a-l-emploi/Legumes-predecoupes/Legumes-predecoupes-pour-la-soupe/Legumes-a-soup/p/F2026072800340870000",
+   "category": "Légumes prédécoupés pour la soupe"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026081100342160000",
+   "name": "Coulis Fruits rouges",
+   "brand": "Ponthier",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:40:42.484Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Ingredients-desserts/Coulis-Fruits-rouges/p/F2026081100342160000",
+   "category": "Ingrédients desserts"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026082500342930000",
+   "name": "Puree Jambon Fromage",
+   "brand": "Puree Bowl",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "price": 6.39,
+   "observedAt": "2026-11-17T18:42:24.365Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-classiques/Puree-Jambon-Fromage/p/F2026082500342930000",
+   "category": "Plats classiques"
   },
   {
    "chainId": "delhaize",
@@ -1791,6 +2852,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S1971080100141110000",
+   "name": "Saucisse Cocktail 210 g",
+   "brand": "Zwan",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "210 g",
+   "price": 3.09,
+   "observedAt": "2026-11-17T18:41:42.508Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-Cocktail-210-g/p/S1971080100141110000",
+   "category": "Viandes en conserve"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S1974031800141000000",
    "name": "Saucisse TV Sauce Tomate 210 g",
    "brand": "Zwan",
@@ -1851,6 +2927,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S1986070900044800000",
+   "name": "Petits pains suédois Dorés",
+   "brand": "Krisprolls",
+   "size": {
+    "amount": 0.24,
+    "unit": "kg"
+   },
+   "sizeText": "240 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:43:16.354Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Galettes-de-riz-biscottes-et-pains-grilles/Cracottes-et-pains-grilles/Petits-pains-suedois-Dores/p/S1986070900044800000",
+   "category": "Cracottes et pains grillés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S1989101300194370000",
    "name": "Ginger Ale PET",
    "brand": "Canada Dry",
@@ -1880,6 +2971,51 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S1994021700096590000",
+   "name": "Liant Fécule De Maïs, pour vos sauces et pâtisserie 400 g",
+   "brand": "Maizena",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:44:48.385Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Aides-culinaires/Liants/Liant-Fecule-De-Mais-pour-vos-sauces-et-patisserie-400-g/p/S1994021700096590000",
+   "category": "Liants"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S1994102800063950000",
+   "name": "Chocolat Blanc Praliné Bâton FT",
+   "brand": "Galler",
+   "size": {
+    "amount": 0.07,
+    "unit": "kg"
+   },
+   "sizeText": "70 g",
+   "price": 1.87,
+   "observedAt": "2026-11-17T18:42:26.316Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Batons-de-chocolat/Chocolat-blanc/Chocolat-Blanc-Praline-Baton-FT/p/S1994102800063950000",
+   "category": "Chocolat blanc"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S1996121600272270000",
+   "name": "Ciboulette émincée",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.05,
+    "unit": "kg"
+   },
+   "sizeText": "50g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:46:19.802Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Legumes-soupes-et-epices-surgeles/Herbes-et-epices-surgeles/Ciboulette-emincee/p/S1996121600272270000",
+   "category": "Herbes et épices surgelés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S1997031200194590000",
    "name": "Lemon Canette",
    "brand": "Gini",
@@ -1891,6 +3027,21 @@
    "observedAt": "2026-11-17T18:33:39.225Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Autres-sodas-petillants/Gout-citron/Lemon-Canette/p/S1997031200194590000",
    "category": "Goût citron"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S1997082100271550000",
+   "name": "Petits pois Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450g",
+   "price": 1.27,
+   "observedAt": "2026-11-17T18:41:36.328Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Legumes-soupes-et-epices-surgeles/Legumes-nature-surgeles/Carottes-et-pois-surgeles/Petits-pois-Bio/p/S1997082100271550000",
+   "category": "Carottes et pois surgelés"
   },
   {
    "chainId": "delhaize",
@@ -1954,6 +3105,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S1999123000280170000",
+   "name": "Poulet aux chicons Purée",
+   "brand": "Iglo",
+   "size": {
+    "amount": 0.425,
+    "unit": "kg"
+   },
+   "sizeText": "425 g",
+   "price": 7.69,
+   "observedAt": "2026-11-17T18:46:49.674Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Plats-prepares/Traditionnel/Poulet-aux-chicons-Puree/p/S1999123000280170000",
+   "category": "Plats surgelés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2001053100094450000",
    "name": "Miel Montagne Squeeze",
    "brand": "Delhaize",
@@ -1981,6 +3147,20 @@
    "observedAt": "2026-11-17T18:39:10.160Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Chips-et-snacks-aperitif/Biscuits-aperitif-et-toasts/Crackers-et-creppies/Snack-Cheese-crispies-Gouda/p/S2001082700031180000",
    "category": "Crackers et creppies"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2001090400044290000",
+   "name": "Back-erbsen",
+   "brand": "Herrmann",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "price": 1.75,
+   "observedAt": "2026-11-17T18:46:31.732Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Soupes/Croutons-pates-et-boulettes/Back-erbsen/p/S2001090400044290000",
+   "category": "Croûtons, pâtes et boulettes"
   },
   {
    "chainId": "delhaize",
@@ -2044,6 +3224,35 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2004011908020100000",
+   "name": "Arôme Fleur d'oranger",
+   "brand": "Vahiné",
+   "size": {
+    "amount": 0.2,
+    "unit": "l"
+   },
+   "price": 3.95,
+   "observedAt": "2026-11-17T18:40:48.267Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Ingredients-desserts/Arome-Fleur-d-oranger/p/S2004011908020100000",
+   "category": "Ingrédients desserts"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2004011908020670000",
+   "name": "Glaçage Noir Prêt à fondre",
+   "brand": "Vahiné",
+   "size": {
+    "amount": 0.12,
+    "unit": "kg"
+   },
+   "sizeText": "120 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:42:56.426Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Ingredients-desserts/Glacage-Noir-Pret-a-fondre/p/S2004011908020670000",
+   "category": "Ingrédients desserts"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2004030100053950000",
    "name": "Biscuits Original 16 Pcs",
    "brand": "Oreo",
@@ -2085,6 +3294,21 @@
    "observedAt": "2026-11-17T18:34:45.251Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Riz/Riz-basmati/Riz-Basmati-10-min/p/S2005030300102320000",
    "category": "Riz basmati"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2005042800116860000",
+   "name": "Purée de tomates",
+   "brand": "Cirio",
+   "size": {
+    "amount": 0.68,
+    "unit": "kg"
+   },
+   "sizeText": "0.68 kg",
+   "price": 3.45,
+   "observedAt": "2026-11-17T18:44:00.383Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Tomates-en-conserve/Pulpe-et-passata-de-tomates-en-conserve/Puree-de-tomates/p/S2005042800116860000",
+   "category": "Pulpe et passata de tomates en conserve"
   },
   {
    "chainId": "delhaize",
@@ -2133,6 +3357,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2006032300074420000",
+   "name": "Barre chocolatée Caramel Multipack",
+   "brand": "Lion",
+   "size": {
+    "amount": 0.252,
+    "unit": "kg"
+   },
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:42:52.320Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Snacks-chocolates/Barre-chocolatee-Caramel-Multipack/p/S2006032300074420000",
+   "category": "Snacks chocolatés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2006053000012270000",
    "name": "Cornichons Tranches Aigre-Doux",
    "brand": "Delhaize",
@@ -2145,6 +3383,20 @@
    "observedAt": "2026-11-17T18:33:51.207Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Condiments/Cornichons/Cornichons-Tranches-Aigre-Doux/p/S2006053000012270000",
    "category": "Cornichons"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2006111000284800000",
+   "name": "Moka Crème glacée",
+   "brand": "Ijsboerke",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "price": 5.65,
+   "observedAt": "2026-11-17T18:44:04.369Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Glaces-et-desserts/Glaces/Raviers/Moka-Creme-glacee/p/S2006111000284800000",
+   "category": "Raviers"
   },
   {
    "chainId": "delhaize",
@@ -2264,6 +3516,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2010031100011800000",
+   "name": "Sauce Argentina steak & grill Squeeze",
+   "brand": "Devos & Lemmens",
+   "size": {
+    "amount": 0.3,
+    "unit": "l"
+   },
+   "price": 4.39,
+   "observedAt": "2026-11-17T18:44:32.378Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Autres/Sauce-Argentina-steak-and-grill-Squeeze/p/S2010031100011800000",
+   "category": "Autres"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2011041100145990000",
    "name": "Soupe Douceur de 8 Légumes 500 ml",
    "brand": "Knorr",
@@ -2323,6 +3589,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2012032600087620000",
+   "name": "Confiture Cerises",
+   "brand": "Bonne Maman",
+   "size": {
+    "amount": 0.37,
+    "unit": "kg"
+   },
+   "sizeText": "370 g",
+   "price": 4.69,
+   "observedAt": "2026-11-17T18:40:44.299Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Tartinables/Confitures/Confiture-Cerises/p/S2012032600087620000",
+   "category": "Confitures"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2012062000076940000",
    "name": "Bonbons Coffee toffees",
    "brand": "Delhaize",
@@ -2378,6 +3659,31 @@
    "price": 1.45,
    "observedAt": "2026-11-17T18:34:11.197Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Autres/Sauce-Samourai-Squeeze/p/S2012122800011050001",
+   "category": "Autres"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2013012400077970000",
+   "name": "Chocolat Bonbons Chocolat Au Lait",
+   "brand": "Côte d'Or",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 7.49,
+   "observedAt": "2026-11-17T18:46:11.658Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Caramel-and-chocolat/Chocolat-Bonbons-Chocolat-Au-Lait/p/S2013012400077970000",
+   "category": "Caramel & chocolat"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2014081200010070000",
+   "name": "Sauce Cocktail Royal",
+   "brand": "Devos & Lemmens",
+   "price": 4.15,
+   "observedAt": "2026-11-17T18:41:40.325Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Autres/Sauce-Cocktail-Royal/p/S2014081200010070000",
    "category": "Autres"
   },
   {
@@ -2457,6 +3763,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2015011600013190000",
+   "name": "Epices Italiennes",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.012,
+    "unit": "kg"
+   },
+   "sizeText": "12g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:40:22.454Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Epices/Epices/Moulues/Epices-Italiennes/p/S2015011600013190000",
+   "category": "Moulues"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2015020300103810000",
+   "name": "Ananas Tranches Jus Boîte",
+   "brand": "Del Monte",
+   "size": {
+    "amount": 0.51,
+    "unit": "kg"
+   },
+   "sizeText": "820 g",
+   "price": 5.45,
+   "observedAt": "2026-11-17T18:43:48.337Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Ananas-en-conserve/Ananas-Tranches-Jus-Boite/p/S2015020300103810000",
+   "category": "Ananas en conserve"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2015021200026080000",
    "name": "Chips Sticks Sel",
    "brand": "Delhaize",
@@ -2484,6 +3820,36 @@
    "observedAt": "2026-11-17T18:39:54.259Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Poivrons-Grilles/p/S2015082000388240000",
    "category": "Italie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2015102300399740000",
+   "name": "Café Extra Dessert Soluble",
+   "brand": "Douwe Egberts",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 9.89,
+   "observedAt": "2026-11-17T18:40:54.294Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Instant/Cafe-Extra-Dessert-Soluble/p/S2015102300399740000",
+   "category": "Instant"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2016010803619720000",
+   "name": "Basmati Coco Piment Citronelle",
+   "brand": "Tilda",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "0.25 kg",
+   "price": 2.52,
+   "observedAt": "2026-11-17T18:42:34.326Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Solution-repas/Pret-a-rechauffer/Basmati-Coco-Piment-Citronelle/p/S2016010803619720000",
+   "category": "Prêt à réchauffer"
   },
   {
    "chainId": "delhaize",
@@ -2561,6 +3927,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2016052003651100000",
+   "name": "Tartines croustillantes Riches en fibres",
+   "brand": "Wasa",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 2.19,
+   "observedAt": "2026-11-17T18:45:12.392Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Galettes-de-riz-biscottes-et-pains-grilles/Cracottes-et-pains-grilles/Tartines-croustillantes-Riches-en-fibres/p/S2016052003651100000",
+   "category": "Cracottes et pains grillés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2016060903654530000",
    "name": "Chocolat Mini Nougat",
    "brand": "Côte d'Or",
@@ -2573,6 +3954,21 @@
    "observedAt": "2026-11-17T18:33:33.298Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Snacks-chocolates/Chocolat-Mini-Nougat/p/S2016060903654530000",
    "category": "Snacks chocolatés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2016110903677830000",
+   "name": "Fruits secs Mélange",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "25g",
+   "price": 3.29,
+   "observedAt": "2026-11-17T18:44:30.357Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-secs-en-conserve/Fruits-et-fruits-secs-a-snacker/Fruits-secs-Melange/p/S2016110903677830000",
+   "category": "Fruits et fruits secs à snacker"
   },
   {
    "chainId": "delhaize",
@@ -2591,6 +3987,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2017040304142180000",
+   "name": "Dragées Fruit Sac",
+   "brand": "Mentos",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 4.09,
+   "observedAt": "2026-11-17T18:44:52.352Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Chewing-gums-and-pastilles/Pastilles/Dragees-Fruit-Sac/p/S2017040304142180000",
+   "category": "Pastilles"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2017041004143460000",
    "name": "Pâte à tartiner Crunchy",
    "brand": "Ovomaltine",
@@ -2603,6 +4014,34 @@
    "observedAt": "2026-11-17T18:38:46.180Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Tartinables/Pates-a-tartiner/Pate-a-tartiner-Crunchy/p/S2017041004143460000",
    "category": "Pâtes à tartiner"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017041904144460000",
+   "name": "Mayonnaise Squeeze",
+   "brand": "Hellmann's",
+   "size": {
+    "amount": 0.43,
+    "unit": "l"
+   },
+   "price": 4.19,
+   "observedAt": "2026-11-17T18:45:14.363Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Mayonnaise/Mayonnaise-Squeeze/p/S2017041904144460000",
+   "category": "Mayonnaise"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017042504146310099",
+   "name": "Orange Canette",
+   "brand": "Orangina",
+   "size": {
+    "amount": 1.983,
+    "unit": "l"
+   },
+   "price": 5.89,
+   "observedAt": "2026-11-17T18:42:40.308Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Autres-sodas-petillants/Gout-orange/Orange-Canette/p/S2017042504146310099",
+   "category": "Goût orange"
   },
   {
    "chainId": "delhaize",
@@ -2621,6 +4060,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2017091904177200000",
+   "name": "Café Espresso Décaféiné Grains",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1000g",
+   "price": 13.39,
+   "observedAt": "2026-11-17T18:42:50.324Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Grains/Cafe-Espresso-Decafeine-Grains/p/S2017091904177200000",
+   "category": "Grains"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2017120801371130000",
    "name": "Boisson végétale Amandes Vanille",
    "brand": "Alpro",
@@ -2632,6 +4086,51 @@
    "observedAt": "2026-11-17T18:38:20.126Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Regime-specifique/Sans-lactose/Boissons-vegetales/Aromatise/Boisson-vegetale-Amandes-Vanille/p/S2017120801371130000",
    "category": "Aromatisé"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017121401372090000",
+   "name": "Cafe Dessert Moulu Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 4.75,
+   "observedAt": "2026-11-17T18:44:34.402Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Epicerie-sucree/Petit-dejeuner/Cafe-Dessert-Moulu-Bio/p/S2017121401372090000",
+   "category": "Moulus"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017121801372520000",
+   "name": "Tisane Fenouil Sachets Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.034,
+    "unit": "kg"
+   },
+   "sizeText": "34g",
+   "price": 2.15,
+   "observedAt": "2026-11-17T18:40:58.430Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Epicerie-sucree/Petit-dejeuner/Tisane-Fenouil-Sachets-Bio/p/S2017121801372520000",
+   "category": "Thés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017121901372620000",
+   "name": "Tisane Rooibos Sachets Bio FT",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.028,
+    "unit": "kg"
+   },
+   "sizeText": "28g",
+   "price": 1.85,
+   "observedAt": "2026-11-17T18:44:16.430Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Epicerie-sucree/Petit-dejeuner/Tisane-Rooibos-Sachets-Bio-FT/p/S2017121901372620000",
+   "category": "Thés"
   },
   {
    "chainId": "delhaize",
@@ -2650,6 +4149,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2018020800023240000",
+   "name": "Moelleux Chocolat 6P",
+   "brand": "Tarte A Moi",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 9.99,
+   "observedAt": "2026-11-17T18:46:35.669Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Patisserie/Cakes-et-gaufres/Moelleux-Chocolat-6P/p/S2018020800023240000",
+   "category": "Cakes et gaufres"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2018033000045360000",
    "name": "Mais Crispy",
    "brand": "Bonduelle",
@@ -2665,6 +4179,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2018042500053030000",
+   "name": "Fraises",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 1.06,
+   "observedAt": "2026-11-17T18:46:01.672Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Glaces-et-desserts/Fruits-surgeles/Fraises/p/S2018042500053030000",
+   "category": "Fruits surgelés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2018070200079230000",
+   "name": "Pâtes Casareccia n 88",
+   "brand": "De Cecco",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 2.29,
+   "observedAt": "2026-11-17T18:43:00.325Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-blanches/Pates-Casareccia-n-88/p/S2018070200079230000",
+   "category": "Pâtes blanches"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2018070200079880000",
    "name": "Chocolat Chocolat Noir Avocat",
    "brand": "Côte d'Or",
@@ -2676,6 +4220,21 @@
    "price": 4.55,
    "observedAt": "2026-11-17T18:38:56.131Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Batons-de-chocolat/Chocolat-au-lait/Chocolat-Chocolat-Noir-Avocat/p/S2018070200079880000",
+   "category": "Chocolat au lait"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2018070400080380000",
+   "name": "Chocolat Chocolat Noir Vanille",
+   "brand": "Côte d'Or",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 4.55,
+   "observedAt": "2026-11-17T18:43:54.397Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Batons-de-chocolat/Chocolat-au-lait/Chocolat-Chocolat-Noir-Vanille/p/S2018070400080380000",
    "category": "Chocolat au lait"
   },
   {
@@ -2710,6 +4269,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2019011800151270000",
+   "name": "Café Espresso 08 Dolce Gusto capsules",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.084,
+    "unit": "kg"
+   },
+   "sizeText": "78g",
+   "price": 3.15,
+   "observedAt": "2026-11-17T18:41:16.281Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-Nescafe-Dolce-Gusto-et-compatibles/Cafe-Espresso-08-Dolce-Gusto-capsules/p/S2019011800151270000",
+   "category": "Caps Nescafé Dolce Gusto et compatibles"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2019022100173860000",
    "name": "Café Pads Classico",
    "brand": "Lavazza",
@@ -2721,6 +4295,35 @@
    "observedAt": "2026-11-17T18:32:42.716Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Dosettes-compatibles-Senseo/Cafe-Pads-Classico/p/S2019022100173860000",
    "category": "Dosettes compatibles Senseo"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2019040300233780000",
+   "name": "Pâtisserie Madeleine Chocolat",
+   "brand": "Lotus",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "price": 3.75,
+   "observedAt": "2026-11-17T18:43:14.377Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Petits-gateaux/Patisserie-Madeleine-Chocolat/p/S2019040300233780000",
+   "category": "Petits gâteaux"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2019050700248770000",
+   "name": "Thon Nature",
+   "brand": "Rio Mare",
+   "size": {
+    "amount": 0.32,
+    "unit": "kg"
+   },
+   "sizeText": "320 g",
+   "price": 8.59,
+   "observedAt": "2026-11-17T18:41:10.288Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Thon-en-conserve/Thon-Nature/p/S2019050700248770000",
+   "category": "Thon en conserve"
   },
   {
    "chainId": "delhaize",
@@ -2754,6 +4357,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2019060600259440000",
+   "name": "Pâtes Piccolini Mini Penne Rigate",
+   "brand": "Barilla",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 2.45,
+   "observedAt": "2026-11-17T18:46:23.755Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-blanches/Pates-Piccolini-Mini-Penne-Rigate/p/S2019060600259440000",
+   "category": "Pâtes blanches"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2019061100259830000",
+   "name": "Chocolat ZERO Chocolat Noir 4 Pcs",
+   "brand": "Côte d'Or",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 4.39,
+   "observedAt": "2026-11-17T18:42:22.478Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Batons-de-chocolat/Chocolat-noir/Chocolat-ZERO-Chocolat-Noir-4-Pcs/p/S2019061100259830000",
+   "category": "Chocolat noir"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2019061800263040000",
    "name": "Jus de pommes Bio",
    "brand": "Pur Natur",
@@ -2783,6 +4416,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2019100200310830000",
+   "name": "Café Lungo Deca 20 Caps",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:45:59.651Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-compatible-Nespresso/Cafe-Lungo-Deca-20-Caps/p/S2019100200310830000",
+   "category": "Caps compatible Nespresso"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2019111200322440000",
+   "name": "Fish Sticks Paquet de 10",
+   "brand": "Iglo",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300 g",
+   "price": 3.19,
+   "observedAt": "2026-11-17T18:45:51.708Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Viandes-et-poissons/Poissons/Assaissonnes-ou-prepares/Fish-Sticks-Paquet-de-10/p/S2019111200322440000",
+   "category": "Assaissonnés ou préparés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2019120400332550000",
    "name": "Chou rouge Pomme",
    "brand": "Delhaize",
@@ -2795,6 +4458,51 @@
    "observedAt": "2026-11-17T18:36:15.144Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Chou-rouge-en-conserve/Chou-rouge-Pomme/p/S2019120400332550000",
    "category": "Chou rouge en conserve"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020020300354460000",
+   "name": "Pâtes Fusilli Petit pois Protein",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 2.15,
+   "observedAt": "2026-11-17T18:42:06.318Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-riche-en-proteines/Pates-Fusilli-Petit-pois-Protein/p/S2020020300354460000",
+   "category": "Pâtes riche en protéines"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020022500363810000",
+   "name": "Mayonnaise Style Japonaise Wasabi",
+   "brand": "Saitaku",
+   "size": {
+    "amount": 0.16,
+    "unit": "kg"
+   },
+   "sizeText": "160 g",
+   "price": 5.49,
+   "observedAt": "2026-11-17T18:40:34.296Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/Asiatique/Japon/Mayonnaise-Style-Japonaise-Wasabi/p/S2020022500363810000",
+   "category": "Japon"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020030500402590000",
+   "name": "Flocons de riz",
+   "brand": "Bosto",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "0.25 kg",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:44:56.396Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Mix-desserts/Flocons-de-riz/p/S2020030500402590000",
+   "category": "Mix desserts"
   },
   {
    "chainId": "delhaize",
@@ -2825,6 +4533,50 @@
    "observedAt": "2026-11-17T18:37:34.114Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-compatible-Nespresso/Cafe-Espresso-Origins-Guatemala-7-Caps/p/S2020031600408420000",
    "category": "Caps compatible Nespresso"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020031900410210000",
+   "name": "Grissini Sesamo",
+   "brand": "Granforno",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "price": 1.81,
+   "observedAt": "2026-11-17T18:42:32.317Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Grissini-Sesamo/p/S2020031900410210000",
+   "category": "Italie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020032400412150000",
+   "name": "Ragu Sauce Bolognaise",
+   "brand": "Star",
+   "size": {
+    "amount": 0.36,
+    "unit": "kg"
+   },
+   "sizeText": "360 g",
+   "price": 6.85,
+   "observedAt": "2026-11-17T18:46:37.742Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Ragu-Sauce-Bolognaise/p/S2020032400412150000",
+   "category": "Italie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020032500412960000",
+   "name": "Tapenade Olives Noires",
+   "brand": "Conserve Della Nonna",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 4.59,
+   "observedAt": "2026-11-17T18:44:10.368Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Tapenade-Olives-Noires/p/S2020032500412960000",
+   "category": "Italie"
   },
   {
    "chainId": "delhaize",
@@ -2932,6 +4684,65 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2020080600454390000",
+   "name": "Croquettes Crevettes 28% Four",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 7.99,
+   "observedAt": "2026-11-17T18:46:06.013Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Snacks-and-Entrees/Croquettes/Croquettes-Crevettes-28-Four/p/S2020080600454390000",
+   "category": "Croquettes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020081200456270000",
+   "name": "Thon Salade Lentilles",
+   "brand": "Rio Mare",
+   "size": {
+    "amount": 0.16,
+    "unit": "kg"
+   },
+   "sizeText": "160 g",
+   "price": 4.15,
+   "observedAt": "2026-11-17T18:41:04.314Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Thon-en-conserve/Thon-Salade-Lentilles/p/S2020081200456270000",
+   "category": "Thon en conserve"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020081400457160000",
+   "name": "Eau pétillante 33cl Goût Pamplemousse Bio",
+   "brand": "Charlie's",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "price": 1.31,
+   "observedAt": "2026-11-17T18:40:40.271Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Boissons-bieres-et-alcools/Sodas/Eau-petillante-33cl-Gout-Pamplemousse-Bio/p/S2020081400457160000",
+   "category": "Eau pétillante aromatisée"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020101300467990000",
+   "name": "Madeleines Citron",
+   "brand": "Bonne Maman",
+   "size": {
+    "amount": 0.175,
+    "unit": "kg"
+   },
+   "sizeText": "175 g",
+   "price": 4.29,
+   "observedAt": "2026-11-17T18:42:08.316Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Petits-gateaux/Madeleines-Citron/p/S2020101300467990000",
+   "category": "Petits gâteaux"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2020101600468230000",
    "name": "Grains de café Classico",
    "brand": "Illy",
@@ -2959,6 +4770,21 @@
    "observedAt": "2026-11-17T18:33:27.002Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Vinaigrettes/Vinaigrette-A-l-aneth-Bio/p/S2020121800478160000",
    "category": "Vinaigrettes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020123100484430000",
+   "name": "Jus de pommes",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1.201,
+    "unit": "l"
+   },
+   "sizeText": "20cl",
+   "price": 1.79,
+   "observedAt": "2026-11-17T18:41:38.282Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Jus-de-fruits/Jus-de-pommes/p/S2020123100484430000",
+   "category": "Pommes"
   },
   {
    "chainId": "delhaize",
@@ -3050,6 +4876,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2021081100075500097",
+   "name": "Biscuits Mini cookies Chocolat",
+   "brand": "Milka",
+   "size": {
+    "amount": 0.11,
+    "unit": "kg"
+   },
+   "sizeText": "110 g",
+   "price": 2.45,
+   "observedAt": "2026-11-17T18:42:04.304Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-secs/Chocolat/Biscuits-Mini-cookies-Chocolat/p/S2021081100075500097",
+   "category": "Chocolat"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2021081600575300000",
    "name": "Fruit à tartiner Cerise",
    "brand": "Materne",
@@ -3105,6 +4946,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2021112400589380099",
+   "name": "Limonade Melograno e arancia",
+   "brand": "San Pellegrino",
+   "size": {
+    "amount": 1.979,
+    "unit": "l"
+   },
+   "price": 6.49,
+   "observedAt": "2026-11-17T18:43:10.336Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Autres-sodas-petillants/Gout-orange/Limonade-Melograno-e-arancia/p/S2021112400589380099",
+   "category": "Goût orange"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2021122300277900000",
    "name": "Sauce Andalouse",
    "brand": "Pauwels",
@@ -3117,6 +4972,21 @@
    "observedAt": "2026-11-17T18:35:17.415Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Autres/Sauce-Andalouse/p/S2021122300277900000",
    "category": "Autres"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022021400605820000",
+   "name": "Compote Pommesl Belges",
+   "brand": "Materne",
+   "size": {
+    "amount": 0.36,
+    "unit": "kg"
+   },
+   "sizeText": "360 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:41:56.354Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Compotes/Pommes-en-compote/Compote-Pommesl-Belges/p/S2022021400605820000",
+   "category": "Pommes en compote"
   },
   {
    "chainId": "delhaize",
@@ -3134,6 +5004,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2022030700612150000",
+   "name": "Pâtes Maccheroni N37",
+   "brand": "La Molisana",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 2.05,
+   "observedAt": "2026-11-17T18:43:30.468Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-blanches/Pates-Maccheroni-N37/p/S2022030700612150000",
+   "category": "Pâtes blanches"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2022030700612170000",
    "name": "Pâtes Linguine N6",
    "brand": "La Molisana",
@@ -3146,6 +5031,20 @@
    "observedAt": "2026-11-17T18:39:58.251Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-blanches/Pates-Linguine-N6/p/S2022030700612170000",
    "category": "Pâtes blanches"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022032200615160099",
+   "name": "Zero Sugar Cherry Canette",
+   "brand": "Coca-Cola",
+   "size": {
+    "amount": 1.983,
+    "unit": "l"
+   },
+   "price": 5.89,
+   "observedAt": "2026-11-17T18:46:07.665Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-classique/Zero-Sugar-Cherry-Canette/p/S2022032200615160099",
+   "category": "Cola classique"
   },
   {
    "chainId": "delhaize",
@@ -3193,6 +5092,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2022050400626240000",
+   "name": "Biscuits Nic Nac ABC",
+   "brand": "LU",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1000 g",
+   "price": 7.09,
+   "observedAt": "2026-11-17T18:43:56.377Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-enfants/Biscuits-Nic-Nac-ABC/p/S2022050400626240000",
+   "category": "Biscuits enfants"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2022050400626410000",
    "name": "Biscuit Tea Time",
    "brand": "Delacre",
@@ -3205,6 +5119,21 @@
    "observedAt": "2026-11-17T18:36:09.149Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-saisonniers/Biscuit-Tea-Time/p/S2022050400626410000",
    "category": "Biscuits saisonniers"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022061400632000000",
+   "name": "Biscuit Parmigiano",
+   "brand": "Michel et Augustin",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 3.95,
+   "observedAt": "2026-11-17T18:43:08.315Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Chips-et-snacks-aperitif/Biscuits-aperitif-et-toasts/Crackers-et-creppies/Biscuit-Parmigiano/p/S2022061400632000000",
+   "category": "Crackers et creppies"
   },
   {
    "chainId": "delhaize",
@@ -3238,6 +5167,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2022072500641390000",
+   "name": "Huile Maïs",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "sizeText": "1l",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:46:15.780Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Autres-huiles/Huile-Mais/p/S2022072500641390000",
+   "category": "Autres huiles"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2022100700657290000",
    "name": "Sauce Chaude Champignons",
    "brand": "Devos & Lemmens",
@@ -3253,6 +5197,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2022101904153240098",
+   "name": "Soupe Potiron Pommes de terre douces",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.749,
+    "unit": "kg"
+   },
+   "sizeText": "750g",
+   "price": 3.29,
+   "observedAt": "2026-11-17T18:45:37.649Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Legumes-soupes-et-epices-surgeles/Soupes-et-boulettes-surgelees/Soupes-surgelees/Soupe-Potiron-Pommes-de-terre-douces/p/S2022101904153240098",
+   "category": "Soupes surgelées"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022120700664190000",
+   "name": "Farine Châtaigne Bio",
+   "brand": "Kazidomi",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 10.25,
+   "observedAt": "2026-11-17T18:45:55.676Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-Chataigne-Bio/p/S2022120700664190000",
+   "category": "Farines"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2022120800664520000",
    "name": "Saumon Atlantique 4 pièces",
    "brand": "Iglo",
@@ -3265,6 +5239,20 @@
    "observedAt": "2026-11-17T18:35:09.120Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Viandes-et-poissons/Poissons/Nature/Saumon-Atlantique-4-pieces/p/S2022120800664520000",
    "category": "Nature"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022122800669540099",
+   "name": "Ginger Ale Canette",
+   "brand": "Canada Dry",
+   "size": {
+    "amount": 1.98,
+    "unit": "l"
+   },
+   "price": 7.09,
+   "observedAt": "2026-11-17T18:41:20.282Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Autres-sodas-petillants/Gout-citron/Ginger-Ale-Canette/p/S2022122800669540099",
+   "category": "Goût citron"
   },
   {
    "chainId": "delhaize",
@@ -3324,6 +5312,35 @@
    "observedAt": "2026-11-17T18:32:58.948Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Fairtrade/Epicerie-sucree/Chocolats/Chocolat-Boule-de-Noel-fairtrade/p/S2023041900696440000",
    "category": "Chocolats de Noël & Nouvel An"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023041900696550000",
+   "name": "Cornet Lait",
+   "brand": "Lindt",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200 g",
+   "price": 8.45,
+   "observedAt": "2026-11-17T18:41:28.320Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Pralines-et-chocolats-a-offrir/Cornet-Lait/p/S2023041900696550000",
+   "category": "Pralines et chocolats à offrir"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023050900700450000",
+   "name": "Café Grande Miami 18 capsules",
+   "brand": "Nescafé",
+   "size": {
+    "amount": 0.126,
+    "unit": "kg"
+   },
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:46:03.642Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-Nescafe-Dolce-Gusto-et-compatibles/Cafe-Grande-Miami-18-capsules/p/S2023050900700450000",
+   "category": "Caps Nescafé Dolce Gusto et compatibles"
   },
   {
    "chainId": "delhaize",
@@ -3402,6 +5419,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2023071300714320000",
+   "name": "Boulettes Apéro Four",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.3,
+    "unit": "kg"
+   },
+   "sizeText": "300g",
+   "price": 3.35,
+   "observedAt": "2026-11-17T18:44:54.378Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Snacks-and-Entrees/Autres-snacks/Boulettes-Apero-Four/p/S2023071300714320000",
+   "category": "Autres snacks"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023072800716940000",
+   "name": "Penne Poulet",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1kg",
+   "price": 6.85,
+   "observedAt": "2026-11-17T18:42:18.337Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Vite-et-vraiment-bon/Pret-a-manger/Plats-surgeles/Penne-Poulet/p/S2023072800716940000",
+   "category": "Plats surgelés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2023090600723580000",
    "name": "Epices Thym Bio",
    "brand": "Delhaize",
@@ -3446,6 +5493,35 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2023112300730990000",
+   "name": "Farine Fermentante",
+   "brand": "Imperial",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1000 g",
+   "price": 1.89,
+   "observedAt": "2026-11-17T18:46:45.870Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-Fermentante/p/S2023112300730990000",
+   "category": "Farines"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023112900732980000",
+   "name": "Huile d'olive Extra vierge BIO",
+   "brand": "Iliada",
+   "size": {
+    "amount": 0.5,
+    "unit": "l"
+   },
+   "price": 11.99,
+   "observedAt": "2026-11-17T18:41:54.289Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Huile-d-olive/Huile-d-olive-Extra-vierge-BIO/p/S2023112900732980000",
+   "category": "Huile d'olive"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2023113000733440000",
    "name": "Haricots Blancs Sauce tomate",
    "brand": "Delhaize",
@@ -3458,6 +5534,21 @@
    "observedAt": "2026-11-17T18:39:50.250Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Blancs-Sauce-tomate/p/S2023113000733440000",
    "category": "Haricots en conserve"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024011000741930000",
+   "name": "Mini almond",
+   "brand": "Magnum",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "sizeText": "265.8 g",
+   "price": 4.19,
+   "observedAt": "2026-11-17T18:46:29.683Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Glaces-et-desserts/Glaces/Sticks/Mini-almond/p/S2024011000741930000",
+   "category": "Sticks"
   },
   {
    "chainId": "delhaize",
@@ -3595,6 +5686,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2024022600755470000",
+   "name": "Café Tales of Roma Capsules",
+   "brand": "Lavazza",
+   "size": {
+    "amount": 0.057,
+    "unit": "kg"
+   },
+   "price": 5.19,
+   "observedAt": "2026-11-17T18:40:24.271Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-compatible-Nespresso/Cafe-Tales-of-Roma-Capsules/p/S2024022600755470000",
+   "category": "Caps compatible Nespresso"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2024030800757180000",
    "name": "Sirop Lipton pêche 0%",
    "brand": "Sodastream",
@@ -3606,6 +5711,21 @@
    "observedAt": "2026-11-17T18:38:38.137Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Lipton-peche-0-/p/S2024030800757180000",
    "category": "Autres"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024041000762320000",
+   "name": "Chips Naturel",
+   "brand": "Lay's",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 1.45,
+   "observedAt": "2026-11-17T18:46:41.667Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Chips-et-popcorn/Chips-naturel/Chips-Naturel/p/S2024041000762320000",
+   "category": "Chips naturel"
   },
   {
    "chainId": "delhaize",
@@ -3636,6 +5756,21 @@
    "observedAt": "2026-11-17T18:37:16.082Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Snack-Taralli-Pizza/p/S2024041700764360000",
    "category": "Italie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024042600766340000",
+   "name": "Epices Estragon",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.01,
+    "unit": "kg"
+   },
+   "sizeText": "10g",
+   "price": 1.16,
+   "observedAt": "2026-11-17T18:40:30.313Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Epices/Herbes/Moulues/Epices-Estragon/p/S2024042600766340000",
+   "category": "Moulues"
   },
   {
    "chainId": "delhaize",
@@ -3684,6 +5819,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2024060500772410000",
+   "name": "Tropical Boost",
+   "brand": "Acti-Vit",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "price": 1.95,
+   "observedAt": "2026-11-17T18:46:47.674Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Boissons-sportives/Tropical-Boost/p/S2024060500772410000",
+   "category": "Boissons sportives"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2024061900774920000",
    "name": "Huile Pepin Raisin",
    "brand": "Delhaize",
@@ -3696,6 +5845,20 @@
    "observedAt": "2026-11-17T18:31:39.557Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Autres-huiles/Huile-Pepin-Raisin/p/S2024061900774920000",
    "category": "Autres huiles"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024062600776140000",
+   "name": "Café Espresso Dark Rfa",
+   "brand": "Caffè Gondoliere",
+   "size": {
+    "amount": 0.11,
+    "unit": "kg"
+   },
+   "price": 4.09,
+   "observedAt": "2026-11-17T18:44:18.437Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Cafe/Caps-compatible-Nespresso/Cafe-Espresso-Dark-Rfa/p/S2024062600776140000",
+   "category": "Caps compatible Nespresso"
   },
   {
    "chainId": "delhaize",
@@ -3714,6 +5877,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2024071000778470000",
+   "name": "Chips Paprika Ribbled",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 1.19,
+   "observedAt": "2026-11-17T18:46:33.848Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Chips-et-popcorn/Chips-paprika/Chips-Paprika-Ribbled/p/S2024071000778470000",
+   "category": "Chips paprika"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2024072500781920000",
    "name": "Chocolat Gaufrettes Crispy Noisette",
    "brand": "Milka",
@@ -3726,6 +5904,81 @@
    "observedAt": "2026-11-17T18:30:05.535Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Snacks-chocolates/Chocolat-Gaufrettes-Crispy-Noisette/p/S2024072500781920000",
    "category": "Snacks chocolatés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024082800786930000",
+   "name": "Huile d'olive Picual",
+   "brand": "Taste of Inspirations",
+   "size": {
+    "amount": 0.249,
+    "unit": "l"
+   },
+   "sizeText": "228.5g",
+   "price": 4.49,
+   "observedAt": "2026-11-17T18:45:27.654Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Huile-d-olive/Huile-d-olive-Picual/p/S2024082800786930000",
+   "category": "Huile d'olive"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024083000787830000",
+   "name": "Galettes au beurre Fourrées Chocolat",
+   "brand": "Jules Destrooper",
+   "size": {
+    "amount": 0.114,
+    "unit": "kg"
+   },
+   "sizeText": "114 g",
+   "price": 2.79,
+   "observedAt": "2026-11-17T18:40:56.318Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-secs/Chocolat/Galettes-au-beurre-Fourrees-Chocolat/p/S2024083000787830000",
+   "category": "Chocolat"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024090200787910000",
+   "name": "Huile d'olive Extra vierge Spray",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.2,
+    "unit": "l"
+   },
+   "sizeText": "200ml",
+   "price": 4.29,
+   "observedAt": "2026-11-17T18:43:06.376Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Huile-d-olive/Huile-d-olive-Extra-vierge-Spray/p/S2024090200787910000",
+   "category": "Huile d'olive"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024090500788900000",
+   "name": "Moutarde Originale",
+   "brand": "Maille",
+   "size": {
+    "amount": 0.265,
+    "unit": "kg"
+   },
+   "sizeText": "265 g",
+   "price": 4.35,
+   "observedAt": "2026-11-17T18:41:24.301Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Moutarde/Moutarde-Originale/p/S2024090500788900000",
+   "category": "Moutarde"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024092400791120000",
+   "name": "Galettes de mais Mediterrané Mini",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.06,
+    "unit": "kg"
+   },
+   "sizeText": "60g",
+   "price": 0.99,
+   "observedAt": "2026-11-17T18:43:58.339Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Galettes-de-riz-biscottes-et-pains-grilles/Galettes-soufflees/Galettes-de-mais-Mediterrane-Mini/p/S2024092400791120000",
+   "category": "Galettes soufflées"
   },
   {
    "chainId": "delhaize",
@@ -3785,6 +6038,20 @@
    "observedAt": "2026-11-17T18:39:16.152Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/A-partager/Biscuits-Assortiment/p/S2024121000811620000",
    "category": "A partager"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024122600815080000",
+   "name": "Sirop Citron vert",
+   "brand": "Pulco",
+   "size": {
+    "amount": 0.7,
+    "unit": "l"
+   },
+   "price": 6.49,
+   "observedAt": "2026-11-17T18:41:08.278Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Citron-vert/p/S2024122600815080000",
+   "category": "Autres"
   },
   {
    "chainId": "delhaize",
@@ -3861,6 +6128,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025020700822750000",
+   "name": "Haricots Borlotti",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400g",
+   "price": 0.9,
+   "observedAt": "2026-11-17T18:41:18.307Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Borlotti/p/S2025020700822750000",
+   "category": "Haricots en conserve"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025021000822970000",
+   "name": "Risotto Champignons",
+   "brand": "Knorr",
+   "size": {
+    "amount": 0.175,
+    "unit": "kg"
+   },
+   "sizeText": "175 g",
+   "price": 2.89,
+   "observedAt": "2026-11-17T18:46:25.880Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Solution-repas/Pret-a-rechauffer/Risotto-Champignons/p/S2025021000822970000",
+   "category": "Prêt à réchauffer"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025021300823490000",
    "name": "Soupe Brocoli Chou-fleur",
    "brand": "Delhaize",
@@ -3888,6 +6185,105 @@
    "observedAt": "2026-11-17T18:40:06.269Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Viandes-et-poissons/Poissons/Assaissonnes-ou-prepares/Moules-Calamars-Sauce-tomate/p/S2025022100826080000",
    "category": "Assaissonnés ou préparés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025022500826730099",
+   "name": "Framboise",
+   "brand": "Lipton",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "price": 3.39,
+   "observedAt": "2026-11-17T18:40:20.272Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-petillants/Framboise/p/S2025022500826730099",
+   "category": "Iced tea pétillants"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025032600838050000",
+   "name": "Vinaigrette / Miel/Moutarde",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "250ml",
+   "price": 1.85,
+   "observedAt": "2026-11-17T18:45:41.646Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Vinaigrettes/Vinaigrette-Miel-Moutarde/p/S2025032600838050000",
+   "category": "Vinaigrettes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025040100839350000",
+   "name": "Machiato",
+   "brand": "Alpro",
+   "price": 2.35,
+   "observedAt": "2026-11-17T18:45:10.370Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Boissons-vegetales/Aromatise/Machiato/p/S2025040100839350000",
+   "category": "Aromatisé"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025041500848080000",
+   "name": "Bonbons Scoubidou",
+   "brand": "Lutti",
+   "size": {
+    "amount": 0.18,
+    "unit": "kg"
+   },
+   "sizeText": "180 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:40:52.288Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-acidules/Bonbons-Scoubidou/p/S2025041500848080000",
+   "category": "Bonbons acidulés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025041800851530000",
+   "name": "Pralines Chocolat Noisette",
+   "brand": "Ferrero",
+   "size": {
+    "amount": 0.375,
+    "unit": "kg"
+   },
+   "sizeText": "375 g",
+   "price": 9.25,
+   "observedAt": "2026-11-17T18:45:43.669Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Pralines-et-chocolats-a-offrir/Pralines-Chocolat-Noisette/p/S2025041800851530000",
+   "category": "Pralines et chocolats à offrir"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025050700860850000",
+   "name": "Barres proteines Cafe Chocolat",
+   "brand": "Nature Valley",
+   "size": {
+    "amount": 0.16,
+    "unit": "kg"
+   },
+   "sizeText": "160 g",
+   "price": 4.35,
+   "observedAt": "2026-11-17T18:45:31.724Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Barres-proteines-Cafe-Chocolat/p/S2025050700860850000",
+   "category": "Epicerie sucrée"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025051300862330000",
+   "name": "Baguette Tomate Fromage",
+   "brand": "Dr. oetker",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250 g",
+   "price": 2.99,
+   "observedAt": "2026-11-17T18:43:20.320Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Pizzas/Snack-Mini/Baguette-Tomate-Fromage/p/S2025051300862330000",
+   "category": "Snack/Mini"
   },
   {
    "chainId": "delhaize",
@@ -3931,6 +6327,64 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025052600865640000",
+   "name": "Noodles Carbonara Instant Cup",
+   "brand": "Mama",
+   "size": {
+    "amount": 0.085,
+    "unit": "kg"
+   },
+   "price": 1.59,
+   "observedAt": "2026-11-17T18:42:48.306Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Noodles-Carbonara-Instant-Cup/p/S2025052600865640000",
+   "category": "Nouilles, pƒtes et riz instantan‚s"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025052800866740000",
+   "name": "Noix de macadamia",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200g",
+   "price": 7.19,
+   "observedAt": "2026-11-17T18:42:00.301Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Noix-et-fruits-secs/Noix/Noix/Noix-de-macadamia/p/S2025052800866740000",
+   "category": "Noix"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025052800867310000",
+   "name": "Pâte à tartiner Crunchy Bio",
+   "brand": "Nocciolata",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400 g",
+   "price": 7.35,
+   "observedAt": "2026-11-17T18:46:27.672Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Tartinables/Pates-a-tartiner/Pate-a-tartiner-Crunchy-Bio/p/S2025052800867310000",
+   "category": "Pâtes à tartiner"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025060200867710000",
+   "name": "Cern noix",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "price": 8.29,
+   "observedAt": "2026-11-17T18:40:38.303Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Noix-et-fruits-secs/Noix/Noix/Cern-noix/p/S2025060200867710000",
+   "category": "Noix"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025060200867730000",
    "name": "Sauce Bolognaise",
    "brand": "Delhaize",
@@ -3946,6 +6400,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025060600869270000",
+   "name": "Biscuits Pépites choc noir Fairtrade",
+   "brand": "Skilup",
+   "size": {
+    "amount": 0.19,
+    "unit": "kg"
+   },
+   "sizeText": "190 g",
+   "price": 3.69,
+   "observedAt": "2026-11-17T18:42:54.315Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-enfants/Biscuits-Pepites-choc-noir-Fairtrade/p/S2025060600869270000",
+   "category": "Biscuits enfants"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025061100869900000",
    "name": "Farine Pizza",
    "brand": "Molino Pasini",
@@ -3958,6 +6427,66 @@
    "observedAt": "2026-11-17T18:30:43.570Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/M-dit-rann-en/Italie/Farine-Pizza/p/S2025061100869900000",
    "category": "Italie"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025061700872070000",
+   "name": "Biscuits Biscuits cacao Fourrage vanille",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.154,
+    "unit": "kg"
+   },
+   "sizeText": "154g",
+   "price": 0.85,
+   "observedAt": "2026-11-17T18:44:58.395Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-secs/Chocolat/Biscuits-Biscuits-cacao-Fourrage-vanille/p/S2025061700872070000",
+   "category": "Chocolat"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025062300874220000",
+   "name": "Bonbons Doux et sucré",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 1.49,
+   "observedAt": "2026-11-17T18:46:13.667Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-Sucres/Bonbons-Doux-et-sucre/p/S2025062300874220000",
+   "category": "Bonbons Sucrés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025062400874330000",
+   "name": "Snack Wasabi Cacahuètes",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400g",
+   "price": 4.65,
+   "observedAt": "2026-11-17T18:45:18.383Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Chips-et-snacks-aperitif/Cacahuetes-et-noix/Cacahuetes-et-noix-enrobees/Snack-Wasabi-Cacahuetes/p/S2025062400874330000",
+   "category": "Cacahuètes et noix enrobées"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025062500874820000",
+   "name": "Café Cappuccino Neo DG Caps",
+   "brand": "Nescafé",
+   "size": {
+    "amount": 0.122,
+    "unit": "kg"
+   },
+   "sizeText": "122.4 g",
+   "price": 4.89,
+   "observedAt": "2026-11-17T18:42:12.318Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Cafes/Caps-Nescafe-Dolce-Gusto-et-compatibles-/Cafe-Cappuccino-Neo-DG-Caps/p/S2025062500874820000",
+   "category": "Caps Nescafé Dolce Gusto et compatibles"
   },
   {
    "chainId": "delhaize",
@@ -4005,6 +6534,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025072300881640000",
+   "name": "Snack Cup Kimchi",
+   "brand": "Namdong",
+   "size": {
+    "amount": 0.083,
+    "unit": "kg"
+   },
+   "sizeText": "83 g",
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:46:09.657Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Snack-Cup-Kimchi/p/S2025072300881640000",
+   "category": "Nouilles, pƒtes et riz instantan‚s"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025072300881660000",
    "name": "Boisson d'avoine Barista",
    "brand": "Natrue",
@@ -4049,6 +6593,51 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025080600886130000",
+   "name": "Boulette au fromage",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.35,
+    "unit": "kg"
+   },
+   "sizeText": "350g",
+   "price": 3.85,
+   "observedAt": "2026-11-17T18:42:20.354Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Snacks-and-Entrees/Autres-snacks/Boulette-au-fromage/p/S2025080600886130000",
+   "category": "Autres snacks"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025080600886140000",
+   "name": "Croquettes aux crevettes 4 pièces",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.25,
+    "unit": "kg"
+   },
+   "sizeText": "250g",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:46:51.720Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Snacks-and-Entrees/Croquettes/Croquettes-aux-crevettes-4-pieces/p/S2025080600886140000",
+   "category": "Croquettes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025082100889190000",
+   "name": "Biscuits Amandes",
+   "brand": "Jules Destrooper",
+   "size": {
+    "amount": 0.1,
+    "unit": "kg"
+   },
+   "sizeText": "100 g",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:43:38.351Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/A-partager/Biscuits-Amandes/p/S2025082100889190000",
+   "category": "A partager"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025082200889360000",
    "name": "Grissini Complet",
    "brand": "Delhaize",
@@ -4061,6 +6650,80 @@
    "observedAt": "2026-11-17T18:33:00.953Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Chips-et-snacks-aperitif/Biscuits-aperitif-et-toasts/Autres-biscuits-aperitifs-et-toasts/Grissini-Complet/p/S2025082200889360000",
    "category": "Autres biscuits apéritifs et toasts"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025082200889380000",
+   "name": "Grissini Naturel",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "125g",
+   "price": 0.92,
+   "observedAt": "2026-11-17T18:43:52.398Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Chips-et-snacks-aperitif/Biscuits-aperitif-et-toasts/Grissinis-twists-et-batonnets/Grissini-Naturel/p/S2025082200889380000",
+   "category": "Grissinis, twists et batônnets"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025082500889570000",
+   "name": "Tartelette Noix",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.242,
+    "unit": "kg"
+   },
+   "sizeText": "242g",
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:40:18.269Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boulangerie-et-patisserie/Patisserie/Tartelettes-et-petits-gateaux/Tartelette-Noix/p/S2025082500889570000",
+   "category": "Tartelettes et petits gâteaux"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025090900894940000",
+   "name": "Boisson D'Avoine Barista",
+   "brand": "Oatly",
+   "size": {
+    "amount": 1,
+    "unit": "l"
+   },
+   "price": 3.35,
+   "observedAt": "2026-11-17T18:41:06.337Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Boissons-vegetales/Cereales/Boisson-D-Avoine-Barista/p/S2025090900894940000",
+   "category": "Céréales"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025100800900150000",
+   "name": "Treccia",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500g",
+   "price": 1.29,
+   "observedAt": "2026-11-17T18:42:44.340Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Pates/Pates-blanches/Treccia/p/S2025100800900150000",
+   "category": "Pâtes blanches"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025102400902760000",
+   "name": "noix de cajou",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "sizeText": "200g",
+   "price": 2.45,
+   "observedAt": "2026-11-17T18:44:20.371Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Noix-et-fruits-secs/Noix/Noix/noix-de-cajou/p/S2025102400902760000",
+   "category": "Noix"
   },
   {
    "chainId": "delhaize",
@@ -4123,6 +6786,50 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2025111800906210000",
+   "name": "Framboise Chocolat pur",
+   "brand": "Trü Frü",
+   "size": {
+    "amount": 0.2,
+    "unit": "kg"
+   },
+   "price": 5.99,
+   "observedAt": "2026-11-17T18:42:14.294Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Glaces-et-desserts/Glaces/Pralines-barres-et-snacking/Framboise-Chocolat-pur/p/S2025111800906210000",
+   "category": "Pralines, barres et snacking"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025112700908390000",
+   "name": "Pinsa Sans Gluten Magherita",
+   "brand": "Schär",
+   "size": {
+    "amount": 0.36,
+    "unit": "kg"
+   },
+   "sizeText": "360 g",
+   "price": 5.49,
+   "observedAt": "2026-11-17T18:41:02.476Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Regime-specifique/Sans-gluten/Produits-surgeles/Pinsa-Sans-Gluten-Magherita/p/S2025112700908390000",
+   "category": "Produits surgelés"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025120200100100000",
+   "name": "Wafers Cacao Sans gluten",
+   "brand": "Schär",
+   "size": {
+    "amount": 0.125,
+    "unit": "kg"
+   },
+   "sizeText": "125 g",
+   "price": 2.59,
+   "observedAt": "2026-11-17T18:45:33.643Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Regime-specifique/Sans-gluten/Wafers-Cacao-Sans-gluten/p/S2025120200100100000",
+   "category": "Sans gluten"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2025120300909480000",
    "name": "Chocolat Noir Stevia",
    "brand": "Céréal",
@@ -4168,6 +6875,66 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2026011400924360000",
+   "name": "Glace Pop Up",
+   "brand": "Smarties",
+   "size": {
+    "amount": 0.208,
+    "unit": "kg"
+   },
+   "sizeText": "208 g",
+   "price": 5.25,
+   "observedAt": "2026-11-17T18:42:30.355Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Glaces-et-desserts/Glaces/Sticks/Glace-Pop-Up/p/S2026011400924360000",
+   "category": "Sticks"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026012300926780000",
+   "name": "Bonbons Vampire Halloween",
+   "brand": "Lutti",
+   "size": {
+    "amount": 0.28,
+    "unit": "kg"
+   },
+   "sizeText": "280 g",
+   "price": 3.49,
+   "observedAt": "2026-11-17T18:41:52.307Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Saisonnier/Bonbons-Vampire-Halloween/p/S2026012300926780000",
+   "category": "Saisonnier"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026021600936090000",
+   "name": "Mélange de pain Sans gluten",
+   "brand": "Schär",
+   "size": {
+    "amount": 1,
+    "unit": "kg"
+   },
+   "sizeText": "1000 g",
+   "price": 5.19,
+   "observedAt": "2026-11-17T18:44:50.358Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Regime-specifique/Sans-gluten/Melange-de-pain-Sans-gluten/p/S2026021600936090000",
+   "category": "Sans gluten"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026022000938150000",
+   "name": "Chocolat",
+   "brand": "M&M's",
+   "size": {
+    "amount": 0.5,
+    "unit": "kg"
+   },
+   "sizeText": "500 g",
+   "price": 6.69,
+   "observedAt": "2026-11-17T18:44:38.359Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Chocolats/Billes-chocolatees/Chocolat/p/S2026022000938150000",
+   "category": "Billes chocolatées"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2026022300938520000",
    "name": "Trompettes de la mort Bocal",
    "brand": "Taste of Inspirations",
@@ -4180,6 +6947,36 @@
    "observedAt": "2026-11-17T18:32:27.580Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Champignons-en-conserve/Champignons-decoupes-en-conserve/Trompettes-de-la-mort-Bocal/p/S2026022300938520000",
    "category": "Champignons découpés en conserve"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026022400938790000",
+   "name": "Café Lungo Dolce Gusto Caps",
+   "brand": "Latitude 28",
+   "size": {
+    "amount": 0.084,
+    "unit": "kg"
+   },
+   "sizeText": "78g",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:44:28.363Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Cafes/Caps-Nescafe-Dolce-Gusto-et-compatibles-/Cafe-Lungo-Dolce-Gusto-Caps/p/S2026022400938790000",
+   "category": "Caps Nescafé Dolce Gusto et compatibles "
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026022500939390000",
+   "name": "Mayonnaise Pesto",
+   "brand": "Taste of Inspirations",
+   "size": {
+    "amount": 0.25,
+    "unit": "l"
+   },
+   "sizeText": "250ml",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:43:34.392Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Sauces/Mayonnaise/Mayonnaise-Pesto/p/S2026022500939390000",
+   "category": "Mayonnaise"
   },
   {
    "chainId": "delhaize",
@@ -4213,6 +7010,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2026031700946330000",
+   "name": "Café Uganda & Kenya Grains",
+   "brand": "Douwe Egberts",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 12.49,
+   "observedAt": "2026-11-17T18:43:46.571Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Cafes/Grains/Cafe-Uganda-and-Kenya-Grains/p/S2026031700946330000",
+   "category": "Grains"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2026032300948830000",
    "name": "Huile d'Olive Classique Squeeze",
    "brand": "Filippo Berio",
@@ -4224,6 +7036,34 @@
    "observedAt": "2026-11-17T18:39:44.246Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Huile-d-olive/Huile-d-Olive-Classique-Squeeze/p/S2026032300948830000",
    "category": "Huile d'olive"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026041700957670000",
+   "name": "Granini Jus pommes",
+   "brand": "Granini",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "price": 1.67,
+   "observedAt": "2026-11-17T18:41:48.291Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Jus-de-fruits/Pommes/Granini-Jus-pommes/p/S2026041700957670000",
+   "category": "Pommes"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026042000958080000",
+   "name": "Café Caramel Instant Liquide",
+   "brand": "Douwe Egberts",
+   "size": {
+    "amount": 0.539,
+    "unit": "l"
+   },
+   "price": 5.49,
+   "observedAt": "2026-11-17T18:43:28.336Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Cafes/Instant/Cafe-Caramel-Instant-Liquide/p/S2026042000958080000",
+   "category": "Instant"
   },
   {
    "chainId": "delhaize",
@@ -4286,6 +7126,21 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2026060300970280000",
+   "name": "Pistaches Bio",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.4,
+    "unit": "kg"
+   },
+   "sizeText": "400g",
+   "price": 13.49,
+   "observedAt": "2026-11-17T18:44:26.360Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Noix-et-fruits-secs/Noix/Pistaches/Pistaches-Bio/p/S2026060300970280000",
+   "category": "Pistaches"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2026060400970960000",
    "name": "Choco mix",
    "brand": "Delhaize",
@@ -4331,6 +7186,36 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2026060900972090000",
+   "name": "Penne Poulet Boursin Epinards",
+   "brand": "Iglo",
+   "size": {
+    "amount": 0.45,
+    "unit": "kg"
+   },
+   "sizeText": "450 g",
+   "price": 6.99,
+   "observedAt": "2026-11-17T18:41:12.309Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Plats-prepares-et-aperitifs/Plats-prepares/Traditionnel/Penne-Poulet-Boursin-Epinards/p/S2026060900972090000",
+   "category": "Traditionnel"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026061000972310000",
+   "name": "Bonbons Coeur Pêche",
+   "brand": "Rebelle",
+   "size": {
+    "amount": 0.05,
+    "unit": "kg"
+   },
+   "sizeText": "50 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:46:53.667Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-Sucres/Bonbons-Coeur-Peche/p/S2026061000972310000",
+   "category": "Bonbons Sucrés"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2026061000972640000",
    "name": "Bisque Crevettes",
    "brand": "Delhaize",
@@ -4343,6 +7228,21 @@
    "observedAt": "2026-11-17T18:36:23.220Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Legumes-soupes-et-epices-surgeles/Soupes-et-boulettes-surgelees/Soupes-surgelees/Bisque-Crevettes/p/S2026061000972640000",
    "category": "Soupes surgelées"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026061500973190000",
+   "name": "Beurre de noix Pistaches Squeeze",
+   "brand": "Delhaize",
+   "size": {
+    "amount": 0.29,
+    "unit": "l"
+   },
+   "sizeText": "290ml",
+   "price": 3.99,
+   "observedAt": "2026-11-17T18:43:04.399Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Tartinables/Pates-a-tartiner/Beurre-de-noix-Pistaches-Squeeze/p/S2026061500973190000",
+   "category": "Pâtes à tartiner"
   },
   {
    "chainId": "delhaize",
@@ -4389,6 +7289,20 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2026071300978800000",
+   "name": "Kombucha Citron Vert & Gimgembre Bio",
+   "brand": "Kazidomi",
+   "size": {
+    "amount": 0.33,
+    "unit": "l"
+   },
+   "price": 3.05,
+   "observedAt": "2026-11-17T18:44:02.485Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-petillants/Kombucha-Citron-Vert-and-Gimgembre-Bio/p/S2026071300978800000",
+   "category": "Iced tea pétillants"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2026071400979160000",
    "name": "Café Lungo Decafeinato",
    "brand": "Nescafé",
@@ -4416,6 +7330,35 @@
    "observedAt": "2026-11-17T18:35:39.148Z",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Petit-dejeuner/Tartinables/Pates-a-tartiner/Beurre-de-cacahuete-Crispy/p/S2026071400979190000",
    "category": "Pâtes à tartiner"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026080500983550000",
+   "name": "Noodles Yakisoba Poulet Cup",
+   "brand": "Aiki",
+   "size": {
+    "amount": 0.093,
+    "unit": "kg"
+   },
+   "sizeText": "93 g",
+   "price": 2.49,
+   "observedAt": "2026-11-17T18:44:24.361Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Noodles-Yakisoba-Poulet-Cup/p/S2026080500983550000",
+   "category": "Nouilles, pƒtes et riz instantan‚s"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026081000984280000",
+   "name": "Active Mangue & Noix de coco Eau fonctionnelle",
+   "brand": "Spa",
+   "size": {
+    "amount": 0.5,
+    "unit": "l"
+   },
+   "price": 1.99,
+   "observedAt": "2026-11-17T18:41:32.306Z",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Autres-sodas-non-petillants/Active-Mangue-and-Noix-de-coco-Eau-fonctionnelle/p/S2026081000984280000",
+   "category": "Autres sodas non-pétillants"
   },
   {
    "chainId": "delhaize",

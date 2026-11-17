@@ -105,3 +105,14 @@ button.link { background: none; border: 0; padding: 0; color: var(--brand); text
 .disclaimer { font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; margin-top: 12px; }
 .same { margin: 6px 4px 0; font-size: 0.85rem; color: var(--muted); }
 .same strong { color: var(--text); }
+.bottom-bar {
+  position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  background: var(--brand); color: #fff; text-decoration: none; font-weight: 600;
+  padding: 12px 16px; border-radius: 14px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+.bottom-bar:hover { color: #fff; }
+.bottom-bar strong { font-size: 1.1rem; white-space: nowrap; }
+@media (prefers-color-scheme: dark) { .bottom-bar, .bottom-bar:hover { color: #0d1a13; } }
+@media (min-width: 900px) { .bottom-bar { display: none !important; } }
+@media (max-width: 899px) { body:has(.bottom-bar:not([hidden])) footer.site { padding-bottom: 96px; } }
