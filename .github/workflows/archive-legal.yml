@@ -1,0 +1,34 @@
+name: Archive juridique
+
+# Copie datée des robots.txt et conditions d'utilisation des enseignes,
+# chaque lundi et à la demande. Preuve de ce qui était publié au moment
+# de la collecte (dossier avocat).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 5 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    env:
+      BOT_CONTACT_URL: ${{ vars.BOT_CONTACT_URL || 'https://paniermalin.be/robot' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run archive-legal
+      - name: Commiter l'archive
+        run: |
+          git config user.name "panier-malin-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add legal/archives
+          if git diff --cached --quiet; then echo "Aucun changement."; exit 0; fi
+          git commit -m "Archive juridique $(date -u +%Y-%m-%d)"
+          git push

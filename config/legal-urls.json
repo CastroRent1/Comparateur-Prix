@@ -1,0 +1,12 @@
+{
+  "$comment": "Pages archivées chaque semaine pour le dossier juridique (étape 0). Les robots.txt sont certains ; les URL de conditions d'utilisation marquées aVerifier doivent être confirmées à la main (pied de page de chaque site) puis corrigées ici.",
+  "targets": [
+    { "chainId": "aldi", "url": "https://www.aldi.be/robots.txt", "kind": "robots" },
+    { "chainId": "colruyt", "url": "https://www.colruyt.be/robots.txt", "kind": "robots" },
+    { "chainId": "colruyt", "url": "https://insights.colruytgroup.com/content/dam/colruytgroup/header-footer/pdf/GEBRUIKSVOORWAARDEN_FR.pdf", "kind": "conditions" },
+    { "chainId": "delhaize", "url": "https://www.delhaize.be/robots.txt", "kind": "robots" },
+    { "chainId": "carrefour", "url": "https://www.carrefour.be/robots.txt", "kind": "robots" },
+    { "chainId": "ah", "url": "https://www.ah.be/robots.txt", "kind": "robots" },
+    { "chainId": "lidl", "url": "https://www.lidl.be/robots.txt", "kind": "robots" }
+  ]
+}

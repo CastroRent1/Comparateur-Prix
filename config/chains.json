@@ -1,0 +1,61 @@
+{
+  "$comment": "Couverture affichée à l'utilisateur. Ne JAMAIS passer une enseigne en 'full' sans prix réguliers réellement collectés (pratique trompeuse). Les blocs 'collect' marqués aVerifier=true n'ont pas encore été testés sur le site réel.",
+  "chains": [
+    {
+      "id": "aldi",
+      "name": "Aldi",
+      "domain": "aldi.be",
+      "coverage": "full",
+      "priceScope": "national",
+      "coverageNote": "Mêmes prix dans tous les magasins Aldi de Belgique.",
+      "collect": {
+        "method": "sitemap-jsonld",
+        "origin": "https://www.aldi.be",
+        "sitemaps": [],
+        "productUrlPattern": "/fr/.+\\.html$",
+        "sitemapPattern": "fr|product|produit",
+        "aVerifier": true
+      }
+    },
+    {
+      "id": "colruyt",
+      "name": "Colruyt",
+      "domain": "colruyt.be",
+      "coverage": "none",
+      "priceScope": "store",
+      "coverageNote": "Prix différents selon le magasin : affichés pour un magasin de référence de votre zone."
+    },
+    {
+      "id": "delhaize",
+      "name": "Delhaize",
+      "domain": "delhaize.be",
+      "coverage": "none",
+      "priceScope": "national",
+      "coverageNote": "Prix de la boutique en ligne ; certains magasins franchisés peuvent différer."
+    },
+    {
+      "id": "carrefour",
+      "name": "Carrefour",
+      "domain": "carrefour.be",
+      "coverage": "none",
+      "priceScope": "format",
+      "coverageNote": "Prix différents selon le format (Hyper, Market, Express) : affichés pour un format de référence."
+    },
+    {
+      "id": "ah",
+      "name": "Albert Heijn",
+      "domain": "ah.be",
+      "coverage": "none",
+      "priceScope": "national",
+      "coverageNote": "Prix de la boutique en ligne Albert Heijn Belgique."
+    },
+    {
+      "id": "lidl",
+      "name": "Lidl",
+      "domain": "lidl.be",
+      "coverage": "none",
+      "priceScope": "national",
+      "coverageNote": "Promotions seulement : Lidl ne publie pas ses prix réguliers en ligne."
+    }
+  ]
+}

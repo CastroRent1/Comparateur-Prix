@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PanierMalinBot — Panier Malin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site"><div class="wrap"><a class="logo" href="./">← Panier Malin</a></div></header>
+  <main class="wrap prose">
+    <h1>PanierMalinBot</h1>
+    <p>PanierMalinBot est le robot qui relève les prix affichés publiquement par les supermarchés belges, pour l'application Panier Malin. Si vous l'avez vu dans les journaux de votre serveur, voici comment il fonctionne.</p>
+
+    <h2>Ce qu'il fait</h2>
+    <ul>
+      <li>Il ne consulte que des <strong>pages publiques</strong>, sans jamais se connecter à un compte.</li>
+      <li>Il <strong>respecte robots.txt</strong>, y compris la directive Crawl-delay.</li>
+      <li>Il fait <strong>une requête à la fois</strong>, avec plusieurs secondes d'intervalle, de préférence la nuit.</li>
+      <li>Il ne relève que des <strong>faits</strong> : nom, format, prix, promotion et dates, code-barres. Il ne reprend ni photos ni textes descriptifs.</li>
+      <li>Il <strong>ne contourne aucune protection</strong> : pas de proxys tournants, pas de changement d'identité, pas de résolution de captcha. S'il est bloqué, il s'arrête.</li>
+    </ul>
+
+    <h2>Comment le reconnaître</h2>
+    <p>Son user-agent contient <code>PanierMalinBot</code> et un lien vers cette page.</p>
+
+    <h2>Comment le limiter ou l'arrêter</h2>
+    <p>Ajoutez dans votre robots.txt :</p>
+    <pre><code>User-agent: PanierMalinBot
+Disallow: /</code></pre>
+    <p>Ou écrivez-nous : <span class="todo">À COMPLÉTER (e-mail de contact)</span>. Nous répondons rapidement à toute demande d'une enseigne.</p>
+  </main>
+  <footer class="site"><div class="wrap"><p><a href="./">Accueil</a> · <a href="confidentialite.html">Confidentialité</a></p></div></footer>
+</body>
+</html>

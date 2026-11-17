@@ -1,0 +1,26 @@
+{
+  "name": "panier-malin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Comparateur de panier de supermarchés belges, magasin par magasin, en français d'abord.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm test",
+    "demo": "tsx src/demo.ts",
+    "collect": "tsx src/collect/run.ts",
+    "archive-legal": "tsx scripts/archive-legal.ts",
+    "web": "npx --yes serve@14.2.4 web -l 4173"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+coverage/
+# Sorties de collecte locales (seul data/latest/ est versionné)
+data/tmp/

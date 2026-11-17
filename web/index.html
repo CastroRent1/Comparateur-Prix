@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panier Malin — le panier le moins cher près de chez vous</title>
+  <meta name="description" content="Faites votre liste de courses, Panier Malin vous dit quel supermarché près de chez vous est le moins cher, avec le prix de votre magasin. Bientôt à Bruxelles et en Wallonie.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231f7a4d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9h18l-2 10H5L3 9z'/%3E%3Cpath d='M8 9l4-6 4 6'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="logo" href="./">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h18l-2 10H5L3 9z"/><path d="M8 9l4-6 4 6"/><path d="M9 13v3M15 13v3"/></svg>
+        Panier Malin
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <div>
+        <p class="eyebrow">Bientôt à Bruxelles et en Wallonie</p>
+        <h1>Le panier le moins cher près de chez vous, magasin par magasin.</h1>
+        <p class="lead">Vous faites votre liste de courses. Panier Malin vous dit quel supermarché proche est le moins cher aujourd'hui, avec le prix de <strong>votre</strong> magasin, pas une moyenne nationale.</p>
+        <p class="lead">Gratuit, en français, et honnête sur ce qu'il sait et ne sait pas.</p>
+      </div>
+
+      <div class="card" id="inscription">
+        <h2 style="font-size:1.25rem;margin-bottom:6px">Être prévenu du lancement</h2>
+        <p class="hint" style="margin:0 0 16px">Un e-mail au lancement, rien d'autre. Désinscription en un clic.</p>
+        <!--
+          data-endpoint : URL du formulaire de votre outil d'e-mailing (ex. Brevo, hébergé dans l'UE).
+          Vide = inscriptions pas encore ouvertes (rien n'est envoyé). Voir docs/page-attente.md.
+        -->
+        <form id="waitlist" data-endpoint="" novalidate>
+          <div class="field">
+            <label for="email">Adresse e-mail</label>
+            <input id="email" name="EMAIL" type="email" autocomplete="email" required placeholder="prenom@exemple.be">
+          </div>
+          <div class="field">
+            <label for="cp">Code postal <span class="hint">(pour savoir où lancer en premier)</span></label>
+            <input id="cp" name="CODE_POSTAL" type="text" inputmode="numeric" autocomplete="postal-code" pattern="[1-9][0-9]{3}" maxlength="4" required placeholder="1060">
+          </div>
+          <fieldset>
+            <legend>Où faites-vous vos courses ? <span class="hint">(facultatif)</span></legend>
+            <div class="chips">
+              <label><input type="checkbox" name="MAGASINS" value="colruyt"> Colruyt</label>
+              <label><input type="checkbox" name="MAGASINS" value="delhaize"> Delhaize</label>
+              <label><input type="checkbox" name="MAGASINS" value="carrefour"> Carrefour</label>
+              <label><input type="checkbox" name="MAGASINS" value="aldi"> Aldi</label>
+              <label><input type="checkbox" name="MAGASINS" value="lidl"> Lidl</label>
+              <label><input type="checkbox" name="MAGASINS" value="ah"> Albert Heijn</label>
+              <label><input type="checkbox" name="MAGASINS" value="autre"> Autre</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label class="consent"><input type="checkbox" name="OPT_IN" value="1" required>
+              <span>J'accepte de recevoir un e-mail au lancement de Panier Malin. Mes données sont traitées comme décrit dans la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
+          </div>
+          <button type="submit">Me prévenir</button>
+          <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <h2>Ce qui change par rapport aux autres comparateurs</h2>
+        <div class="points">
+          <div class="card">
+            <h3>Le prix de votre magasin</h3>
+            <p>Chez Colruyt, le prix change d'un magasin à l'autre. Chez Carrefour, il dépend du format (Hyper, Market, Express). Panier Malin compare avec le magasin où vous allez vraiment.</p>
+          </div>
+          <div class="card">
+            <h3>Honnête sur ce qu'il sait</h3>
+            <p>Lidl ne publie pas ses prix habituels en ligne. Nous affichons donc « promotions seulement » au lieu d'inventer un prix. Aucune enseigne ne paie pour être mieux classée.</p>
+          </div>
+          <div class="card">
+            <h3>Chaque prix est daté</h3>
+            <p>Vous voyez quand et où chaque prix a été relevé. Un prix trop ancien est signalé, puis retiré.</p>
+            <p class="example">« Prix relevé sur colruyt.be le 16/11 à 8 h, magasin de référence : Anderlecht »</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Ce que nous prévoyons de couvrir au lancement</h2>
+        <div class="card table-scroll">
+          <table class="coverage">
+            <thead><tr><th>Enseigne</th><th>Couverture prévue</th><th>Précision</th></tr></thead>
+            <tbody>
+              <tr><td>Colruyt</td><td><span class="tag full">Panier complet</span></td><td>Prix d'un magasin de référence de votre zone</td></tr>
+              <tr><td>Delhaize</td><td><span class="tag full">Panier complet</span></td><td>Prix de la boutique en ligne</td></tr>
+              <tr><td>Carrefour</td><td><span class="tag full">Panier complet</span></td><td>Prix d'un format de référence</td></tr>
+              <tr><td>Albert Heijn</td><td><span class="tag full">Panier complet</span></td><td>Prix de la boutique en ligne</td></tr>
+              <tr><td>Aldi</td><td><span class="tag full">Panier complet</span></td><td>Mêmes prix dans toute la Belgique</td></tr>
+              <tr><td>Lidl</td><td><span class="tag promos">Promotions seulement</span></td><td>Pas de prix habituels publiés en ligne</td></tr>
+              <tr><td>Intermarché, Spar</td><td><span class="tag promos">Promotions seulement</span></td><td>Dans un second temps</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="hint" style="margin-top:10px">Couverture prévue, susceptible d'évoluer avant le lancement. Le prix en magasin et sur le site de l'enseigne fait toujours foi.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Questions fréquentes</h2>
+        <details>
+          <summary>Est-ce gratuit ?</summary>
+          <p>Oui. Savoir quel magasin est le moins cher pour votre liste restera gratuit. Des options de confort payantes (alertes de prix, historique) pourront venir plus tard, sans jamais bloquer la comparaison de base.</p>
+        </details>
+        <details>
+          <summary>Pourquoi mon code postal ?</summary>
+          <p>Pour choisir les villes où lancer en premier et les magasins de référence à suivre. Nous ne vous demandons jamais votre adresse.</p>
+        </details>
+        <details>
+          <summary>Qui est derrière Panier Malin ?</summary>
+          <p>Un projet indépendant, basé à Bruxelles. Nous ne sommes liés à aucune enseigne.</p>
+        </details>
+        <details>
+          <summary>Et en néerlandais ?</summary>
+          <p>Le français d'abord, le néerlandais et l'anglais ensuite.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p><a href="confidentialite.html">Confidentialité</a> · <a href="robot.html">Notre robot de relevé des prix</a></p>
+      <p>Aucun cookie, aucun traceur publicitaire sur ce site.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var form = document.getElementById('waitlist');
+      var msg = document.getElementById('form-msg');
+      var btn = form.querySelector('button[type="submit"]');
+
+      function show(text, kind) {
+        msg.textContent = text;
+        msg.className = 'form-msg ' + (kind || '');
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = form.elements.EMAIL.value.trim();
+        var cp = form.elements.CODE_POSTAL.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return show('Vérifiez votre adresse e-mail.', 'err');
+        if (!/^[1-9][0-9]{3}$/.test(cp)) return show('Le code postal belge compte 4 chiffres (ex. 1060).', 'err');
+        if (!form.elements.OPT_IN.checked) return show('Cochez la case d’accord pour être prévenu.', 'err');
+
+        var endpoint = form.getAttribute('data-endpoint');
+        if (!endpoint) return show('Les inscriptions ouvrent très bientôt. Merci de votre intérêt !', 'ok');
+
+        var data = new FormData(form);
+        // Plusieurs magasins cochés → une seule valeur « colruyt,aldi » (attribut texte côté outil d'e-mailing).
+        var shops = data.getAll('MAGASINS');
+        data.delete('MAGASINS');
+        data.append('MAGASINS', shops.join(','));
+
+        btn.disabled = true;
+        show('Envoi…');
+        // no-cors : la réponse du fournisseur n'est pas lisible, une absence d'erreur réseau vaut succès.
+        fetch(endpoint, { method: 'POST', body: data, mode: 'no-cors' })
+          .then(function () {
+            form.reset();
+            show('C’est noté ! Vérifiez votre boîte mail pour confirmer votre inscription.', 'ok');
+          })
+          .catch(function () {
+            show('L’envoi a échoué. Réessayez dans un instant.', 'err');
+          })
+          .finally(function () { btn.disabled = false; });
+      });
+    })();
+  </script>
+</body>
+</html>
