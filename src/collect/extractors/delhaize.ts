@@ -1,5 +1,5 @@
 import { brusselsDate } from '../../core/freshness.ts';
-import { parseQuantity } from '../../core/units.ts';
+import { packCount, parseQuantity } from '../../core/units.ts';
 import type { Offer, Promo, Quantity } from '../../core/types.ts';
 import { extractProducts } from '../jsonld.ts';
 
@@ -14,7 +14,8 @@ import { extractProducts } from '../jsonld.ts';
  *                                                « Nouveau prix: 0 euro et 59 centimes » (promo)
  *     data-testid="product-block-old-price"      « Ancien prix: 1 euro et 18 centimes »
  *     data-testid="product-block-price-per-unit» « Prix par unité: 13 euros et 09 centimes par kg »
- * - Format : « Contenu net » publié ; à défaut prix ÷ prix unitaire affiché.
+ * - Format : « Contenu net » publié (par unité : un lot de N est détecté via
+ *   prix ÷ prix unitaire) ; à défaut prix ÷ prix unitaire affiché.
  * - Promo : Delhaize n'affiche pas sa date de fin → validité limitée au jour du
  *   relevé (prudent : on ne montre jamais une promo peut-être terminée).
  *   « Commandable à partir du … » → promo ignorée (statut incertain).
@@ -79,11 +80,21 @@ export function extractDelhaize(html: string, url: string, now: Date): Offer[] {
   // Format : le « Contenu net » publié fait foi. À défaut, prix ÷ prix
   // unitaire affiché (même paire, promo comprise) ; à défaut, le nom.
   // (Constaté : un prix unitaire de multi-achat peut fausser le calcul.)
-  const netText = NET_CONTENT_RE.exec(html)?.[1]?.trim();
-  let size: Quantity | undefined = parseQuantity(netText);
-  if (!size && shown && unitValue && unit && unit !== 'piece') {
+  // Attention : pour un lot, le contenu net est celui d'UNE unité (« 1 l »
+  // pour 6 × 1 l à 8,09 €) : si prix ÷ prix unitaire donne un multiple exact
+  // du contenu net, c'est un lot de N unités.
+  let sizeText = NET_CONTENT_RE.exec(html)?.[1]?.trim();
+  const net = parseQuantity(sizeText);
+  let computed: Quantity | undefined;
+  if (shown && unitValue && unit && unit !== 'piece') {
     const amount = Math.round((shown / unitValue) * 1000) / 1000;
-    if (amount > 0) size = { amount, unit };
+    if (amount > 0) computed = { amount, unit };
+  }
+  let size: Quantity | undefined = net ?? computed;
+  const n = net && computed ? packCount(computed, net) : undefined;
+  if (n && net) {
+    size = { amount: Math.round(net.amount * n * 1000) / 1000, unit: net.unit };
+    sizeText = `${n} x ${sizeText}`;
   }
   size ??= parseQuantity(ld.name);
 
@@ -95,7 +106,7 @@ export function extractDelhaize(html: string, url: string, now: Date): Offer[] {
       name: cleanDelhaizeName(ld.name),
       brand: ld.brand,
       size,
-      sizeText: netText,
+      sizeText,
       price: regular,
       promo,
       observedAt: now.toISOString(),

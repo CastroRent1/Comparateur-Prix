@@ -102,6 +102,17 @@ export function sizesCompatible(a: Quantity, b: Quantity, tolerance = 0.1): bool
   return max === 0 ? true : Math.abs(a.amount - b.amount) / max <= tolerance;
 }
 
+/**
+ * Nombre d'unités si `total` est un lot de N × `unit` (2 à 24, écart ≤ 2 %),
+ * sinon undefined. Ex. : 5,993 l face à 1 l → 6.
+ */
+export function packCount(total: Quantity, unit: Quantity): number | undefined {
+  if (total.unit !== unit.unit || unit.amount <= 0 || total.amount <= unit.amount) return undefined;
+  const ratio = total.amount / unit.amount;
+  const n = Math.round(ratio);
+  return n >= 2 && n <= 24 && Math.abs(ratio - n) / n <= 0.02 ? n : undefined;
+}
+
 function round(n: number): number {
   return Math.round(n * 1e6) / 1e6;
 }

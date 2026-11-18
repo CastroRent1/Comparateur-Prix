@@ -144,8 +144,17 @@ describe('Delhaize', () => {
   });
 
   it('le contenu net publié prime sur le format calculé', () => {
-    const [o] = extractDelhaize(delhaizePage({ price: 'Prix: 2 euros et 75 centimes', unit: 'Prix par unité: 3 euros et 67 centimes par kg' }), url, now);
-    expect(o!.size).toEqual({ amount: 0.075, unit: 'kg' }); // « Contenu net 75 g » de la page, pas 2,75 / 3,67
+    // Cas constaté : prix unitaire de multi-achat → 749 g calculés, 400 g publiés.
+    const html = delhaizePage({ price: 'Prix: 2 euros et 75 centimes', unit: 'Prix par unité: 3 euros et 67 centimes par kg' }).replace('75 g', '400 g');
+    const [o] = extractDelhaize(html, url, now);
+    expect(o!.size).toEqual({ amount: 0.4, unit: 'kg' }); // « Contenu net 400 g » de la page, pas 2,75 / 3,67
+  });
+
+  it('lot : contenu net par unité (« 1 l ») × nombre d’unités déduit du prix unitaire', () => {
+    const html = delhaizePage({ price: 'Prix: 8 euros et 09 centimes', unit: 'Prix par unité: 1 euro et 35 centimes par l' }).replace('75 g', '1l');
+    const [o] = extractDelhaize(html, url, now);
+    expect(o!.size).toEqual({ amount: 6, unit: 'l' });
+    expect(o!.sizeText).toBe('6 x 1l');
   });
 
   it('sans contenu net : format calculé depuis le prix unitaire', () => {

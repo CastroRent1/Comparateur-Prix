@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { Catalog, type CatalogFile } from '../src/web/catalog.ts';
-import { compare, planLines } from '../src/web/plan.ts';
+import { compare, defaultPick, planLines } from '../src/web/plan.ts';
 
 const now = new Date('2026-11-17T12:00:00Z');
 const obs = '2026-11-17T06:00:00Z';
@@ -56,6 +56,21 @@ describe('planLines', () => {
     expect(picked.lines[0]!.offers.map((o) => o.productKey)).toEqual(['1', 'D2']);
     const none = planLines(cat, [{ key: 'aldi:1', qty: 1, picks: { delhaize: null } }]);
     expect(none.lines[0]!.offers.map((o) => o.productKey)).toEqual(['1']);
+  });
+  it('par défaut : le moins cher au litre parmi les équivalents proches, pas forcément le plus ressemblant', () => {
+    const c = new Catalog({
+      ...file,
+      products: [
+        { c: 0, k: 'A', n: 'Lait entier', s: [1, 'l'], p: 0.89, o: obs, u: 'https://www.aldi.be/A', e: [[1, 90], [2, 80], [3, 60]] },
+        { c: 1, k: 'B', n: 'Lait entier', b: 'Marque', s: [1, 'l'], p: 2.65, o: obs, u: 'https://www.delhaize.be/B' },
+        { c: 1, k: 'C', n: 'Lait entier', b: 'Delhaize', s: [1, 'l'], p: 1.09, o: obs, u: 'https://www.delhaize.be/C' },
+        { c: 1, k: 'D', n: 'Lait', b: 'Delhaize', s: [1, 'l'], p: 0.5, o: obs, u: 'https://www.delhaize.be/D' },
+      ],
+    });
+    const list = c.equivalentsByChain(0).get('delhaize')!;
+    expect(list.map((o) => o.score)).toEqual([0.9, 0.8, 0.6]);
+    expect(c.products[defaultPick(c, list)!]!.k).toBe('C'); // D est moins cher mais trop peu ressemblant
+    expect(planLines(c, [{ key: 'aldi:A', qty: 1 }]).lines[0]!.offers.map((o) => o.productKey)).toEqual(['A', 'C']);
   });
   it('signale les produits disparus du catalogue', () => {
     expect(planLines(cat, [{ key: 'aldi:999', qty: 1 }]).unknown).toHaveLength(1);

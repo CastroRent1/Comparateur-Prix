@@ -58,13 +58,14 @@ export class Catalog {
   }
 
   /** Équivalents d'un produit, groupés par enseigne, meilleurs d'abord. */
+  /** Équivalents par enseigne, score de 0 à 1, du plus ressemblant au moins ressemblant. */
   equivalentsByChain(i: number): Map<string, Array<{ index: number; score: number }>> {
     const out = new Map<string, Array<{ index: number; score: number }>>();
     for (const [index, score] of this.products[i]!.e ?? []) {
       const chainId = this.chainOf(index).id;
       let list = out.get(chainId);
       if (!list) out.set(chainId, (list = []));
-      list.push({ index, score });
+      list.push({ index, score: score / 100 }); // stocké ×100 dans le catalogue
     }
     for (const list of out.values()) list.sort((a, b) => b.score - a.score);
     return out;

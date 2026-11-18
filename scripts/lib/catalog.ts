@@ -1,3 +1,4 @@
+import { packCount, parseQuantity } from '../../src/core/units.ts';
 import type { EquivalenceIndex, IndexedProduct } from '../../src/core/matching.ts';
 import type { Chain, Offer, Store } from '../../src/core/types.ts';
 
@@ -82,7 +83,12 @@ export function buildCatalog(input: BuildInput): CatalogFile {
     };
     if (o.brand) p.b = o.brand;
     if (o.size) p.s = [o.size.amount, o.size.unit];
-    if (o.sizeText) p.st = o.sizeText;
+    if (o.sizeText) {
+      // Lot relevé avant la détection des lots : « 1l » pour 6 × 1 l.
+      const unit = parseQuantity(o.sizeText);
+      const n = o.size && unit && !/\dx|\d\s+x\s/i.test(o.sizeText) ? packCount(o.size, unit) : undefined;
+      p.st = n ? `${n} x ${o.sizeText}` : o.sizeText;
+    }
     if (o.price !== undefined) p.p = o.price;
     if (o.promo) p.pr = { p: o.promo.price, l: o.promo.label, f: o.promo.validFrom, t: o.promo.validTo, card: o.promo.requiresCard };
     if (o.category) p.cat = o.category;

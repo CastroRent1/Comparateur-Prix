@@ -22,7 +22,7 @@
       "domain": "delhaize.be",
       "coverage": "full",
       "priceScope": "national",
-      "coverageNote": "Prix habituels de la boutique en ligne (promotions non incluses). Certains magasins franchisés peuvent différer.",
+      "coverageNote": "Prix de la boutique en ligne, promotions du jour comprises. Certains magasins franchisés peuvent différer.",
       "collect": {
         "method": "sitemap",
         "extractor": "delhaize",

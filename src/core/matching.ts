@@ -1,4 +1,4 @@
-import { parseQuantity, sizesCompatible } from './units.ts';
+import { packCount, parseQuantity, sizesCompatible } from './units.ts';
 import type { Quantity } from './types.ts';
 
 /**
@@ -133,6 +133,44 @@ export function findMatches<T extends ProductLike>(
 // Équivalences entre enseignes (marques de distributeur comprises)
 // ---------------------------------------------------------------------------
 
+/**
+ * Lot de N unités identiques (2 à 12) : 6 × 1 l face à 1 l. Le panier ramène
+ * alors le prix au format visé (prix au litre ou au kilo), donc la
+ * comparaison reste juste.
+ */
+export function isMultipack(a: Quantity, b: Quantity): boolean {
+  const [big, small] = a.amount >= b.amount ? [a, b] : [b, a];
+  const n = packCount(big, small);
+  return n !== undefined && n <= 12;
+}
+
+/**
+ * Mots de variante : un produit qui en porte un que l'autre n'a pas n'est
+ * pas le même produit (lait entier ≠ lait chocolaté, café moulu ≠ café en
+ * grains, yaourt ≠ yaourt à la fraise, bio ≠ non bio).
+ */
+const VARIANT_ROOTS = [
+  'chocol', 'cacao', 'lactose', 'light', 'allege', 'ecreme', 'demi', 'entier', 'decaf', 'grain', 'moulu',
+  'capsule', 'dosette', 'pad', 'soluble', 'instant', 'vanill', 'fraise', 'framboise', 'myrtille', 'citron',
+  'peche', 'abricot', 'cerise', 'mangue', 'coco', 'caramel', 'noisette', 'zero', 'vegan', 'vegeta', 'surgel',
+  'epice', 'piquant', 'fume', 'complet', 'gluten',
+];
+const VARIANT_EXACT = new Set(['bio', 'sucre', 'sel', 'sale']);
+
+export function isVariantToken(t: string): boolean {
+  return VARIANT_EXACT.has(t) || VARIANT_ROOTS.some((r) => t.startsWith(r));
+}
+
+/** Facteur appliqué au score : ×0,7 par mot de variante présent d'un seul côté. */
+export function variantPenalty(a: readonly string[], b: readonly string[]): number {
+  const va = new Set(a.filter(isVariantToken));
+  const vb = new Set(b.filter(isVariantToken));
+  let n = 0;
+  for (const t of va) if (!vb.has(t)) n++;
+  for (const t of vb) if (!va.has(t)) n++;
+  return 0.7 ** n;
+}
+
 export interface IndexedProduct extends ProductLike {
   id: number;
   chainId: string;
@@ -148,7 +186,7 @@ export interface EquivalenceOptions {
   threshold?: number;
   /** Écart de format toléré (0,3 = ±30 %) ; au-delà, pas d'équivalence. */
   sizeTolerance?: number;
-  /** Nombre d'équivalents gardés par enseigne. */
+  /** Nombre d'équivalents gardés par enseigne (5 par défaut). */
   perChain?: number;
 }
 
@@ -196,12 +234,12 @@ export class EquivalenceIndex {
     const tb = new Set(this.tokens.get(b) ?? []);
     const qa = this.sizes.get(a);
     const qb = this.sizes.get(b);
-    if (qa && qb && !sizesCompatible(qa, qb, sizeTolerance)) return 0;
+    if (qa && qb && !sizesCompatible(qa, qb, sizeTolerance) && !isMultipack(qa, qb)) return 0;
     let common = 0;
     for (const t of ta) if (tb.has(t)) common += this.idf.get(t) ?? 0;
     const denom = this.weight(ta) + this.weight([...tb]);
     if (denom === 0) return 0;
-    let s = (2 * common) / denom;
+    let s = ((2 * common) / denom) * variantPenalty(ta, [...tb]);
     const ba = this.brands.get(a);
     const bb = this.brands.get(b);
     if (ba && ba === bb && !this.privateLabels.has(ba)) s = Math.min(1, s + 0.15);
@@ -211,7 +249,7 @@ export class EquivalenceIndex {
 
   /** Meilleurs équivalents de `id` dans chaque autre enseigne. */
   equivalents(id: number, opts: EquivalenceOptions = {}): Map<string, Equivalent[]> {
-    const { threshold = 0.55, sizeTolerance = 0.3, perChain = 3 } = opts;
+    const { threshold = 0.55, sizeTolerance = 0.3, perChain = 5 } = opts;
     const self = this.products.get(id);
     const result = new Map<string, Equivalent[]>();
     if (!self) return result;

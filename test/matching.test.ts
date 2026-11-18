@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findMatches, matchScore, normalizeEan, tokenize } from '../src/core/matching.ts';
+import { EquivalenceIndex, findMatches, matchScore, normalizeEan, tokenize, variantPenalty } from '../src/core/matching.ts';
 
 describe('tokenize', () => {
   it('retire accents, mots vides et quantités', () => {
@@ -46,5 +46,36 @@ describe('findMatches', () => {
     expect(res[0]!.product.name).toBe('Lait demi écrémé 1L');
     expect(res[0]!.needsReview).toBe(false);
     expect(res.map((r) => r.product.name)).not.toContain('Jus d’orange 1 L');
+  });
+});
+
+describe('EquivalenceIndex', () => {
+  const products = [
+    { id: 0, chainId: 'aldi', name: 'Lait entier', brand: 'MILSANI', size: { amount: 1, unit: 'l' as const } },
+    { id: 1, chainId: 'delhaize', name: 'Lait Entier', brand: 'Inza', size: { amount: 1, unit: 'l' as const } },
+    { id: 2, chainId: 'delhaize', name: 'Lait Entier Chocolaté', brand: 'Delhaize', size: { amount: 1, unit: 'l' as const } },
+    { id: 3, chainId: 'aldi', name: 'Café moulu dessert', size: { amount: 0.5, unit: 'kg' as const } },
+    { id: 4, chainId: 'delhaize', name: 'Café Dessert Grains', size: { amount: 0.5, unit: 'kg' as const } },
+    { id: 5, chainId: 'delhaize', name: 'Café Dessert Moulu', brand: 'Delhaize', size: { amount: 0.5, unit: 'kg' as const } },
+    { id: 6, chainId: 'delhaize', name: 'Riz basmati', size: { amount: 1, unit: 'kg' as const } },
+  ];
+  const index = new EquivalenceIndex(products, new Set(['delhaize']));
+
+  it('mot de variante d’un seul côté : pas d’équivalence (lait ≠ lait chocolaté, moulu ≠ grains)', () => {
+    expect(variantPenalty(['lait', 'entier'], ['lait', 'entier', 'chocolate'])).toBeCloseTo(0.7);
+    const lait = index.equivalents(0).get('delhaize')!.map((e) => e.id);
+    expect(lait).toEqual([1]);
+    const cafe = index.equivalents(3).get('delhaize')!.map((e) => e.id);
+    expect(cafe).toEqual([5]);
+  });
+});
+
+describe('isMultipack', () => {
+  it('6 × 1 l face à 1 l, mais pas 1,5 l face à 1 l', async () => {
+    const { isMultipack } = await import('../src/core/matching.ts');
+    expect(isMultipack({ amount: 5.993, unit: 'l' }, { amount: 1, unit: 'l' })).toBe(true);
+    expect(isMultipack({ amount: 1.5, unit: 'l' }, { amount: 1, unit: 'l' })).toBe(false);
+    expect(isMultipack({ amount: 6, unit: 'l' }, { amount: 1, unit: 'kg' })).toBe(false);
+    expect(isMultipack({ amount: 20, unit: 'l' }, { amount: 1, unit: 'l' })).toBe(false);
   });
 });

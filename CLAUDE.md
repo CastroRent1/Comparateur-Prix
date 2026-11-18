@@ -45,7 +45,13 @@ versionné, site statique.
 - Données : `data/latest/<enseigne>.json` (prix), `data/stores.json`
   (OpenStreetMap, ODbL), `data/postcodes.json` (GeoNames, CC BY 4.0).
 - Catalogue : `npm run catalog` → `web/app/data/catalog.json`, avec les
-  équivalents entre enseignes (`EquivalenceIndex`, seuil 0,55, format ±30 %).
+  équivalents entre enseignes (`EquivalenceIndex`, seuil 0,55, format ±30 %
+  ou lot exact de 2 à 12 unités ; mot de variante d'un seul côté — bio,
+  chocolat, moulu/grains… — ×0,7). Équivalent par défaut = le moins cher au
+  kilo/litre parmi ceux à 0,25 du meilleur score (jamais un premier prix
+  contre une grande marque par défaut).
+- Delhaize : le « Contenu net » est par unité ; un lot (prix ÷ prix unitaire
+  = N × contenu net) est enregistré comme N × contenu.
 - Appli : `src/web/` (TypeScript, sans framework) → `npm run build:app` →
   `web/app/app.js` (commité ; la CI vérifie qu'il est à jour).
 - Site statique `web/` (accueil, appli, confidentialité, robot).

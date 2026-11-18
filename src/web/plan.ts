@@ -38,6 +38,32 @@ export interface Comparison {
   noStoreInRadius: string[];
 }
 
+/**
+ * Équivalent retenu par défaut : le moins cher au kilo / litre / pièce parmi
+ * les bons équivalents (score au moins égal au meilleur moins 0,25).
+ * Comparer un premier prix à une grande marque fausserait le classement.
+ */
+export const PICK_SCORE_MARGIN = 0.25;
+
+export function defaultPick(cat: Catalog, list: Array<{ index: number; score: number }>): number | undefined {
+  if (list.length === 0) return undefined;
+  const best = Math.max(...list.map((o) => o.score));
+  let pick: number | undefined;
+  let pickUnit = Infinity;
+  for (const o of list) {
+    if (o.score < best - PICK_SCORE_MARGIN - 1e-9) continue;
+    const offer = cat.toOffer(o.index);
+    const price = offer.price ?? offer.promo?.price;
+    if (price === undefined) continue;
+    const unit = offer.size && offer.size.amount > 0 ? price / offer.size.amount : price;
+    if (unit < pickUnit) {
+      pickUnit = unit;
+      pick = o.index;
+    }
+  }
+  return pick;
+}
+
 export function planLines(cat: Catalog, items: ListItem[]): { planned: PlannedLine[]; unknown: ListItem[]; lines: BasketLine[] } {
   const planned: PlannedLine[] = [];
   const unknown: ListItem[] = [];
@@ -56,7 +82,7 @@ export function planLines(cat: Catalog, items: ListItem[]): { planned: PlannedLi
       const pick = item.picks?.[chainId];
       if (pick === null) continue;
       const picked = pick !== undefined ? cat.indexOf(pick) : undefined;
-      const idx = picked ?? list[0]?.index;
+      const idx = picked ?? defaultPick(cat, list);
       if (idx !== undefined) chosen.set(chainId, idx);
     }
     const base = cat.toOffer(baseIndex);
