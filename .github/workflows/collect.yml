@@ -1,18 +1,27 @@
 name: Collecte des prix
 
-# Chaque nuit : Aldi (tout l'assortiment) et une tranche sur deux de Delhaize,
-# en parallèle (deux sites différents, une requête à la fois par site, ≥ 2 s),
-# puis reconstruction du catalogue de l'appli.
+# Trois passages par jour, jamais en même temps (groupe « collecte ») :
+#   ~1 h 37 (Bruxelles) : Aldi (tout l'assortiment, ~1 h 40) + Delhaize tiers 0
+#   ~9 h 37             : Delhaize tiers 1
+#   ~17 h 37            : Delhaize tiers 2
+# Delhaize répond en ~4,4 s par page : un tiers (~3 200 pages) tient en ~4 h,
+# et chaque produit est relevé une fois par 24 h. Une requête à la fois par
+# site, ≥ 2 s d'écart. Puis reconstruction du catalogue de l'appli.
 # Pour suspendre : commenter le bloc « schedule » (ou désactiver le workflow
 # dans l'onglet Actions).
 on:
   schedule:
-    - cron: "7 1 * * *" # ~2 h 07 à Bruxelles
+    - cron: "37 0 * * *"
+    - cron: "37 8 * * *"
+    - cron: "37 16 * * *"
   workflow_dispatch:
     inputs:
       chains:
         description: "Enseignes à relever (séparées par des virgules)"
         default: "aldi,delhaize"
+      delhaize_shard:
+        description: "Tiers Delhaize (0, 1, 2 ou auto = selon l'heure)"
+        default: "auto"
       max_pages:
         description: "Pages maximum par enseigne"
         default: "5000"
@@ -36,29 +45,37 @@ jobs:
       BOT_CONTACT_URL: ${{ vars.BOT_CONTACT_URL || 'https://paniermalin.be/robot' }}
     steps:
       - uses: actions/checkout@v4
-        if: contains(inputs.chains || 'aldi,delhaize', matrix.chain)
+        if: contains(inputs.chains || (github.event.schedule == '37 0 * * *' && 'aldi,delhaize' || 'delhaize'), matrix.chain)
       - uses: actions/setup-node@v4
-        if: contains(inputs.chains || 'aldi,delhaize', matrix.chain)
+        if: contains(inputs.chains || (github.event.schedule == '37 0 * * *' && 'aldi,delhaize' || 'delhaize'), matrix.chain)
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-        if: contains(inputs.chains || 'aldi,delhaize', matrix.chain)
+        if: contains(inputs.chains || (github.event.schedule == '37 0 * * *' && 'aldi,delhaize' || 'delhaize'), matrix.chain)
       - name: Relever ${{ matrix.chain }}
-        if: contains(inputs.chains || 'aldi,delhaize', matrix.chain)
+        if: contains(inputs.chains || (github.event.schedule == '37 0 * * *' && 'aldi,delhaize' || 'delhaize'), matrix.chain)
         # Code 2 = arrêt pour blocage : données partielles gardées, aucun contournement.
         run: |
           SHARD=""
-          if [ "${{ matrix.chain }}" = "delhaize" ]; then SHARD="--shard $(( 10#$(date -u +%j) % 2 ))/2"; fi
+          if [ "${{ matrix.chain }}" = "delhaize" ]; then
+            T="${{ inputs.delhaize_shard || 'auto' }}"
+            case "${{ github.event.schedule }}" in
+              "37 0 * * *") T=0 ;; "37 8 * * *") T=1 ;; "37 16 * * *") T=2 ;;
+            esac
+            if [ "$T" = "auto" ]; then H=$(( 10#$(date -u +%H) )); T=$(( H < 8 ? 0 : H < 16 ? 1 : 2 )); fi
+            SHARD="--shard $T/3"
+            echo "Delhaize : tiers $T/3"
+          fi
           set +e
-          timeout 325m npm run collect -- "${{ matrix.chain }}" --max-pages "${{ inputs.max_pages || '5000' }}" $SHARD
+          timeout 330m npm run collect -- "${{ matrix.chain }}" --max-pages "${{ inputs.max_pages || '5000' }}" $SHARD
           code=$?
           if [ "$code" = "2" ]; then echo "::warning::${{ matrix.chain }} : collecte arrêtée pour blocage. Ne pas relancer en boucle."; fi
           if [ "$code" = "124" ]; then echo "::warning::${{ matrix.chain }} : limite de temps atteinte, données partielles gardées."; fi
           if [ "$code" = "1" ]; then exit 1; fi
           exit 0
       - uses: actions/upload-artifact@v4
-        if: contains(inputs.chains || 'aldi,delhaize', matrix.chain)
+        if: contains(inputs.chains || (github.event.schedule == '37 0 * * *' && 'aldi,delhaize' || 'delhaize'), matrix.chain)
         with:
           name: prix-${{ matrix.chain }}
           path: data/latest/${{ matrix.chain }}.json

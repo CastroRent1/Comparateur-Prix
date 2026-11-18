@@ -49,7 +49,15 @@ versionné, site statique.
   ou lot exact de 2 à 12 unités ; mot de variante d'un seul côté — bio,
   chocolat, moulu/grains… — ×0,7). Équivalent par défaut = le moins cher au
   kilo/litre parmi ceux à 0,25 du meilleur score (jamais un premier prix
-  contre une grande marque par défaut).
+  contre une grande marque par défaut). Rayons différents ×0,6 (sauf rayons
+  voisins : viande/charcuterie, apéritif/charcuterie, conserves/épicerie,
+  plats/surgelés).
+- Recherche (`src/web/catalog.ts`) : œ = oe, singulier = pluriel (sauf
+  « pates »), produits vendus dans plusieurs enseignes d'abord, plats préparés
+  et non alimentaire relégués.
+- Collecte : 3 passages par jour (0 h 37, 8 h 37, 16 h 37 UTC), Aldi au
+  premier, Delhaize par tiers (~4,4 s/page → ~4 h par tiers) : chaque produit
+  relevé toutes les 24 h, jamais deux collectes en même temps.
 - Rayons (`src/core/categories.ts`) : rayons communs à toutes les enseignes
   (catégorie Aldi `mainCategoryID` / chemin d'URL Delhaize, repli sur le nom),
   avec des types (lait entier, demi-écrémé…). L'appli (`src/web/browse.ts`)

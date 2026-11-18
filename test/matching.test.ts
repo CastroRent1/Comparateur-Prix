@@ -79,3 +79,16 @@ describe('isMultipack', () => {
     expect(isMultipack({ amount: 20, unit: 'l' }, { amount: 1, unit: 'l' })).toBe(false);
   });
 });
+
+describe('EquivalenceIndex : rayons', () => {
+  it('deux rayons différents : pas d’équivalence (lait ≠ chocolat au lait)', () => {
+    const products = [
+      { id: 0, chainId: 'aldi', name: 'Lait entier', category: 'lait', size: { amount: 0.2, unit: 'kg' as const } },
+      { id: 1, chainId: 'delhaize', name: 'Lait entier', category: 'chocolat', size: { amount: 0.2, unit: 'kg' as const } },
+      { id: 2, chainId: 'delhaize', name: 'Lait entier', category: 'lait', size: { amount: 0.2, unit: 'kg' as const } },
+    ];
+    const index = new EquivalenceIndex(products);
+    expect(index.score(0, 1)).toBeCloseTo(0.6);
+    expect(index.equivalents(0, { threshold: 0.7 }).get('delhaize')!.map((e) => e.id)).toEqual([2]);
+  });
+});

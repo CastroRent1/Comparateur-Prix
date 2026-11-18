@@ -4,6 +4,24 @@ import type { CatalogFile, CatalogProduct } from '../../scripts/lib/catalog.ts';
 
 export type { CatalogFile, CatalogProduct };
 
+/** Rayons relégués en recherche (plats préparés, non alimentaire). */
+const SEARCH_DEMOTED = new Set(['plats', 'hygiene', 'entretien', 'animaux']);
+
+/** Singulier / pluriel confondus : « spaghettis », « bananes », « oeufs » → sans s/x final. */
+// « pates » (pâtes) ne doit pas devenir « pate » (pâté).
+const NO_STEM = new Set(['pates']);
+
+function stem(t: string): string {
+  return t.length > 3 && /[sx]$/.test(t) && !NO_STEM.has(t) ? t.slice(0, -1) : t;
+}
+
+export function searchTokens(text: string): string[] {
+  return normalizeText(text)
+    .split(' ')
+    .filter(Boolean)
+    .map(stem);
+}
+
 /** Catalogue chargé et indexé pour la recherche. */
 export class Catalog {
   readonly chains: Chain[];
@@ -22,7 +40,7 @@ export class Catalog {
     this.postcodes = file.postcodes;
     this.attributions = file.attributions;
     this.generatedAt = file.generatedAt;
-    this.searchTokens = file.products.map((p) => normalizeText(`${p.n} ${p.b ?? ''}`).split(' ').filter(Boolean));
+    this.searchTokens = file.products.map((p) => searchTokens(`${p.n} ${p.b ?? ''}`));
     file.products.forEach((p, i) => this.byKey.set(this.keyOf(i), i));
   }
 
@@ -75,7 +93,7 @@ export class Catalog {
    * Classement : mots du nom en tête, puis noms courts (plus génériques).
    */
   search(query: string, limit = 40): number[] {
-    const q = normalizeText(query).split(' ').filter((t) => t.length > 0);
+    const q = searchTokens(query);
     if (q.length === 0) return [];
     const scored: Array<[number, number]> = [];
     this.searchTokens.forEach((toks, i) => {
@@ -85,7 +103,10 @@ export class Catalog {
         if (pos < 0) return;
         score += (pos === 0 ? 3 : 1) + (toks[pos] === qt ? 1 : 0);
       }
-      score -= toks.length * 0.05;
+      const p = this.products[i]!;
+      score -= toks.length * 0.1; // noms courts = produits de base
+      if (p.e?.length) score += 0.3; // vendu aussi ailleurs : produit courant, comparable
+      if (p.g && SEARCH_DEMOTED.has(p.g)) score -= 0.6; // « spaghetti » : les pâtes avant les plats préparés
       scored.push([i, score]);
     });
     return scored

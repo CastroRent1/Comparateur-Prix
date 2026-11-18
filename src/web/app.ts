@@ -503,8 +503,11 @@ async function main(): Promise<void> {
   try {
     cat = await loadCatalog();
   } catch (err) {
+    // Sans catalogue, rien d'autre n'a de sens : on montre seulement l'erreur.
+    document.body.classList.replace('loading', 'failed');
     $('#app-error').hidden = false;
-    $('#app-error').textContent = `Impossible de charger les prix : ${(err as Error).message}. Réessayez dans un instant.`;
+    const detail = (err as Error).message.startsWith('Catalogue') ? ` (${esc((err as Error).message)})` : '';
+    $('#app-error').innerHTML = `Impossible de charger les prix${detail}. Vérifiez votre connexion internet. <button class="link" onclick="location.reload()">Réessayer</button>`;
     return;
   }
   document.body.classList.remove('loading');

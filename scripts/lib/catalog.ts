@@ -65,9 +65,11 @@ export function buildCatalog(input: BuildInput): CatalogFile {
     .filter((o) => chainIdx.has(o.chainId))
     .sort((a, b) => a.chainId.localeCompare(b.chainId) || a.name.localeCompare(b.name, 'fr'));
 
+  const categories = offers.map((o) => categorize(o));
   const indexed: IndexedProduct[] = offers.map((o, id) => ({
     id,
     chainId: o.chainId,
+    category: categories[id]!.category,
     name: o.name,
     brand: o.brand,
     size: o.size,
@@ -95,7 +97,7 @@ export function buildCatalog(input: BuildInput): CatalogFile {
     }
     if (o.price !== undefined) p.p = o.price;
     if (o.promo) p.pr = { p: o.promo.price, l: o.promo.label, f: o.promo.validFrom, t: o.promo.validTo, card: o.promo.requiresCard };
-    const { category, type } = categorize(o);
+    const { category, type } = categories[id]!;
     if (category) p.g = category;
     if (type) p.t = type;
     if (eq.length) p.e = eq;

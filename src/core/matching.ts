@@ -37,6 +37,8 @@ const QUANTITY_TOKEN = /^\d+(?:[.,]\d+)?(?:x\d+(?:[.,]\d+)?)?(?:kg|g|gr|l|cl|ml|
 export function normalizeText(text: string): string {
   return text
     .toLowerCase()
+    .replace(/œ/g, 'oe')
+    .replace(/æ/g, 'ae')
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/[''`]/g, ' ')
@@ -174,6 +176,18 @@ export function variantPenalty(a: readonly string[], b: readonly string[]): numb
 export interface IndexedProduct extends ProductLike {
   id: number;
   chainId: string;
+  /** Rayon commun (src/core/categories.ts), s'il est connu. */
+  category?: string;
+}
+
+/** Facteur quand deux produits sont classés dans des rayons différents. */
+export const OTHER_CATEGORY_FACTOR = 0.6;
+
+/** Rayons voisins que les enseignes répartissent différemment (lardons, salami, soupes…). */
+const RELATED_CATEGORIES = new Set(['charcuterie|viande', 'aperitif|charcuterie', 'conserves|epicerie', 'plats|surgeles']);
+
+export function relatedCategories(a: string, b: string): boolean {
+  return a === b || RELATED_CATEGORIES.has([a, b].sort().join('|'));
 }
 
 export interface Equivalent {
@@ -244,6 +258,9 @@ export class EquivalenceIndex {
     const bb = this.brands.get(b);
     if (ba && ba === bb && !this.privateLabels.has(ba)) s = Math.min(1, s + 0.15);
     if (!qa || !qb) s *= 0.85;
+    const ca = this.products.get(a)?.category;
+    const cb = this.products.get(b)?.category;
+    if (ca && cb && !relatedCategories(ca, cb)) s *= OTHER_CATEGORY_FACTOR; // « lait » ≠ « chocolat au lait »
     return Math.round(s * 1000) / 1000;
   }
 

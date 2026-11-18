@@ -151,3 +151,5 @@ button.link { background: none; border: 0; padding: 0; color: var(--brand); text
   .facets { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
   .facets .chip { flex-shrink: 0; }
 }
+/* Catalogue injoignable : seul le message d'erreur reste */
+body.failed main > *:not(#app-error) { display: none; }
