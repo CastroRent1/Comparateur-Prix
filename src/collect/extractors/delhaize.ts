@@ -109,6 +109,7 @@ export function extractDelhaize(html: string, url: string, now: Date): Offer[] {
       sizeText,
       price: regular,
       promo,
+      shownUnitPrice: unitValue && unit && unit !== 'piece' ? { value: unitValue, unit } : undefined,
       observedAt: now.toISOString(),
       sourceUrl: url.split('?')[0]!,
       category: categoryMatch?.[1],

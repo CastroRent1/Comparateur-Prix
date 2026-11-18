@@ -36,8 +36,8 @@ jobs:
         run: npm run build
       - name: Commiter
         run: |
-          git add data/stores.json data/postcodes.json web/app/data/catalog.json web/app/app.js
+          git add data/stores.json data/postcodes.json data/controle-qualite.json web/app/data/catalog.json web/app/app.js
           if git diff --cached --quiet; then echo "Aucun changement."; exit 0; fi
           git commit -m "Données de référence $(date -u +%Y-%m-%d)"
-          for i in 1 2 3; do git push && exit 0; git pull --rebase -X theirs origin main || exit 1; npm run build; git add web/app/data/catalog.json web/app/app.js; git commit --amend --no-edit; done
+          for i in 1 2 3; do git push && exit 0; git pull --rebase -X theirs origin main || exit 1; npm run build; git add data/controle-qualite.json web/app/data/catalog.json web/app/app.js; git commit --amend --no-edit; done
           exit 1

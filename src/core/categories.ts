@@ -163,7 +163,8 @@ export const CATEGORIES: Category[] = [
     names: /^(farine|sucre|levure|cassonade)\b/,
     types: [
       { id: 'farine', label: 'Farine', match: /farine/ },
-      { id: 'sucre', label: 'Sucre', match: /sucre|cassonade|edulcorant|stevia/ },
+      { id: 'edulcorant', label: 'Édulcorants', match: /edulcorant|stevia|sucralose|aspartame/ },
+      { id: 'sucre', label: 'Sucre', match: /sucre|cassonade/ },
     ],
   },
   {
@@ -300,10 +301,12 @@ export const CATEGORIES: Category[] = [
     aldi: ['bier', 'rode-wijn', 'witte-wijn', 'rose-wijn', 'bubbels', 'sterke-dranken'],
     names: /^(biere|vin|champagne|cava|prosecco)\b/,
     types: [
-      { id: 'biere', label: 'Bières', match: /biere|pils|blonde|brune|triple|tripel|ipa|lager|bier/ },
+      { id: 'spiritueux', label: 'Spiritueux et liqueurs', match: /triple.?sec|whisk|vodka|rhum|\bgin\b|liqueur|cognac|porto|amaretto|pastis|genievre|jenever|limoncello/ },
+      { id: 'biere', label: 'Bières', match: /\b(bieres?|pils|blonde|brune|triple|tripel|ipa|lager|bier|kriek|gueuze|saison)\b/ },
       { id: 'bulles', label: 'Bulles', match: /champagne|cava|prosecco|cremant|mousseux/ },
-      { id: 'vin', label: 'Vins', match: /vin|bordeaux|merlot|cabernet|chardonnay|sauvignon|rose|rouge|blanc|aoc|aop|igp/ },
+      { id: 'vin', label: 'Vins', match: /vin|bordeaux|merlot|cabernet|chardonnay|sauvignon|rose|rouge|blanc|aoc|aop|igp|docg?|pomerol|chianti|rioja/ },
     ],
+    typeOrder: ['biere', 'vin', 'bulles', 'spiritueux'],
   },
   { id: 'bebe', label: 'Bébé', aldi: ['baby'] },
   {

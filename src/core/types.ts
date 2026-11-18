@@ -75,6 +75,11 @@ export interface Offer {
   sizeText?: string;
   /** Prix régulier unitaire en euros. Absent pour une enseigne « promos seulement ». */
   price?: number;
+  /**
+   * Prix au kilo / litre AFFICHÉ par l'enseigne le jour du relevé, pour le
+   * prix affiché ce jour-là (promo comprise). Sert au contrôle qualité du format.
+   */
+  shownUnitPrice?: { value: number; unit: 'kg' | 'l' };
   promo?: Promo;
   /** Date du relevé, ISO 8601 UTC. */
   observedAt: string;

@@ -55,6 +55,11 @@ versionné, site statique.
   avec des types (lait entier, demi-écrémé…). L'appli (`src/web/browse.ts`)
   liste un rayon toutes marques confondues, trié au prix au litre / kilo /
   pièce du jour (promo en cours comprise, prix périmés exclus).
+- **Contrôle qualité** (`scripts/lib/quality.ts`, à chaque `npm run catalog`) :
+  un prix douteux n'est jamais publié. Écartés : format incohérent avec le
+  prix au kilo/litre affiché par l'enseigne (> 6 %), ou prix au kilo/litre
+  > 4 × la médiane de son type (≥ 6 produits ; jamais vers le bas). Rapport :
+  `data/controle-qualite.json`.
 - Delhaize : le « Contenu net » est par unité ; un lot (prix ÷ prix unitaire
   = N × contenu net) est enregistré comme N × contenu.
 - Appli : `src/web/` (TypeScript, sans framework) → `npm run build:app` →

@@ -1,0 +1,343 @@
+{
+ "generatedAt": "2026-11-18T17:27:13.946Z",
+ "checked": 6882,
+ "rejectedCount": 42,
+ "rejected": [
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024041100762520099",
+   "name": "Lait Demi-écrémé Choco",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Aromatise/Lait-Demi-ecreme-Choco/p/S2024041100762520099",
+   "reason": "prix-aberrant",
+   "detail": "13,78 €/l contre une médiane de 2,68 €/l (lait/aromatise/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025060400868200099",
+   "name": "Ice Tea Citron",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-petillants/Ice-Tea-Citron/p/S2025060400868200099",
+   "reason": "prix-aberrant",
+   "detail": "8,33 €/l contre une médiane de 2,06 €/l (sodas/the-glace/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025060400868450099",
+   "name": "Ice Tea Perzik",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-non-petillants/Ice-Tea-Perzik/p/S2025060400868450099",
+   "reason": "prix-aberrant",
+   "detail": "8,76 €/l contre une médiane de 2,06 €/l (sodas/the-glace/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022021400605890099",
+   "name": "Eau minérale Légèrement pétillant Pet",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-legerement-petillante/Eau-minerale-Legerement-petillant-Pet/p/S2022021400605890099",
+   "reason": "prix-aberrant",
+   "detail": "3,09 €/l contre une médiane de 0,68 €/l (eau/plate/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023083000722390099",
+   "name": "Cola PET",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-classique/Cola-PET/p/S2023083000722390099",
+   "reason": "prix-aberrant",
+   "detail": "8,98 €/l contre une médiane de 2,22 €/l (sodas/cola/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024030900757440099",
+   "name": "Eau minérale naturelle Pétillante",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-petillante/Eau-minerale-naturelle-Petillante/p/S2024030900757440099",
+   "reason": "prix-aberrant",
+   "detail": "4,93 €/l contre une médiane de 1,00 €/l (eau/petillante/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2021021600510630000",
+   "name": "Farine de riz complet Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-de-riz-complet-Bio/p/S2021021600510630000",
+   "reason": "prix-aberrant",
+   "detail": "8,97 €/kg contre une médiane de 1,98 €/kg (farine-sucre/farine/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022120700664190000",
+   "name": "Farine Châtaigne Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-Chataigne-Bio/p/S2022120700664190000",
+   "reason": "prix-aberrant",
+   "detail": "20,50 €/kg contre une médiane de 1,98 €/kg (farine-sucre/farine/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026081100984490000",
+   "name": "Farine Riz Complet Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-Riz-Complet-Bio/p/S2026081100984490000",
+   "reason": "prix-aberrant",
+   "detail": "8,38 €/kg contre une médiane de 1,98 €/kg (farine-sucre/farine/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2000122000000980000",
+   "name": "Lait Demi-écrémé",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2000122000000980000",
+   "reason": "prix-aberrant",
+   "detail": "11,25 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2018032200041920099",
+   "name": "Lait Demi-écrémé",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2018032200041920099",
+   "reason": "prix-aberrant",
+   "detail": "29,16 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020110900470490099",
+   "name": "Lait Demi-écrémé",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2020110900470490099",
+   "reason": "prix-aberrant",
+   "detail": "7,98 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020113000473560099",
+   "name": "Lait Demi-écrémé Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme-Bio/p/S2020113000473560099",
+   "reason": "prix-aberrant",
+   "detail": "12,30 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025061100355850097",
+   "name": "Lait Demi-écrémé",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2025061100355850097",
+   "reason": "prix-aberrant",
+   "detail": "10,19 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2018041800051410099",
+   "name": "Lait Entier Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Entier/Lait-Entier-Bio/p/S2018041800051410099",
+   "reason": "prix-aberrant",
+   "detail": "10,69 €/l contre une médiane de 2,02 €/l (lait/entier/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024041100762560099",
+   "name": "Lait Entier Belge",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Entier/Lait-Entier-Belge/p/S2024041100762560099",
+   "reason": "prix-aberrant",
+   "detail": "8,09 €/l contre une médiane de 2,02 €/l (lait/entier/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2015081300385280000",
+   "name": "Lait pour café",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Concentre/Lait-pour-cafe/p/S2015081300385280000",
+   "reason": "prix-aberrant",
+   "detail": "21,50 €/l contre une médiane de 5,30 €/l (lait/cafe/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2014051900148000000",
+   "name": "Béchamel Sauce à la crème fraîche",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Cremes-et-alternatives/Sauce-culinaire-/Bechamel-Sauce-a-la-creme-fraiche/p/F2014051900148000000",
+   "reason": "prix-aberrant",
+   "detail": "21,63 €/l contre une médiane de 3,96 €/l (beurre/creme/l)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3007944",
+   "name": "Huile de soins",
+   "sourceUrl": "https://www.aldi.be/fr/product/huile-de-soins-3007944.html",
+   "reason": "prix-aberrant",
+   "detail": "99,67 €/l contre une médiane de 3,79 €/l (huiles-sauces/huile/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2001040900005340000",
+   "name": "Huile de sésame Vierge Bio",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Epicerie-salee/Huiles-et-vinaigres/Huile-de-sesame-Vierge-Bio/p/S2001040900005340000",
+   "reason": "prix-aberrant",
+   "detail": "24,38 €/l contre une médiane de 3,79 €/l (huiles-sauces/huile/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2024061900774920000",
+   "name": "Huile Pepin Raisin",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Autres-huiles/Huile-Pepin-Raisin/p/S2024061900774920000",
+   "reason": "prix-aberrant",
+   "detail": "15,96 €/l contre une médiane de 3,79 €/l (huiles-sauces/huile/l)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3015210",
+   "name": "Bombe dessert, 2 pcs",
+   "sourceUrl": "https://www.aldi.be/fr/product/bombe-dessert-2-pcs-3015210.html",
+   "reason": "prix-aberrant",
+   "detail": "37,42 €/kg contre une médiane de 6,47 €/kg (yaourts/desserts/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025071600160180000",
+   "name": "Dessert Mousse Noix de coco Chocolat",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Mousses/Dessert-Mousse-Noix-de-coco-Chocolat/p/F2025071600160180000",
+   "reason": "prix-aberrant",
+   "detail": "26,53 €/kg contre une médiane de 6,47 €/kg (yaourts/desserts/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025071600160250000",
+   "name": "Dessert Mousse Tarte tatin",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Mousses/Dessert-Mousse-Tarte-tatin/p/F2025071600160250000",
+   "reason": "prix-aberrant",
+   "detail": "26,53 €/kg contre une médiane de 6,47 €/kg (yaourts/desserts/kg)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "1062",
+   "name": "Minipâtisseries, 6 pcs",
+   "sourceUrl": "https://www.aldi.be/fr/product/minipatisseries-6-pcs-1062.html",
+   "reason": "prix-aberrant",
+   "detail": "24,95 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3008425",
+   "name": "Macarons, 12 pcs",
+   "sourceUrl": "https://www.aldi.be/fr/product/macarons-12-pcs-3008425.html",
+   "reason": "prix-aberrant",
+   "detail": "27,71 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2022012700094420000",
+   "name": "Gâteau au cacao crème de lait",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Gateau-au-cacao-creme-de-lait/p/F2022012700094420000",
+   "reason": "prix-aberrant",
+   "detail": "32,21 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024122300151240000",
+   "name": "Protein snack Caramel",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Protein-snack-Caramel/p/F2024122300151240000",
+   "reason": "prix-aberrant",
+   "detail": "50,89 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025022500154650000",
+   "name": "Cheesecake New York Style",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Cheesecake-New-York-Style/p/F2025022500154650000",
+   "reason": "prix-aberrant",
+   "detail": "27,44 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025090900162720000",
+   "name": "Protéine snack Chocolat Brownie",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Proteine-snack-Chocolat-Brownie/p/F2025090900162720000",
+   "reason": "prix-aberrant",
+   "detail": "42,92 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025091200163010000",
+   "name": "Snack protéine Cacahuète Beurre",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Snack-proteine-Cacahuete-Beurre/p/F2025091200163010000",
+   "reason": "prix-aberrant",
+   "detail": "42,92 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3012034",
+   "name": "Pomerol AOC 'Clos Sainte Anne'",
+   "sourceUrl": "https://www.aldi.be/fr/product/pomerol-aoc-clos-sainte-anne-3012034.html",
+   "reason": "prix-aberrant",
+   "detail": "26,65 €/l contre une médiane de 6,65 €/l (alcool/vin/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2015080400383250000",
+   "name": "Lasagne Sans gluten",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Regime-specifique/Sans-gluten/Lasagne-Sans-gluten/p/S2015080400383250000",
+   "reason": "prix-aberrant",
+   "detail": "18,36 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2017062004156590000",
+   "name": "Soba Cup Chili",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Soba-Cup-Chili/p/S2017062004156590000",
+   "reason": "prix-aberrant",
+   "detail": "29,24 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2020020400355020000",
+   "name": "Snack Carbonara XXL 92 g",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Snack-Carbonara-XXL-92-g/p/S2020020400355020000",
+   "reason": "prix-aberrant",
+   "detail": "32,50 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025021000822790000",
+   "name": "Pasta snack Pot Tomates Mozzarella",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Pasta-snack-Pot-Tomates-Mozzarella/p/S2025021000822790000",
+   "reason": "prix-aberrant",
+   "detail": "31,59 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025072300881640000",
+   "name": "Snack Cup Kimchi",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Snack-Cup-Kimchi/p/S2025072300881640000",
+   "reason": "prix-aberrant",
+   "detail": "23,98 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025072400539900000",
+   "name": "Snack Boeuf Cup",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Snack-Boeuf-Cup/p/S2025072400539900000",
+   "reason": "prix-aberrant",
+   "detail": "23,98 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2025072800882040000",
+   "name": "Snack Potato Broccoli Cup",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Solution-repas/Prets-a-manger/Snack-Potato-Broccoli-Cup/p/S2025072800882040000",
+   "reason": "prix-aberrant",
+   "detail": "35,80 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026022300938710000",
+   "name": "Risotto Champignons",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Riz/Riz-long-grain/Risotto-Champignons/p/S2026022300938710000",
+   "reason": "prix-aberrant",
+   "detail": "33,95 €/kg contre une médiane de 5,89 €/kg (pates-riz/riz/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2023041700696040000",
+   "name": "Vinaigre Yuzu",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Vinaigres/Vinaigre-Yuzu/p/S2023041700696040000",
+   "reason": "prix-aberrant",
+   "detail": "34,95 €/l contre une médiane de 7,96 €/l (huiles-sauces/vinaigre/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2022060800630660000",
+   "name": "Edulcorants Stevia Comprimés",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Sucres/Edulcorants-Stevia-Comprimes/p/S2022060800630660000",
+   "reason": "prix-aberrant",
+   "detail": "580,88 €/kg contre une médiane de 32,18 €/kg (farine-sucre/edulcorant/kg)"
+  }
+ ]
+}

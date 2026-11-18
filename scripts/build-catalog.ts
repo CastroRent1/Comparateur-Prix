@@ -14,6 +14,7 @@ import { EquivalenceIndex, type IndexedProduct } from '../src/core/matching.ts';
 import type { Offer, Store } from '../src/core/types.ts';
 import { readPriceFile } from '../src/collect/store.ts';
 import { buildCatalog, type CatalogFile } from './lib/catalog.ts';
+import { qualityCheck } from './lib/quality.ts';
 
 const readJson = <T>(path: string): T | undefined => (existsSync(path) ? (JSON.parse(readFileSync(path, 'utf8')) as T) : undefined);
 
@@ -34,13 +35,22 @@ function main(): void {
     }
   }
 
+  // Contrôle qualité : un prix douteux n'est jamais publié (rapport dans data/controle-qualite.json).
+  const { kept, rejected } = qualityCheck(offers);
+  writeFileSync(
+    `${ROOT}data/controle-qualite.json`,
+    `${JSON.stringify({ generatedAt: now.toISOString(), checked: offers.length, rejectedCount: rejected.length, rejected }, null, 1)}\n`,
+  );
+  const byReason = rejected.reduce<Record<string, number>>((m, r) => ((m[r.reason] = (m[r.reason] ?? 0) + 1), m), {});
+  console.log(`contrôle qualité : ${rejected.length} produit(s) écarté(s) sur ${offers.length} ${JSON.stringify(byReason)}`);
+
   const storesFile = readJson<{ attribution: string; generatedAt: string; stores: Store[] }>(`${ROOT}data/stores.json`);
   const postcodes = readJson<{ attribution: string; postcodes: Array<[string, string, number, number]> }>(`${ROOT}data/postcodes.json`);
 
   const catalog: CatalogFile = buildCatalog({
     now,
     chains,
-    offers,
+    offers: kept,
     stores: (storesFile?.stores ?? []).filter((s) => chains.some((c) => c.id === s.chainId && c.coverage !== 'none')),
     storesAttribution: storesFile?.attribution,
     postcodes: postcodes?.postcodes ?? [],
