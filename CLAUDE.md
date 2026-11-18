@@ -50,6 +50,11 @@ versionné, site statique.
   chocolat, moulu/grains… — ×0,7). Équivalent par défaut = le moins cher au
   kilo/litre parmi ceux à 0,25 du meilleur score (jamais un premier prix
   contre une grande marque par défaut).
+- Rayons (`src/core/categories.ts`) : rayons communs à toutes les enseignes
+  (catégorie Aldi `mainCategoryID` / chemin d'URL Delhaize, repli sur le nom),
+  avec des types (lait entier, demi-écrémé…). L'appli (`src/web/browse.ts`)
+  liste un rayon toutes marques confondues, trié au prix au litre / kilo /
+  pièce du jour (promo en cours comprise, prix périmés exclus).
 - Delhaize : le « Contenu net » est par unité ; un lot (prix ÷ prix unitaire
   = N × contenu net) est enregistré comme N × contenu.
 - Appli : `src/web/` (TypeScript, sans framework) → `npm run build:app` →

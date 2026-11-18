@@ -53,7 +53,6 @@ export class Catalog {
       promo: p.pr ? { price: p.pr.p, label: p.pr.l, validFrom: p.pr.f, validTo: p.pr.t, requiresCard: p.pr.card } : undefined,
       observedAt: p.o,
       sourceUrl: p.u,
-      category: p.cat,
     };
   }
 

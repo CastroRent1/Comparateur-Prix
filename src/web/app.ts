@@ -3,6 +3,7 @@ import { formatEuro, formatUnitPrice, unitPrice } from '../core/units.ts';
 import type { StoreBasket } from '../core/basket.ts';
 import { Catalog, loadCatalog } from './catalog.ts';
 import { compare, type Comparison, type ListItem, type Place } from './plan.ts';
+import { browse, categoryFacets, type BrowseFilter, type BrowseRow } from './browse.ts';
 
 /**
  * Appli Panier Malin : recherche → liste → magasins les moins chers.
@@ -54,14 +55,25 @@ function esc(s: string | number | undefined | null): string {
 const km = (d: number | undefined) =>
   d === undefined ? '' : d < 1 ? `${Math.round(d * 1000)} m` : `${d.toLocaleString('fr-BE', { maximumFractionDigits: 1 })} km`;
 
+/** « 6 x 1l » → « 6 × 1 l » ; « 500g » → « 500 g ». */
+function prettySize(text: string): string {
+  return text
+    .replace(/\s*x\s*/gi, ' × ')
+    .replace(/(\d)\s*(kg|g|gr|l|cl|ml|dl)\b/gi, (_m, d: string, u: string) => `${d} ${u.toLowerCase()}`)
+    .replace(/(\d)\.(\d)/g, '$1,$2')
+    .trim();
+}
+
 function sizeLabel(i: number): string {
   const p = cat.products[i]!;
-  if (p.st) return p.st;
+  if (p.st) return prettySize(p.st);
   if (!p.s) return '';
-  const [a, u] = p.s;
+  const [raw, u] = p.s;
+  // 5,993 l (6 × 1 l relevés au prix unitaire) → 6 l
+  const a = Math.abs(raw - Math.round(raw)) / raw < 0.01 && raw >= 1 ? Math.round(raw) : raw;
   if (u === 'piece') return `${a} pièce${a > 1 ? 's' : ''}`;
   if (a < 1) return u === 'kg' ? `${Math.round(a * 1000)} g` : `${Math.round(a * 100)} cl`;
-  return `${a.toLocaleString('fr-BE')} ${u === 'kg' ? 'kg' : 'L'}`;
+  return `${a.toLocaleString('fr-BE')} ${u === 'kg' ? 'kg' : 'l'}`;
 }
 
 function priceHtml(i: number, now: Date): string {
@@ -110,10 +122,86 @@ function renderSearch(): void {
     : `<li class="empty">Aucun produit trouvé pour « ${esc(q)} ».</li>`;
 }
 
+// ------------------------------------------------------------------- rayons
+
+let rayon: (BrowseFilter & { limit: number }) | null = null;
+const PAGE = 40;
+const PER_UNIT: Record<string, string> = { kg: 'le kilo', l: 'le litre', piece: 'la pièce' };
+const SORTED_BY: Record<string, string> = { kg: 'au kilo', l: 'au litre', piece: 'à la pièce' };
+
+function renderRayons(): void {
+  $('#rayons').innerHTML = categoryFacets(cat)
+    .map(
+      (f) =>
+        `<button class="chip ${rayon?.category === f.id ? 'on' : ''}" data-rayon="${esc(f.id)}" aria-pressed="${rayon?.category === f.id}">${esc(f.label)}</button>`,
+    )
+    .join('');
+}
+
+function browseRow(r: BrowseRow): string {
+  const i = r.index;
+  const p = cat.products[i]!;
+  const key = cat.keyOf(i);
+  const inList = state.items.some((it) => it.key === key);
+  const regular = p.p;
+  return `<li class="hit row-rayon ${r.freshness === 'stale' ? 'stale' : ''}">
+    <div class="hit-main">
+      ${chainBadge(cat.chainOf(i).id)}
+      <span class="name">${esc(p.n)}</span>
+      <span class="small"><strong class="fmt">${esc(sizeLabel(i) || 'format inconnu')}</strong>${p.b ? ` <span class="muted">· ${esc(p.b)}</span>` : ''}</span>
+      <span class="prices"><span class="price">${formatEuro(r.price)}</span>${
+        r.isPromo && regular ? ` <s class="muted">${formatEuro(regular)}</s> <span class="badge promo">${esc(p.pr?.l ?? 'Promo')}</span>` : ''
+      }</span>
+    </div>
+    <div class="per-unit">${
+      r.unitPrice !== undefined && r.unit ? `<strong>${formatEuro(r.unitPrice)}</strong><span class="muted small">${PER_UNIT[r.unit]}</span>` : ''
+    }</div>
+    <button class="add" data-add="${esc(key)}" ${inList ? 'disabled' : ''} aria-label="Ajouter ${esc(p.n)} à la liste">${
+      inList ? '✓<span class="add-label"> Ajouté</span>' : '+<span class="add-label"> Ajouter</span>'
+    }</button>
+  </li>`;
+}
+
+function renderBrowse(): void {
+  const box = $('#browse');
+  if (!rayon || $<HTMLInputElement>('#q').value.trim().length >= 2) {
+    box.innerHTML = '';
+    return;
+  }
+  const r = browse(cat, rayon, new Date());
+  const chip = (attr: string, value: string, label: string, on: boolean) =>
+    `<button class="chip small ${on ? 'on' : ''}" ${attr}="${esc(value)}" aria-pressed="${on}">${label}</button>`;
+  const types = r.types.length
+    ? `<div class="facets" role="group" aria-label="Type">${chip('data-type', '', 'Tous', !rayon.type)}${r.types
+        .map((t) => chip('data-type', t.id, `${esc(t.label)} <span class="count">${t.count}</span>`, rayon!.type === t.id))
+        .join('')}</div>`
+    : '';
+  const chains = `<div class="facets" role="group" aria-label="Enseigne">${chip('data-chain-filter', '', 'Toutes enseignes', !rayon.chain)}${r.chains
+    .map((c) => chip('data-chain-filter', c.id, `${esc(c.label)} <span class="count">${c.count}</span>`, rayon!.chain === c.id))
+    .join('')}${r.bioCount || rayon.bio ? chip('data-bio', rayon.bio ? '0' : '1', `Bio <span class="count">${r.bioCount}</span>`, !!rayon.bio) : ''}</div>`;
+  const rows = r.rows.slice(0, rayon.limit).map(browseRow).join('');
+  const more = r.rows.length > rayon.limit ? `<p><button class="link" data-more>Afficher ${Math.min(PAGE, r.rows.length - rayon.limit)} produits de plus (sur ${r.rows.length})</button></p>` : '';
+  box.innerHTML = `<div class="browse-head">
+      <div><strong>${esc(r.label)}</strong>
+      <span class="muted small">${r.rows.length} produit${r.rows.length > 1 ? 's' : ''}${r.mainUnit ? ` · du moins cher au plus cher ${SORTED_BY[r.mainUnit]}` : ''}</span></div>
+      <button class="link small" data-rayon="" aria-label="Fermer le rayon">Fermer</button>
+    </div>
+    ${types}${chains}
+    ${r.rows.length ? `<ul class="hits browse-list">${rows}</ul>${more}` : '<p class="empty">Aucun produit avec ces filtres.</p>'}
+    <p class="muted small">Prix d'aujourd'hui, promotions en cours comprises. Le format est celui de l'emballage vendu ; le prix au litre ou au kilo permet de comparer les formats différents.</p>`;
+}
+
+function setRayon(next: (BrowseFilter & { limit: number }) | null): void {
+  rayon = next;
+  renderRayons();
+  renderBrowse();
+}
+
 function addItem(key: string): void {
   if (!state.items.some((i) => i.key === key)) state.items.push({ key, qty: 1 });
   save();
   renderSearch();
+  renderBrowse();
   renderAll();
 }
 
@@ -343,7 +431,10 @@ function bindEvents(): void {
   let t: ReturnType<typeof setTimeout> | undefined;
   $('#q').addEventListener('input', () => {
     clearTimeout(t);
-    t = setTimeout(renderSearch, 120);
+    t = setTimeout(() => {
+      renderSearch();
+      renderBrowse();
+    }, 120);
   });
   $('#place').addEventListener('input', renderPlaceSuggestions);
   $('#locate').addEventListener('click', locate);
@@ -359,6 +450,16 @@ function bindEvents(): void {
     if (!el) return;
     const d = el.dataset;
     if (d.add) addItem(d.add);
+    else if (d.rayon !== undefined) {
+      const same = rayon?.category === d.rayon;
+      $<HTMLInputElement>('#q').value = '';
+      renderSearch();
+      setRayon(d.rayon && !same ? { category: d.rayon, limit: PAGE } : null);
+      if (rayon) $('#browse').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    } else if (d.type !== undefined && rayon) setRayon({ ...rayon, type: d.type || undefined, limit: PAGE });
+    else if (d.chainFilter !== undefined && rayon) setRayon({ ...rayon, chain: d.chainFilter || undefined, limit: PAGE });
+    else if (d.bio !== undefined && rayon) setRayon({ ...rayon, bio: d.bio === '1' || undefined, limit: PAGE });
+    else if ('more' in d && rayon) setRayon({ ...rayon, limit: rayon.limit + PAGE });
     else if (d.qty) {
       const it = state.items.find((i) => i.key === d.qty);
       if (it) it.qty = Math.min(99, Math.max(1, it.qty + Number(d.delta)));
@@ -369,6 +470,7 @@ function bindEvents(): void {
       save();
       renderAll();
       renderSearch();
+      renderBrowse();
     } else if (d.place) {
       const [code, name, lat, lon] = d.place.split('|');
       setPlace({ lat: Number(lat), lon: Number(lon), label: `${code} ${name}` });
@@ -409,6 +511,7 @@ async function main(): Promise<void> {
   bindEvents();
   renderPlace();
   renderCoverage();
+  renderRayons();
   renderAll();
   if (!cat.stores.length) $('#stores-missing').hidden = false;
 }

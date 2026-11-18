@@ -1,3 +1,4 @@
+import { categorize } from '../../src/core/categories.ts';
 import { packCount, parseQuantity } from '../../src/core/units.ts';
 import type { EquivalenceIndex, IndexedProduct } from '../../src/core/matching.ts';
 import type { Chain, Offer, Store } from '../../src/core/types.ts';
@@ -20,7 +21,10 @@ export interface CatalogProduct {
   /** relevé : ISO */
   o: string;
   u: string;
-  cat?: string;
+  /** rayon commun (src/core/categories.ts) */
+  g?: string;
+  /** type dans le rayon (« entier », « demi »…) */
+  t?: string;
   /** équivalents : [index produit, score ×100] */
   e?: Array<[number, number]>;
 }
@@ -91,7 +95,9 @@ export function buildCatalog(input: BuildInput): CatalogFile {
     }
     if (o.price !== undefined) p.p = o.price;
     if (o.promo) p.pr = { p: o.promo.price, l: o.promo.label, f: o.promo.validFrom, t: o.promo.validTo, card: o.promo.requiresCard };
-    if (o.category) p.cat = o.category;
+    const { category, type } = categorize(o);
+    if (category) p.g = category;
+    if (type) p.t = type;
     if (eq.length) p.e = eq;
     return p;
   });
