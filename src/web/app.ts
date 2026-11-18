@@ -87,6 +87,12 @@ function priceHtml(i: number, now: Date): string {
   }${up !== undefined && o.size ? `<span class="unit muted">${formatUnitPrice(up, o.size.unit)}</span>` : ''}`;
 }
 
+/** « Prix relevé sur aldi.be le 18/11 à 9 h · voir » (règle de fraîcheur du projet). */
+function observedHtml(i: number): string {
+  const o = cat.toOffer(i);
+  return `<span class="muted small obs">${esc(observationLabel(o, cat.chainOf(i)))} · <a href="${esc(o.sourceUrl)}" target="_blank" rel="noopener">voir</a></span>`;
+}
+
 const chainBadge = (chainId: string) => {
   const c = cat.chains.find((x) => x.id === chainId);
   return `<span class="chain chain-${esc(chainId)}">${esc(c?.name ?? chainId)}</span>`;
@@ -114,6 +120,7 @@ function renderSearch(): void {
               <span class="name">${esc(p.n)}</span>
               <span class="muted small">${esc([p.b, sizeLabel(i)].filter(Boolean).join(' · '))}</span>
               <span class="prices">${priceHtml(i, now)}</span>
+              ${observedHtml(i)}
             </div>
             <button class="add" data-add="${esc(cat.keyOf(i))}" ${inList ? 'disabled' : ''} aria-label="Ajouter ${esc(p.n)} à la liste">${inList ? 'Ajouté' : '+ Ajouter'}</button>
           </li>`;
@@ -152,6 +159,7 @@ function browseRow(r: BrowseRow): string {
       <span class="prices"><span class="price">${formatEuro(r.price)}</span>${
         r.isPromo && regular ? ` <s class="muted">${formatEuro(regular)}</s> <span class="badge promo">${esc(p.pr?.l ?? 'Promo')}</span>` : ''
       }</span>
+      ${observedHtml(i)}${r.freshness === 'stale' ? ' <span class="warn-text small">⚠ relevé il y a plus de 48 h</span>' : ''}
     </div>
     <div class="per-unit">${
       r.unitPrice !== undefined && r.unit ? `<strong>${formatEuro(r.unitPrice)}</strong><span class="muted small">${PER_UNIT[r.unit]}</span>` : ''

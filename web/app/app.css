@@ -153,3 +153,4 @@ button.link { background: none; border: 0; padding: 0; color: var(--brand); text
 }
 /* Catalogue injoignable : seul le message d'erreur reste */
 body.failed main > *:not(#app-error) { display: none; }
+.obs a { color: inherit; }
