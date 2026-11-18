@@ -1,47 +1,47 @@
 {
- "generatedAt": "2026-11-18T19:22:00.421Z",
- "checked": 6882,
- "rejectedCount": 42,
+ "generatedAt": "2026-11-18T19:29:22.167Z",
+ "checked": 6884,
+ "rejectedCount": 35,
  "rejected": [
-  {
-   "chainId": "delhaize",
-   "productKey": "S2024041100762520099",
-   "name": "Lait Demi-écrémé Choco",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Aromatise/Lait-Demi-ecreme-Choco/p/S2024041100762520099",
-   "reason": "prix-aberrant",
-   "detail": "13,78 €/l contre une médiane de 2,68 €/l (lait/aromatise/l)"
-  },
   {
    "chainId": "delhaize",
    "productKey": "S2025060400868200099",
    "name": "Ice Tea Citron",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-petillants/Ice-Tea-Citron/p/S2025060400868200099",
    "reason": "prix-aberrant",
-   "detail": "8,33 €/l contre une médiane de 2,06 €/l (sodas/the-glace/l)"
+   "detail": "8,33 €/l contre une médiane de 1,79 €/l (sodas/the-glace/l)"
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2025060400868450099",
-   "name": "Ice Tea Perzik",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Iced-tea/Iced-tea-non-petillants/Ice-Tea-Perzik/p/S2025060400868450099",
+   "productKey": "S2025121800914300000",
+   "name": "Jus d'orange",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Jus-de-fruits/Oranges/Jus-d-orange/p/S2025121800914300000",
    "reason": "prix-aberrant",
-   "detail": "8,76 €/l contre une médiane de 2,06 €/l (sodas/the-glace/l)"
+   "detail": "12,95 €/l contre une médiane de 3,19 €/l (jus/orange/l)"
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2022021400605890099",
-   "name": "Eau minérale Légèrement pétillant Pet",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-legerement-petillante/Eau-minerale-Legerement-petillant-Pet/p/S2022021400605890099",
+   "productKey": "S2026040100951900099",
+   "name": "Eau Plate",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-plate/Eau-Plate/p/S2026040100951900099",
    "reason": "prix-aberrant",
-   "detail": "3,09 €/l contre une médiane de 0,68 €/l (eau/plate/l)"
+   "detail": "2,39 €/l contre une médiane de 0,58 €/l (eau/plate/l)"
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2023083000722390099",
-   "name": "Cola PET",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-classique/Cola-PET/p/S2023083000722390099",
+   "productKey": "S2026081800986780000",
+   "name": "Sirop Pepsi",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi/p/S2026081800986780000",
    "reason": "prix-aberrant",
-   "detail": "8,98 €/l contre une médiane de 2,22 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,79 €/l (sodas/cola/l)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026081900987320000",
+   "name": "Sirop Pepsi zero",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi-zero/p/S2026081900987320000",
+   "reason": "prix-aberrant",
+   "detail": "15,89 €/l contre une médiane de 1,79 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -49,7 +49,7 @@
    "name": "Eau minérale naturelle Pétillante",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-petillante/Eau-minerale-naturelle-Petillante/p/S2024030900757440099",
    "reason": "prix-aberrant",
-   "detail": "4,93 €/l contre une médiane de 1,00 €/l (eau/petillante/l)"
+   "detail": "4,93 €/l contre une médiane de 0,99 €/l (eau/petillante/l)"
   },
   {
    "chainId": "delhaize",
@@ -74,62 +74,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Farines/Farine-Riz-Complet-Bio/p/S2026081100984490000",
    "reason": "prix-aberrant",
    "detail": "8,38 €/kg contre une médiane de 1,98 €/kg (farine-sucre/farine/kg)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2000122000000980000",
-   "name": "Lait Demi-écrémé",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2000122000000980000",
-   "reason": "prix-aberrant",
-   "detail": "11,25 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2018032200041920099",
-   "name": "Lait Demi-écrémé",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2018032200041920099",
-   "reason": "prix-aberrant",
-   "detail": "29,16 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2020110900470490099",
-   "name": "Lait Demi-écrémé",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2020110900470490099",
-   "reason": "prix-aberrant",
-   "detail": "7,98 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2020113000473560099",
-   "name": "Lait Demi-écrémé Bio",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme-Bio/p/S2020113000473560099",
-   "reason": "prix-aberrant",
-   "detail": "12,30 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2025061100355850097",
-   "name": "Lait Demi-écrémé",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Demi-ecreme/Lait-Demi-ecreme/p/S2025061100355850097",
-   "reason": "prix-aberrant",
-   "detail": "10,19 €/l contre une médiane de 1,35 €/l (lait/demi/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2018041800051410099",
-   "name": "Lait Entier Bio",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Entier/Lait-Entier-Bio/p/S2018041800051410099",
-   "reason": "prix-aberrant",
-   "detail": "10,69 €/l contre une médiane de 2,02 €/l (lait/entier/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2024041100762560099",
-   "name": "Lait Entier Belge",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Lait/Entier/Lait-Entier-Belge/p/S2024041100762560099",
-   "reason": "prix-aberrant",
-   "detail": "8,09 €/l contre une médiane de 2,02 €/l (lait/entier/l)"
   },
   {
    "chainId": "delhaize",
@@ -201,7 +145,7 @@
    "name": "Minipâtisseries, 6 pcs",
    "sourceUrl": "https://www.aldi.be/fr/product/minipatisseries-6-pcs-1062.html",
    "reason": "prix-aberrant",
-   "detail": "24,95 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "24,95 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "aldi",
@@ -209,7 +153,7 @@
    "name": "Macarons, 12 pcs",
    "sourceUrl": "https://www.aldi.be/fr/product/macarons-12-pcs-3008425.html",
    "reason": "prix-aberrant",
-   "detail": "27,71 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "27,71 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -217,7 +161,7 @@
    "name": "Gâteau au cacao crème de lait",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Gateau-au-cacao-creme-de-lait/p/F2022012700094420000",
    "reason": "prix-aberrant",
-   "detail": "32,21 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "32,21 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -225,7 +169,7 @@
    "name": "Protein snack Caramel",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Protein-snack-Caramel/p/F2024122300151240000",
    "reason": "prix-aberrant",
-   "detail": "50,89 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "50,89 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -233,7 +177,7 @@
    "name": "Cheesecake New York Style",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Cheesecake-New-York-Style/p/F2025022500154650000",
    "reason": "prix-aberrant",
-   "detail": "27,44 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "27,44 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -241,7 +185,7 @@
    "name": "Protéine snack Chocolat Brownie",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Proteine-snack-Chocolat-Brownie/p/F2025090900162720000",
    "reason": "prix-aberrant",
-   "detail": "42,92 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "42,92 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -249,7 +193,7 @@
    "name": "Snack protéine Cacahuète Beurre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Snack-proteine-Cacahuete-Beurre/p/F2025091200163010000",
    "reason": "prix-aberrant",
-   "detail": "42,92 €/kg contre une médiane de 5,49 €/kg (yaourts/fruits/kg)"
+   "detail": "42,92 €/kg contre une médiane de 5,28 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "aldi",

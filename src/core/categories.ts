@@ -289,7 +289,7 @@ export const CATEGORIES: Category[] = [
     delhaize: [`${BOISSONS}/Sodas`, `${BOISSONS}/Sirops`, `${CREMERIE}/Cafe-glace-and-autres`],
     names: /^(iced? tea|ice tea|fuze tea|coca cola|cola|pepsi|fanta|sprite|schweppes|ginger ale|tonic|limonade|soda|sirop)\b/,
     types: [
-      { id: 'cola', label: 'Cola', match: /cola/ },
+      { id: 'cola', label: 'Cola', match: /\b(coca )?cola\b|pepsi/ },
       { id: 'the-glace', label: 'Thé glacé', match: /ice.?tea|iced tea|the glace/ },
       { id: 'sirop', label: 'Sirops', match: /sirop/ },
       { id: 'energy', label: 'Énergisantes et sport', match: /energy|sport|isoton/ },
