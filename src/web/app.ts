@@ -483,11 +483,22 @@ function bindEvents(): void {
       const [code, name, lat, lon] = d.place.split('|');
       setPlace({ lat: Number(lat), lon: Number(lon), label: `${code} ${name}` });
     } else if ('clear' in d) {
-      if (confirm('Vider toute la liste ?')) {
+      // Confirmation dans la page (les fenêtres confirm() sont bloquées dans certains cadres) : 2e clic dans les 4 s.
+      if (el.dataset.armed) {
         state.items = [];
         save();
         renderAll();
         renderSearch();
+        renderBrowse();
+      } else {
+        el.dataset.armed = '1';
+        el.textContent = 'Confirmer : vider toute la liste';
+        setTimeout(() => {
+          if (el.isConnected) {
+            delete el.dataset.armed;
+            el.textContent = 'Vider la liste';
+          }
+        }, 4000);
       }
     } else if ('clean' in d) {
       state.items = state.items.filter((i) => cat.indexOf(i.key) !== undefined);
