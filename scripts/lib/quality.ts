@@ -9,7 +9,9 @@ import type { Offer } from '../../src/core/types.ts';
  * 1. Format incohérent : le prix affiché ÷ notre format ne retombe pas sur
  *    le prix au kilo / litre affiché par l'enseigne (écart > 6 %).
  *    Ex. : pack 6 × 1 l à 8,09 € enregistré comme « 1 l » → 8,09 €/l calculé
- *    contre 1,35 €/l affiché.
+ *    contre 1,35 €/l affiché ; conserve au prix au kilo égoutté ; produit
+ *    frais au poids variable. Le PRIX du paquet reste juste : le produit est
+ *    publié SANS format (pas de prix au kilo, pas de mise à l'échelle).
  * 2. Prix aberrant : prix au kilo / litre plus de 4 fois AU-DESSUS de la
  *    médiane des produits du même type (« lait demi-écrémé »), toutes
  *    enseignes confondues, quand le type compte au moins 6 produits.
@@ -22,6 +24,7 @@ export const FORMAT_TOLERANCE = 0.06;
 export const OUTLIER_FACTOR = 4;
 export const OUTLIER_MIN_GROUP = 6;
 
+/** format-incoherent : publié sans format ; prix-aberrant : non publié. */
 export type RejectReason = 'format-incoherent' | 'prix-aberrant';
 
 export interface Rejected {
@@ -62,12 +65,14 @@ export function qualityCheck(offers: Offer[]): { kept: Offer[]; rejected: Reject
   const reject = (o: Offer, reason: RejectReason, detail: string) =>
     rejected.push({ chainId: o.chainId, productKey: o.productKey, name: o.name, sourceUrl: o.sourceUrl, reason, detail });
 
-  // 1. Cohérence du format
+  // 1. Cohérence du format : en cas de doute, on retire le format, pas le prix.
   const afterFormat: Offer[] = [];
   for (const o of offers) {
     const problem = formatProblem(o);
-    if (problem) reject(o, 'format-incoherent', problem);
-    else afterFormat.push(o);
+    if (problem) {
+      reject(o, 'format-incoherent', `${problem} → publié sans format`);
+      afterFormat.push({ ...o, size: undefined, sizeText: undefined });
+    } else afterFormat.push(o);
   }
 
   // 2. Prix aberrants dans un même type de produit
@@ -92,4 +97,9 @@ export function qualityCheck(offers: Offer[]): { kept: Offer[]; rejected: Reject
     }
   }
   return { kept: afterFormat.filter((o) => !outliers.has(o)), rejected };
+}
+
+/** Nombre de produits réellement retirés (les formats retirés restent publiés). */
+export function removedCount(rejected: Rejected[]): number {
+  return rejected.filter((r) => r.reason === 'prix-aberrant').length;
 }

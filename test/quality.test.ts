@@ -21,6 +21,16 @@ describe('contrôle qualité', () => {
     expect(formatProblem(lait('B', 8.09, 6, { shownUnitPrice: { value: 1.35, unit: 'l' } }))).toBeUndefined();
   });
 
+  it('format incohérent : produit gardé avec son prix, mais sans format', () => {
+    const bad = lait('A', 8.09, 1, { shownUnitPrice: { value: 1.35, unit: 'l' }, sizeText: '1 l' });
+    const { kept, rejected } = qualityCheck([bad]);
+    expect(rejected[0]).toMatchObject({ productKey: 'A', reason: 'format-incoherent' });
+    expect(kept).toHaveLength(1);
+    expect(kept[0]).toMatchObject({ productKey: 'A', price: 8.09 });
+    expect(kept[0]!.size).toBeUndefined();
+    expect(kept[0]!.sizeText).toBeUndefined();
+  });
+
   it('format : le prix au litre affiché correspond au prix promo du jour', () => {
     const promo = lait('C', 2.0, 1, {
       shownUnitPrice: { value: 1.0, unit: 'l' },

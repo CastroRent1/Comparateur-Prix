@@ -64,10 +64,11 @@ versionné, site statique.
   liste un rayon toutes marques confondues, trié au prix au litre / kilo /
   pièce du jour (promo en cours comprise, prix périmés exclus).
 - **Contrôle qualité** (`scripts/lib/quality.ts`, à chaque `npm run catalog`) :
-  un prix douteux n'est jamais publié. Écartés : format incohérent avec le
-  prix au kilo/litre affiché par l'enseigne (> 6 %), ou prix au kilo/litre
-  > 4 × la médiane de son type (≥ 6 produits ; jamais vers le bas). Rapport :
-  `data/controle-qualite.json`.
+  un prix douteux n'est jamais publié. Format incohérent avec le prix au
+  kilo/litre affiché par l'enseigne (> 6 % : lot, poids égoutté, poids
+  variable) → publié SANS format (le prix du paquet reste juste). Prix au
+  kilo/litre > 4 × la médiane de son type (≥ 6 produits ; jamais vers le
+  bas) → retiré. Rapport : `data/controle-qualite.json`.
 - Delhaize : le « Contenu net » est par unité ; un lot (prix ÷ prix unitaire
   = N × contenu net) est enregistré comme N × contenu.
 - Appli : `src/web/` (TypeScript, sans framework) → `npm run build:app` →
