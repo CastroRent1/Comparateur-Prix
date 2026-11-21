@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-21T09:33:23.149Z",
- "checked": 12158,
- "rejectedCount": 581,
+ "generatedAt": "2026-11-21T19:47:36.730Z",
+ "checked": 12163,
+ "rejectedCount": 584,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -285,6 +285,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2008092500506000000",
+   "name": "Rôti ardennais Porc",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Porc/Roti-ardennais-Porc/p/F2008092500506000000",
+   "reason": "format-incoherent",
+   "detail": "12,62 € pour 0.75 kg = 16,83 €/kg, mais l'enseigne affiche 14,85 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2008092500507000000",
    "name": "Rôti ardennais Épicé Porc",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Porc/Roti-ardennais-Epice-Porc/p/F2008092500507000000",
@@ -377,7 +385,7 @@
    "name": "Filets de hareng Vinaigre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Hareng/Filets-de-hareng-Vinaigre/p/F2009111700299000000",
    "reason": "format-incoherent",
-   "detail": "8,19 € pour 1 kg = 8,19 €/kg, mais l'enseigne affiche 18,20 €/kg → publié sans format"
+   "detail": "6,59 € pour 1 kg = 6,59 €/kg, mais l'enseigne affiche 14,64 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -1237,6 +1245,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2022072700104240000",
+   "name": "Olives à l'ail",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs-froids/Olives/Olives-a-l-ail/p/F2022072700104240000",
+   "reason": "format-incoherent",
+   "detail": "3,99 € pour 0.26 kg = 15,35 €/kg, mais l'enseigne affiche 14,00 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2022072700104250000",
    "name": "Olives à l'ail",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs-froids/Olives/Olives-a-l-ail/p/F2022072700104250000",
@@ -1833,7 +1849,7 @@
    "name": "Tomme de montagne Au lait cru de vache",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Tomme-de-montagne-Au-lait-cru-de-vache/p/F2024081900145460000",
    "reason": "format-incoherent",
-   "detail": "4,51 € pour 0.12 kg = 37,58 €/kg, mais l'enseigne affiche 24,49 €/kg → publié sans format"
+   "detail": "4,51 € pour 0.138 kg = 32,68 €/kg, mais l'enseigne affiche 24,49 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -1874,6 +1890,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Maredsous/p/F2024082200145920000",
    "reason": "format-incoherent",
    "detail": "7,20 € pour 0.18 kg = 40,00 €/kg, mais l'enseigne affiche 29,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2024091600147230000",
+   "name": "Chipolata Veau",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Saucisses/Chipolata-Veau/p/F2024091600147230000",
+   "reason": "format-incoherent",
+   "detail": "5,58 € pour 0.24 kg = 23,25 €/kg, mais l'enseigne affiche 19,59 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2122,6 +2146,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Wok-pita-et-gyros/Gyros-Porc/p/F2025072200160670000",
    "reason": "format-incoherent",
    "detail": "5,63 € pour 0.45 kg = 12,51 €/kg, mais l'enseigne affiche 11,25 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025072800160820000",
+   "name": "Piccoli Truffe Champignon",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs/Aperitifs-chauds/Piccoli-Truffe-Champignon/p/F2025072800160820000",
+   "reason": "format-incoherent",
+   "detail": "5,99 € pour 0.18 kg = 33,28 €/kg, mais l'enseigne affiche 24,96 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2402,14 +2434,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-bloc/Gouda/Oudendijk-Jeune-Bloc/p/F2026081800342570000",
    "reason": "format-incoherent",
    "detail": "5,12 € pour 0.187 kg = 27,38 €/kg, mais l'enseigne affiche 20,49 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "F2026082700343080000",
-   "name": "Gouda Belg Blok",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-bloc/Gouda/Gouda-Belg-Blok/p/F2026082700343080000",
-   "reason": "format-incoherent",
-   "detail": "4,95 € pour 0.188 kg = 26,33 €/kg, mais l'enseigne affiche 19,79 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2945,7 +2969,7 @@
    "name": "Abricots Demi Sirop léger Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Abricots-en-conserve/Abricots-Demi-Sirop-leger-Boite/p/S2009081400095010000",
    "reason": "format-incoherent",
-   "detail": "2,35 € pour 0.227 kg = 10,35 €/kg, mais l'enseigne affiche 17,54 €/kg → publié sans format"
+   "detail": "2,39 € pour 0.227 kg = 10,53 €/kg, mais l'enseigne affiche 17,84 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3789,14 +3813,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2022032500087090098",
-   "name": "Bonbons Spaghetti Red F!zz",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-acidules/Bonbons-Spaghetti-Red-F-zz/p/S2022032500087090098",
-   "reason": "format-incoherent",
-   "detail": "1,00 € pour 0.07 kg = 14,29 €/kg, mais l'enseigne affiche 7,14 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "S2022032800087160098",
    "name": "Bonbons Schtroumpfs",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-Sucres/Bonbons-Schtroumpfs/p/S2022032800087160098",
@@ -3897,7 +3913,7 @@
    "name": "Haricots Blancs Sauce Tomate",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Blancs-Sauce-Tomate/p/S2023113000733280000",
    "reason": "format-incoherent",
-   "detail": "0,99 € pour 0.33 kg = 3,00 €/kg, mais l'enseigne affiche 1,24 €/kg → publié sans format"
+   "detail": "0,92 € pour 0.33 kg = 2,79 €/kg, mais l'enseigne affiche 1,15 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4186,6 +4202,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Champignons-en-conserve/Champignons-entiers-en-conserve/Champignons-Eminces/p/S2026072200980520099",
    "reason": "format-incoherent",
    "detail": "2,25 € pour 0.585 kg = 3,85 €/kg, mais l'enseigne affiche 6,52 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2026081200985060000",
+   "name": "Biscuits Cent Wafers Xtra Chocolat",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-secs/Chocolat/Biscuits-Cent-Wafers-Xtra-Chocolat/p/S2026081200985060000",
+   "reason": "format-incoherent",
+   "detail": "2,59 € pour 0.02 kg = 129,50 €/kg, mais l'enseigne affiche 11,51 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4489,7 +4513,7 @@
    "name": "Snack Carbonara XXL 92 g",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Nouilles-p%C6%92tes-et-riz-instantan-s/Snack-Carbonara-XXL-92-g/p/S2020020400355020000",
    "reason": "prix-aberrant",
-   "detail": "32,50 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+   "detail": "33,15 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
   },
   {
    "chainId": "delhaize",
@@ -4577,7 +4601,7 @@
    "name": "Risotto Truffe",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Riz/Riz-long-grain/Risotto-Truffe/p/S2026022300938670000",
    "reason": "prix-aberrant",
-   "detail": "36,95 €/kg contre une médiane de 6,79 €/kg (pates-riz/riz/kg)"
+   "detail": "36,95 €/kg contre une médiane de 6,78 €/kg (pates-riz/riz/kg)"
   },
   {
    "chainId": "delhaize",
@@ -4585,7 +4609,7 @@
    "name": "Risotto Champignons",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Riz/Riz-long-grain/Risotto-Champignons/p/S2026022300938710000",
    "reason": "prix-aberrant",
-   "detail": "33,95 €/kg contre une médiane de 6,79 €/kg (pates-riz/riz/kg)"
+   "detail": "33,95 €/kg contre une médiane de 6,78 €/kg (pates-riz/riz/kg)"
   },
   {
    "chainId": "delhaize",
