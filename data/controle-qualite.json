@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-23T00:23:39.334Z",
- "checked": 12200,
+ "generatedAt": "2026-11-23T09:56:33.387Z",
+ "checked": 12184,
  "rejectedCount": 594,
  "rejected": [
   {
@@ -930,6 +930,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Jambon-de-ferme/p/F2019051400037780000",
    "reason": "format-incoherent",
    "detail": "4,50 € pour 0.13 kg = 34,62 €/kg, mais l'enseigne affiche 29,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2019051400037790000",
+   "name": "Saucisson printanier",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Saucisson-printanier/p/F2019051400037790000",
+   "reason": "format-incoherent",
+   "detail": "2,97 € pour 0.13 kg = 22,85 €/kg, mais l'enseigne affiche 19,79 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2505,7 +2513,7 @@
    "name": "Ananas Tranches Jus Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Ananas-en-conserve/Ananas-Tranches-Jus-Boite/p/S1971080100103920000",
    "reason": "format-incoherent",
-   "detail": "3,35 € pour 0.565 kg = 5,93 €/kg, mais l'enseigne affiche 9,57 €/kg → publié sans format"
+   "detail": "3,29 € pour 0.565 kg = 5,82 €/kg, mais l'enseigne affiche 9,40 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2673,7 +2681,7 @@
    "name": "Haricots verts Très fins Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Haricots-en-conserve/Haricots-fins-en-conserve/Haricots-verts-Tres-fins-Boite/p/S1992020700112790000",
    "reason": "format-incoherent",
-   "detail": "3,29 € pour 0.8 kg = 4,11 €/kg, mais l'enseigne affiche 7,48 €/kg → publié sans format"
+   "detail": "3,25 € pour 0.8 kg = 4,06 €/kg, mais l'enseigne affiche 7,39 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2905,7 +2913,7 @@
    "name": "Saucisse TV Light 210 g",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-TV-Light-210-g/p/S2005071200140930000",
    "reason": "format-incoherent",
-   "detail": "3,85 € pour 0.205 kg = 18,78 €/kg, mais l'enseigne affiche 32,08 €/kg → publié sans format"
+   "detail": "3,79 € pour 0.205 kg = 18,49 €/kg, mais l'enseigne affiche 31,58 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2929,7 +2937,7 @@
    "name": "Petits pois Extra fins Bocal",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Pois-en-conserve/Petits-pois-Extra-fins-Bocal/p/S2006042500115220000",
    "reason": "format-incoherent",
-   "detail": "2,69 € pour 0.35 kg = 7,69 €/kg, mais l'enseigne affiche 11,70 €/kg → publié sans format"
+   "detail": "2,75 € pour 0.35 kg = 7,86 €/kg, mais l'enseigne affiche 11,96 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2937,7 +2945,7 @@
    "name": "Salsifis",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Autres-legumes-en-conserve/Salsifi-en-conserve/Salsifis/p/S2006042500115250000",
    "reason": "format-incoherent",
-   "detail": "3,39 € pour 0.34 kg = 9,97 €/kg, mais l'enseigne affiche 16,54 €/kg → publié sans format"
+   "detail": "3,45 € pour 0.34 kg = 10,15 €/kg, mais l'enseigne affiche 16,83 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3185,7 +3193,7 @@
    "name": "Petits pois Extra fins",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Pois-en-conserve/Petits-pois-Extra-fins/p/S2013051400111680000",
    "reason": "format-incoherent",
-   "detail": "2,19 € pour 0.32 kg = 6,84 €/kg, mais l'enseigne affiche 7,82 €/kg → publié sans format"
+   "detail": "2,15 € pour 0.32 kg = 6,72 €/kg, mais l'enseigne affiche 7,68 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3249,7 +3257,7 @@
    "name": "Lentilles",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Lentilles-en-conserve/Lentilles/p/S2015012100110680000",
    "reason": "format-incoherent",
-   "detail": "1,99 € pour 0.16 kg = 12,44 €/kg, mais l'enseigne affiche 15,31 €/kg → publié sans format"
+   "detail": "1,95 € pour 0.16 kg = 12,19 €/kg, mais l'enseigne affiche 15,00 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3321,7 +3329,7 @@
    "name": "Saucisse Hotdog",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-Hotdog/p/S2015033000140880000",
    "reason": "format-incoherent",
-   "detail": "4,99 € pour 0.55 kg = 9,07 €/kg, mais l'enseigne affiche 16,63 €/kg → publié sans format"
+   "detail": "5,09 € pour 0.55 kg = 9,25 €/kg, mais l'enseigne affiche 16,97 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3825,7 +3833,7 @@
    "name": "Saumon Rose",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Saumon-en-conserve/Saumon-Rose/p/S2021032300529770000",
    "reason": "format-incoherent",
-   "detail": "4,09 € pour 0.2 kg = 20,45 €/kg, mais l'enseigne affiche 26,39 €/kg → publié sans format"
+   "detail": "3,95 € pour 0.2 kg = 19,75 €/kg, mais l'enseigne affiche 25,48 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4049,7 +4057,7 @@
    "name": "Petits pois - Carottes",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Melange-de-pois-et-carottes-en-conserve/Petits-pois-Carottes/p/S2024053100771890000",
    "reason": "format-incoherent",
-   "detail": "0,99 € pour 0.8 kg = 1,24 €/kg, mais l'enseigne affiche 1,87 €/kg → publié sans format"
+   "detail": "1,05 € pour 0.8 kg = 1,31 €/kg, mais l'enseigne affiche 1,98 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4309,19 +4317,19 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2024060400772400099",
+   "name": "Eau de source Non pétillant",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-plate/Eau-de-source-Non-petillant/p/S2024060400772400099",
+   "reason": "prix-aberrant",
+   "detail": "4,56 €/l contre une médiane de 0,86 €/l (eau/plate/l)"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2024060800773000099",
    "name": "Eau de source Non pétillant",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-plate/Eau-de-source-Non-petillant/p/S2024060800773000099",
    "reason": "prix-aberrant",
-   "detail": "3,98 €/l contre une médiane de 0,76 €/l (eau/plate/l)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2025040200839820000",
-   "name": "Vitamine+ Framboise",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eaux-aromatisees/Eau-plate-aromatisee/Vitamine-Framboise/p/S2025040200839820000",
-   "reason": "prix-aberrant",
-   "detail": "3,05 €/l contre une médiane de 0,76 €/l (eau/plate/l)"
+   "detail": "3,98 €/l contre une médiane de 0,86 €/l (eau/plate/l)"
   },
   {
    "chainId": "delhaize",
@@ -4329,7 +4337,7 @@
    "name": "Orange-mandarine Bio",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eaux-aromatisees/Eau-petillante-aromatisee/Orange-mandarine-Bio/p/S2025120100909020000",
    "reason": "prix-aberrant",
-   "detail": "3,97 €/l contre une médiane de 0,76 €/l (eau/plate/l)"
+   "detail": "3,97 €/l contre une médiane de 0,86 €/l (eau/plate/l)"
   },
   {
    "chainId": "delhaize",
@@ -4377,7 +4385,7 @@
    "name": "Eau minérale naturelle Pétillante",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-petillante/Eau-minerale-naturelle-Petillante/p/S2024030900757440099",
    "reason": "prix-aberrant",
-   "detail": "4,93 €/l contre une médiane de 1,00 €/l (eau/petillante/l)"
+   "detail": "4,93 €/l contre une médiane de 0,99 €/l (eau/petillante/l)"
   },
   {
    "chainId": "delhaize",
@@ -4746,14 +4754,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Sucres/Edulcorant-Stevia-Pastilles/p/S2023020700680040000",
    "reason": "prix-aberrant",
    "detail": "299,38 €/kg contre une médiane de 35,00 €/kg (farine-sucre/edulcorant/kg)"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2022120200662970000",
-   "name": "Huile d'olive Vierge extra Espagne",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Huile-d-olive/Huile-d-olive-Vierge-extra-Espagne/p/S2022120200662970000",
-   "reason": "prix-aberrant",
-   "detail": "7656,08 €/kg contre une médiane de 18,99 €/kg (huiles-sauces/olive/kg)"
   }
  ]
 }
