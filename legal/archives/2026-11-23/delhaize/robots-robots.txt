@@ -1,0 +1,40 @@
+# Allow bots
+User-agent: *
+# Auth, SSO, registration and account paths (also locale-prefixed)
+Disallow: /auth/
+Disallow: */start-sso
+Disallow: */init-sso
+Disallow: */end-sso
+Disallow: */sso-callback
+Disallow: */reg/
+Disallow: /mobile/
+Disallow: */mobile/reg/
+Disallow: */login
+Disallow: */my-account
+Disallow: */payment-method
+Disallow: */timeslot
+Disallow: */errorPage
+Disallow: */checkout
+Disallow: */cart$
+Disallow: */cart/
+Disallow: */cart?
+Disallow: */forgot-password
+
+Disallow: /login
+Disallow: /errorPage
+Disallow: /my-account
+Disallow: /timeslot
+Disallow: /payment-method
+Disallow: */search/*
+Disallow: */search?*
+Disallow: */customerhub/quick-shop/*
+Disallow: */registration/*
+Disallow: */create-account*
+Disallow: /en/
+
+# Sitemap files
+Sitemap: https://www.delhaize.be/sitemap/delhaizesitemapindex.xml
+Sitemap: https://www.delhaize.be/sitemapnl/delhaizesitemapindex.xml
+
+Sitemap: https://www.delhaize.be/site/nl/content/sitemap.xml
+Sitemap: https://www.delhaize.be/site/fr/content/sitemap.xml

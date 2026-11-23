@@ -1,0 +1,89 @@
+{
+  "archivedAt": "2026-11-23T16:28:35.277Z",
+  "userAgent": "Mozilla/5.0 (compatible; PanierMalinBot/0.1; +https://paniermalin.be/robot)",
+  "entries": [
+    {
+      "chainId": "aldi",
+      "url": "https://www.aldi.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:22.548Z",
+      "status": 200,
+      "finalUrl": "https://www.aldi.be/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 387,
+      "sha256": "da1b128bf621dc8cb26a415e1e4f94340471f9efa607119c64f41674dfee93dd",
+      "file": "aldi/robots-robots.txt"
+    },
+    {
+      "chainId": "colruyt",
+      "url": "https://www.colruyt.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:24.306Z",
+      "status": 200,
+      "finalUrl": "https://www.colruyt.be/robots.txt",
+      "contentType": "text/plain;charset=utf-8",
+      "bytes": 990,
+      "sha256": "6e82575f004b63591f750b9daec9981d1abfef024332c7add5fb2ac7e472dde5",
+      "file": "colruyt/robots-robots.txt"
+    },
+    {
+      "chainId": "colruyt",
+      "url": "https://insights.colruytgroup.com/content/dam/colruytgroup/header-footer/pdf/GEBRUIKSVOORWAARDEN_FR.pdf",
+      "kind": "conditions",
+      "fetchedAt": "2026-11-23T16:28:26.185Z",
+      "status": 200,
+      "finalUrl": "https://insights.colruytgroup.com/content/dam/colruytgroup/header-footer/pdf/GEBRUIKSVOORWAARDEN_FR.pdf",
+      "contentType": "application/pdf",
+      "bytes": 428457,
+      "sha256": "24d143950416d159ddd0805003ad94fc176e18d46f167a2be76a99fde371a89a",
+      "file": "colruyt/conditions-GEBRUIKSVOORWAARDEN_FR.pdf"
+    },
+    {
+      "chainId": "delhaize",
+      "url": "https://www.delhaize.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:28.020Z",
+      "status": 200,
+      "finalUrl": "https://www.delhaize.be/robots.txt",
+      "contentType": "text/plain",
+      "bytes": 1003,
+      "sha256": "109c2e0658d42b3a69c6eff3460bab60ed392d7a97f663cf9137e981527bcf42",
+      "file": "delhaize/robots-robots.txt"
+    },
+    {
+      "chainId": "carrefour",
+      "url": "https://www.carrefour.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:29.933Z",
+      "status": 200,
+      "finalUrl": "https://www.carrefour.be/robots.txt",
+      "contentType": "text/plain;charset=UTF-8",
+      "bytes": 15860,
+      "sha256": "0f236b6ae7613f9c3b40f243bb222f9e586256d9bb135fcd01202a0bfd4109c0",
+      "file": "carrefour/robots-robots.txt"
+    },
+    {
+      "chainId": "ah",
+      "url": "https://www.ah.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:31.721Z",
+      "status": 403,
+      "finalUrl": "https://www.ah.be/robots.txt",
+      "contentType": "text/html",
+      "bytes": 143,
+      "sha256": "ea0fe9df3fc4c5ec77338a0e6bfc432311565dd7b3e5f22ad254b28132460880"
+    },
+    {
+      "chainId": "lidl",
+      "url": "https://www.lidl.be/robots.txt",
+      "kind": "robots",
+      "fetchedAt": "2026-11-23T16:28:33.406Z",
+      "status": 200,
+      "finalUrl": "https://www.lidl.be/robots.txt",
+      "contentType": "text/plain",
+      "bytes": 312,
+      "sha256": "e0c20111dec7216a501af68763119efaf613546154ba73f9d70efce8b76865bd",
+      "file": "lidl/robots-robots.txt"
+    }
+  ]
+}
