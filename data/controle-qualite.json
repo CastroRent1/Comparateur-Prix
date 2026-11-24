@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-24T05:00:53.029Z",
- "checked": 12166,
- "rejectedCount": 591,
+ "generatedAt": "2026-11-24T12:23:03.842Z",
+ "checked": 12144,
+ "rejectedCount": 592,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -42,14 +42,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Poissons-plats/Filet-de-plie/p/F1981081100229600000",
    "reason": "format-incoherent",
    "detail": "6,82 € pour 0.14 kg = 48,71 €/kg, mais l'enseigne affiche 32,49 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "F1981081100232400000",
-   "name": "Poule a bouillir",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Poulet-entier/Poule-a-bouillir/p/F1981081100232400000",
-   "reason": "format-incoherent",
-   "detail": "4,85 € pour 0.8 kg = 6,06 €/kg, mais l'enseigne affiche 4,25 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2093,14 +2085,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "F2025041000156510000",
-   "name": "Plateau Français",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Mix-de-charcuterie/Plateau-Francais/p/F2025041000156510000",
-   "reason": "format-incoherent",
-   "detail": "3,09 € pour 0.1 kg = 30,90 €/kg, mais l'enseigne affiche 15,45 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "F2025050800156970000",
    "name": "Salami au poivre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Charcuterie/Autre-charcuterie/Salami-au-poivre/p/F2025050800156970000",
@@ -2138,14 +2122,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Alternatives-vegetales/Alternative-vegetale-yaourt-Vanille/p/F2025062700159380000",
    "reason": "format-incoherent",
    "detail": "2,99 € pour 0.496 kg = 6,03 €/kg, mais l'enseigne affiche 6,50 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "F2025071600160270000",
-   "name": "Olives vertes",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs-froids/Olives/Olives-vertes/p/F2025071600160270000",
-   "reason": "format-incoherent",
-   "detail": "2,99 € pour 0.13 kg = 23,00 €/kg, mais l'enseigne affiche 19,93 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2402,6 +2378,30 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Produits-de-fin-d-annee/Poivron-farci/p/F2026071500339830000",
    "reason": "format-incoherent",
    "detail": "7,82 € pour 0.414 kg = 18,89 €/kg, mais l'enseigne affiche 16,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026071500339880000",
+   "name": "Plateau apero kefta",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Plateau-apero-kefta/p/F2026071500339880000",
+   "reason": "format-incoherent",
+   "detail": "8,55 € pour 0.5 kg = 17,10 €/kg, mais l'enseigne affiche 18,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026071500340080000",
+   "name": "Mini Médaillon de filet porc",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Mini-Medaillon-de-filet-porc/p/F2026071500340080000",
+   "reason": "format-incoherent",
+   "detail": "6,00 € pour 0.27 kg = 22,22 €/kg, mais l'enseigne affiche 19,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026071500340270000",
+   "name": "Plateau volaille",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Plateau-volaille/p/F2026071500340270000",
+   "reason": "format-incoherent",
+   "detail": "10,63 € pour 0.504 kg = 21,09 €/kg, mais l'enseigne affiche 18,99 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3113,7 +3113,7 @@
    "name": "Champignons Paris Mini",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Champignons-en-conserve/Champignons-decoupes-en-conserve/Champignons-Paris-Mini/p/S2012032100111790000",
    "reason": "format-incoherent",
-   "detail": "4,95 € pour 0.39 kg = 12,69 €/kg, mais l'enseigne affiche 21,52 €/kg → publié sans format"
+   "detail": "5,09 € pour 0.39 kg = 13,05 €/kg, mais l'enseigne affiche 22,13 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3241,7 +3241,7 @@
    "name": "Lentilles",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Lentilles-en-conserve/Lentilles/p/S2015012100110680000",
    "reason": "format-incoherent",
-   "detail": "1,95 € pour 0.16 kg = 12,19 €/kg, mais l'enseigne affiche 15,00 €/kg → publié sans format"
+   "detail": "1,99 € pour 0.16 kg = 12,44 €/kg, mais l'enseigne affiche 15,31 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3433,7 +3433,7 @@
    "name": "Thon Huile d'olive",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Thon-en-conserve/Thon-Huile-d-olive/p/S2016030403635770000",
    "reason": "format-incoherent",
-   "detail": "4,29 € pour 0.2 kg = 21,45 €/kg, mais l'enseigne affiche 28,04 €/kg → publié sans format"
+   "detail": "4,25 € pour 0.2 kg = 21,25 €/kg, mais l'enseigne affiche 27,78 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3570,6 +3570,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Peches-en-conserve/Peches-Demi-Jus-Boite/p/S2018121400139320000",
    "reason": "format-incoherent",
    "detail": "1,55 € pour 0.41 kg = 3,78 €/kg, mais l'enseigne affiche 6,46 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "S2019011100148740000",
+   "name": "Oignons Frits 100 g",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Cuisine-du-monde/Asiatique/Indonesie/Oignons-Frits-100-g/p/S2019011100148740000",
+   "reason": "format-incoherent",
+   "detail": "2,99 € pour 0.1 kg = 29,90 €/kg, mais l'enseigne affiche 7,87 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4713,7 +4721,7 @@
    "name": "Tabl. édulcorantes Recharge",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Preparations-desserts/Sucres/Tabl-edulcorantes-Recharge-/p/S2011112100151590099",
    "reason": "prix-aberrant",
-   "detail": "171,57 €/kg contre une médiane de 35,00 €/kg (farine-sucre/edulcorant/kg)"
+   "detail": "170,39 €/kg contre une médiane de 35,00 €/kg (farine-sucre/edulcorant/kg)"
   },
   {
    "chainId": "delhaize",
