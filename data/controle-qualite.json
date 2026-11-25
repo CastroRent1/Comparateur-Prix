@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-24T21:36:22.425Z",
- "checked": 12154,
- "rejectedCount": 587,
+ "generatedAt": "2026-11-25T02:59:43.101Z",
+ "checked": 12160,
+ "rejectedCount": 589,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -202,6 +202,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Decoupe-de-poulet/Aguillettes-Poulet-Extra-fin/p/F2000111300905200000",
    "reason": "format-incoherent",
    "detail": "6,80 € pour 0.32 kg = 21,25 €/kg, mais l'enseigne affiche 16,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2001082800227400000",
+   "name": "Calamars Frit",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Poisson-panes/Calamars-Frit/p/F2001082800227400000",
+   "reason": "format-incoherent",
+   "detail": "5,39 € pour 0.22 kg = 24,50 €/kg, mais l'enseigne affiche 21,99 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -1237,6 +1245,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2022091900107390000",
+   "name": "Carpaccio Sauce truffe",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Produits-de-fin-d-annee/Carpaccio-Sauce-truffe/p/F2022091900107390000",
+   "reason": "format-incoherent",
+   "detail": "6,73 € pour 0.133 kg = 50,60 €/kg, mais l'enseigne affiche 44,00 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2022092200107740000",
    "name": "Filet Pur Agneau Celtic",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Agneau/Filet-Pur-Agneau-Celtic/p/F2022092200107740000",
@@ -1677,14 +1693,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "F2024072500142750000",
-   "name": "Biefstuk Rund Gepeld-Bavette BelgischSteak Boeuf Pelé-Bavette Belge",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Boeuf/Biefstuk-Rund-Gepeld-Bavette-BelgischSteak-Boeuf-Pele-Bavette-Belge/p/F2024072500142750000",
-   "reason": "format-incoherent",
-   "detail": "4,60 € pour 0.18 kg = 25,56 €/kg, mais l'enseigne affiche 22,99 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "F2024072500142830000",
    "name": "Chateaubriand Boeuf Belge",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Boeuf/Chateaubriand-Boeuf-Belge/p/F2024072500142830000",
@@ -1861,14 +1869,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "F2024091600147290000",
-   "name": "Rôti Veau",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Veau/Roti-Veau/p/F2024091600147290000",
-   "reason": "format-incoherent",
-   "detail": "11,61 € pour 0.387 kg = 30,00 €/kg, mais l'enseigne affiche 23,99 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "F2024091600147330000",
    "name": "Osso Bucco Veau",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Veau/Osso-Bucco-Veau/p/F2024091600147330000",
@@ -1954,14 +1954,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Burger/Burger-Ardennais/p/F2024100700148620000",
    "reason": "format-incoherent",
    "detail": "3,87 € pour 0.225 kg = 17,20 €/kg, mais l'enseigne affiche 15,49 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "F2024120400150070000",
-   "name": "Crumble Saumon/Epinards Eco",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Preparations-de-poisson-frais/Crumble-Saumon-Epinards-Eco/p/F2024120400150070000",
-   "reason": "format-incoherent",
-   "detail": "8,10 € pour 0.24 kg = 33,75 €/kg, mais l'enseigne affiche 29,99 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2090,6 +2082,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Alternatives-vegetales/Alternative-vegetale-yaourt-Vanille/p/F2025062700159380000",
    "reason": "format-incoherent",
    "detail": "2,99 € pour 0.496 kg = 6,03 €/kg, mais l'enseigne affiche 6,50 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2025071600160180000",
+   "name": "Dessert Mousse Noix de coco Chocolat",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Mousses/Dessert-Mousse-Noix-de-coco-Chocolat/p/F2025071600160180000",
+   "reason": "format-incoherent",
+   "detail": "1,99 € pour 0.075 kg = 26,53 €/kg, mais l'enseigne affiche 19,90 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2357,6 +2357,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026071500340120000",
+   "name": "Plateau junior",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Plateau-junior/p/F2026071500340120000",
+   "reason": "format-incoherent",
+   "detail": "6,16 € pour 0.3204 kg = 19,23 €/kg, mais l'enseigne affiche 16,65 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026071500340270000",
    "name": "Plateau volaille",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Plateau-volaille/p/F2026071500340270000",
@@ -2378,6 +2386,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Gibier/Filet-de-Canard-Avec-Peau/p/F2026071700340540000",
    "reason": "format-incoherent",
    "detail": "11,75 € pour 0.176 kg = 66,76 €/kg, mais l'enseigne affiche 46,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2026072400340720000",
+   "name": "Entrecôte Vache",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Boeuf/Entrecote-Vache/p/F2026072400340720000",
+   "reason": "format-incoherent",
+   "detail": "14,40 € pour 0.42 kg = 34,29 €/kg, mais l'enseigne affiche 31,99 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2457,7 +2473,7 @@
    "name": "Saucisse Cocktail 210 g",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-Cocktail-210-g/p/S1971080100141110000",
    "reason": "format-incoherent",
-   "detail": "3,09 € pour 0.21 kg = 14,71 €/kg, mais l'enseigne affiche 25,75 €/kg → publié sans format"
+   "detail": "3,15 € pour 0.21 kg = 15,00 €/kg, mais l'enseigne affiche 26,25 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2513,7 +2529,7 @@
    "name": "Petits pois Mélange printanier Etuvée Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Pois-en-conserve/Petits-pois-Melange-printanier-Etuvee-Boite/p/S1981082000111950000",
    "reason": "format-incoherent",
-   "detail": "4,35 € pour 0.4 kg = 10,87 €/kg, mais l'enseigne affiche 15,54 €/kg → publié sans format"
+   "detail": "4,45 € pour 0.4 kg = 11,13 €/kg, mais l'enseigne affiche 15,89 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2521,7 +2537,7 @@
    "name": "Légumes Macédoine Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Melange-de-legumes-en-conserve/Legumes-Macedoine-Boite/p/S1982061600114440000",
    "reason": "format-incoherent",
-   "detail": "2,45 € pour 0.4 kg = 6,13 €/kg, mais l'enseigne affiche 9,25 €/kg → publié sans format"
+   "detail": "2,49 € pour 0.4 kg = 6,23 €/kg, mais l'enseigne affiche 9,40 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2793,7 +2809,7 @@
    "name": "Pêches Tranches Sirop",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Peches-en-conserve/Peches-Tranches-Sirop/p/S2004071300106030099",
    "reason": "format-incoherent",
-   "detail": "5,55 € pour 0.681 kg = 8,15 €/kg, mais l'enseigne affiche 13,21 €/kg → publié sans format"
+   "detail": "5,65 € pour 0.681 kg = 8,30 €/kg, mais l'enseigne affiche 13,45 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2857,7 +2873,7 @@
    "name": "Original Cubes de bouillon Poulet",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Aides-culinaires/Bouillons/Original-Cubes-de-bouillon-Poulet/p/S2006040500149730000",
    "reason": "format-incoherent",
-   "detail": "1,99 € pour 0.12 kg = 16,58 €/kg, mais l'enseigne affiche 15,08 €/kg → publié sans format"
+   "detail": "2,05 € pour 0.12 kg = 17,08 €/kg, mais l'enseigne affiche 15,53 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2913,7 +2929,7 @@
    "name": "Petits pois-Carottes Extra fins Bocal",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Melange-de-pois-et-carottes-en-conserve/Petits-pois-Carottes-Extra-fins-Bocal/p/S2008060300112750000",
    "reason": "format-incoherent",
-   "detail": "1,88 € pour 0.35 kg = 5,37 €/kg, mais l'enseigne affiche 8,17 €/kg → publié sans format"
+   "detail": "1,92 € pour 0.35 kg = 5,49 €/kg, mais l'enseigne affiche 8,35 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3113,7 +3129,7 @@
    "name": "Fèves Extra fins",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Autres-legumineuses-en-conserve/Feves-Extra-fins/p/S2013030700110590000",
    "reason": "format-incoherent",
-   "detail": "1,75 € pour 0.155 kg = 11,29 €/kg, mais l'enseigne affiche 13,46 €/kg → publié sans format"
+   "detail": "1,79 € pour 0.155 kg = 11,55 €/kg, mais l'enseigne affiche 13,77 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3137,7 +3153,7 @@
    "name": "Petits pois-Carottes Très fins",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Melange-de-pois-et-carottes-en-conserve/Petits-pois-Carottes-Tres-fins/p/S2013051400111690000",
    "reason": "format-incoherent",
-   "detail": "2,15 € pour 0.305 kg = 7,05 €/kg, mais l'enseigne affiche 8,11 €/kg → publié sans format"
+   "detail": "2,19 € pour 0.305 kg = 7,18 €/kg, mais l'enseigne affiche 8,26 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3193,7 +3209,7 @@
    "name": "Pois chiches",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Pois-chiches-en-conserve/Pois-chiches/p/S2015012100110670000",
    "reason": "format-incoherent",
-   "detail": "1,89 € pour 0.15 kg = 12,60 €/kg, mais l'enseigne affiche 14,54 €/kg → publié sans format"
+   "detail": "1,93 € pour 0.15 kg = 12,87 €/kg, mais l'enseigne affiche 14,85 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3209,7 +3225,7 @@
    "name": "Haricots rouges kidney",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-rouges-kidney/p/S2015012100110690000",
    "reason": "format-incoherent",
-   "detail": "1,59 € pour 0.16 kg = 9,94 €/kg, mais l'enseigne affiche 12,72 €/kg → publié sans format"
+   "detail": "1,62 € pour 0.16 kg = 10,13 €/kg, mais l'enseigne affiche 12,96 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3225,7 +3241,7 @@
    "name": "Ananas Tranches Jus Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Ananas-en-conserve/Ananas-Tranches-Jus-Boite/p/S2015020300103810000",
    "reason": "format-incoherent",
-   "detail": "5,45 € pour 0.82 kg = 6,65 €/kg, mais l'enseigne affiche 10,69 €/kg → publié sans format"
+   "detail": "5,55 € pour 0.82 kg = 6,77 €/kg, mais l'enseigne affiche 10,88 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3373,6 +3389,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2015111603613320099",
+   "name": "Haricots verts Mi-fins Coupés Boîte",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Haricots-en-conserve/Haricots-fins-en-conserve/Haricots-verts-Mi-fins-Coupes-Boite/p/S2015111603613320099",
+   "reason": "format-incoherent",
+   "detail": "1,15 € pour 0.2 kg = 5,75 €/kg, mais l'enseigne affiche 3,48 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2015112403614850000",
    "name": "Pois chiches Bio",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Pois-chiches-en-conserve/Pois-chiches-Bio/p/S2015112403614850000",
@@ -3465,7 +3489,7 @@
    "name": "Saucisse Vienne Maigre 400 g",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-Vienne-Maigre-400-g/p/S2018030500033640000",
    "reason": "format-incoherent",
-   "detail": "3,99 € pour 0.4 kg = 9,97 €/kg, mais l'enseigne affiche 18,14 €/kg → publié sans format"
+   "detail": "4,05 € pour 0.4 kg = 10,12 €/kg, mais l'enseigne affiche 18,41 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3481,7 +3505,7 @@
    "name": "Pois Chiches",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Pois-chiches-en-conserve/Pois-Chiches/p/S2018041600049780000",
    "reason": "format-incoherent",
-   "detail": "2,75 € pour 0.16 kg = 17,19 €/kg, mais l'enseigne affiche 22,92 €/kg → publié sans format"
+   "detail": "2,69 € pour 0.16 kg = 16,81 €/kg, mais l'enseigne affiche 22,42 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3505,7 +3529,7 @@
    "name": "Demies Pêches Jus",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Peches-en-conserve/Demies-Peches-Jus/p/S2018051700057540000",
    "reason": "format-incoherent",
-   "detail": "4,65 € pour 0.825 kg = 5,64 €/kg, mais l'enseigne affiche 9,89 €/kg → publié sans format"
+   "detail": "4,75 € pour 0.825 kg = 5,76 €/kg, mais l'enseigne affiche 10,11 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3973,14 +3997,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2024022100754500000",
-   "name": "Bonbons Happy Cherries",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-Sucres/Bonbons-Happy-Cherries/p/S2024022100754500000",
-   "reason": "format-incoherent",
-   "detail": "1,18 € pour 0.075 kg = 15,73 €/kg, mais l'enseigne affiche 7,86 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "S2024022100754510000",
    "name": "Bonbons Pinballs",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-Sucres/Bonbons-Pinballs/p/S2024022100754510000",
@@ -4041,7 +4057,7 @@
    "name": "Soup of the world Thailand",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Soupes/Soupes-instantanees/Royco/Soup-of-the-world-Thailand/p/S2024070100776850000",
    "reason": "format-incoherent",
-   "detail": "2,45 € pour 0.0582 kg = 42,10 €/kg, mais l'enseigne affiche 45,37 €/kg → publié sans format"
+   "detail": "2,49 € pour 0.0582 kg = 42,78 €/kg, mais l'enseigne affiche 46,11 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4090,14 +4106,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Tomates-en-conserve/Concentre-de-tomates-en-conserve/Tomates-Concentre/p/S2025030400828410099",
    "reason": "format-incoherent",
    "detail": "1,19 € pour 0.28 kg = 4,25 €/kg, mais l'enseigne affiche 5,67 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2025050700860770099",
-   "name": "Lentilles Beluga 0% Sel",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Lentilles-en-conserve/Lentilles-Beluga-0-Sel/p/S2025050700860770099",
-   "reason": "format-incoherent",
-   "detail": "2,15 € pour 0.09 kg = 23,89 €/kg, mais l'enseigne affiche 13,44 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4189,14 +4197,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2026032600950170000",
-   "name": "Bonbons Acide",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-acidules/Bonbons-Acide/p/S2026032600950170000",
-   "reason": "format-incoherent",
-   "detail": "1,19 € pour 0.07 kg = 17,00 €/kg, mais l'enseigne affiche 8,50 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "S2026041400956010000",
    "name": "Champignons Emincés",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Champignons-en-conserve/Champignons-entiers-en-conserve/Champignons-Eminces/p/S2026041400956010000",
@@ -4265,7 +4265,7 @@
    "name": "Lipton Ice tea Citron",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Lipton-Ice-tea-Citron/p/S2026083100989670000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 2,08 €/l (sodas/the-glace/l)"
+   "detail": "15,89 €/l contre une médiane de 2,13 €/l (sodas/the-glace/l)"
   },
   {
    "chainId": "delhaize",
@@ -4293,11 +4293,19 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "S2017082304174220099",
+   "name": "Regular Cola Soda 33Cl",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-classique/Regular-Cola-Soda-33Cl/p/S2017082304174220099",
+   "reason": "prix-aberrant",
+   "detail": "12,88 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "S2024041300762810000",
    "name": "Sirop Cerises - Cola Sans sucre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Grenadine/Sirop-Cerises-Cola-Sans-sucre/p/S2024041300762810000",
    "reason": "prix-aberrant",
-   "detail": "11,08 €/l contre une médiane de 1,75 €/l (sodas/cola/l)"
+   "detail": "11,08 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4305,7 +4313,7 @@
    "name": "Sirop Pepsi",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi/p/S2026081800986780000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,75 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4313,7 +4321,7 @@
    "name": "Sirop Pepsi Lime Zero",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi-Lime-Zero/p/S2026081900987300000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,75 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4321,7 +4329,7 @@
    "name": "Sirop Pepsi zero",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi-zero/p/S2026081900987320000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,75 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4426,6 +4434,14 @@
    "sourceUrl": "https://www.aldi.be/fr/product/macarons-12-pcs-3008425.html",
    "reason": "prix-aberrant",
    "detail": "27,71 €/kg contre une médiane de 5,95 €/kg (yaourts/fruits/kg)"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2004090600132600000",
+   "name": "Bouchée Chocolat Lait Noisette",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Desserts/Bouchee-Chocolat-Lait-Noisette/p/F2004090600132600000",
+   "reason": "prix-aberrant",
+   "detail": "36,10 €/kg contre une médiane de 5,95 €/kg (yaourts/fruits/kg)"
   },
   {
    "chainId": "delhaize",
@@ -4625,7 +4641,7 @@
    "name": "Purée Patates Douces",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Pates-riz-et-autres-feculents/Puree/Puree-Patates-Douces/p/S2026062500976100000",
    "reason": "prix-aberrant",
-   "detail": "27,12 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
+   "detail": "27,60 €/kg contre une médiane de 4,58 €/kg (pates-riz/pates/kg)"
   },
   {
    "chainId": "delhaize",
