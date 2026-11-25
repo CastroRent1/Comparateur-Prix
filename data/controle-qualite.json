@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-25T02:59:43.101Z",
- "checked": 12160,
- "rejectedCount": 589,
+ "generatedAt": "2026-11-25T10:50:30.742Z",
+ "checked": 12169,
+ "rejectedCount": 590,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -957,6 +957,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2019081300042190000",
+   "name": "Premium Plateau",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Fondue-gourmet-et-grill/Premium-Plateau/p/F2019081300042190000",
+   "reason": "format-incoherent",
+   "detail": "22,10 € pour 0.54 kg = 40,93 €/kg, mais l'enseigne affiche 32,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2019081300042310000",
    "name": "Aiguillettes Poulet",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Decoupe-de-poulet/Aiguillettes-Poulet/p/F2019081300042310000",
@@ -1050,14 +1058,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Barbecue/Ribs-Big-Miel/p/F2020081600065510000",
    "reason": "format-incoherent",
    "detail": "10,88 € pour 0.675 kg = 16,12 €/kg, mais l'enseigne affiche 13,95 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "F2020082100066630000",
-   "name": "Mont d'Or Baby",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Mont-d-Or-Baby/p/F2020082100066630000",
-   "reason": "format-incoherent",
-   "detail": "12,49 € pour 0.48 kg = 26,02 €/kg, mais l'enseigne affiche 28,65 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -1290,6 +1290,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Poissons-frais/Autres-poissons/Steak-thon-Ecopack/p/F2023061400121880000",
    "reason": "format-incoherent",
    "detail": "13,65 € pour 0.34 kg = 40,15 €/kg, mais l'enseigne affiche 34,99 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2023081700124760000",
+   "name": "Raclette",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fondue-raclette-et-tartiflette/Fondue-raclette-et-tartiflette/Raclette/p/F2023081700124760000",
+   "reason": "format-incoherent",
+   "detail": "3,85 € pour 0.35 kg = 11,00 €/kg, mais l'enseigne affiche 25,67 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3289,7 +3297,7 @@
    "name": "Saucisse Hotdog",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Viandes-en-conserve/Saucisse-Hotdog/p/S2015033000140880000",
    "reason": "format-incoherent",
-   "detail": "5,09 € pour 0.55 kg = 9,25 €/kg, mais l'enseigne affiche 16,97 €/kg → publié sans format"
+   "detail": "4,99 € pour 0.55 kg = 9,07 €/kg, mais l'enseigne affiche 16,63 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4297,7 +4305,7 @@
    "name": "Regular Cola Soda 33Cl",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sodas/Colas/Cola-classique/Regular-Cola-Soda-33Cl/p/S2017082304174220099",
    "reason": "prix-aberrant",
-   "detail": "12,88 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+   "detail": "12,88 €/l contre une médiane de 1,78 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4305,7 +4313,7 @@
    "name": "Sirop Cerises - Cola Sans sucre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Grenadine/Sirop-Cerises-Cola-Sans-sucre/p/S2024041300762810000",
    "reason": "prix-aberrant",
-   "detail": "11,08 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+   "detail": "11,08 €/l contre une médiane de 1,78 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4313,7 +4321,7 @@
    "name": "Sirop Pepsi",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi/p/S2026081800986780000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,78 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4321,7 +4329,7 @@
    "name": "Sirop Pepsi Lime Zero",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi-Lime-Zero/p/S2026081900987300000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,78 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
@@ -4329,7 +4337,7 @@
    "name": "Sirop Pepsi zero",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Sirop-Pepsi-zero/p/S2026081900987320000",
    "reason": "prix-aberrant",
-   "detail": "15,89 €/l contre une médiane de 1,77 €/l (sodas/cola/l)"
+   "detail": "15,89 €/l contre une médiane de 1,78 €/l (sodas/cola/l)"
   },
   {
    "chainId": "delhaize",
