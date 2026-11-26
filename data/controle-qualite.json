@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-26T10:53:09.889Z",
- "checked": 12158,
- "rejectedCount": 593,
+ "generatedAt": "2026-11-26T20:23:52.351Z",
+ "checked": 12167,
+ "rejectedCount": 596,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -170,6 +170,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Ricotta-mascarpone-feta-et-mozzarella/Feta-et-mozzarella/Mozzarella-Rouleau-Maxi/p/F1997043000114400000",
    "reason": "format-incoherent",
    "detail": "2,85 € pour 0.385 kg = 7,40 €/kg, mais l'enseigne affiche 11,40 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F1998060400221700000",
+   "name": "Filets de hareng Vinaigre",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Hareng/Filets-de-hareng-Vinaigre/p/F1998060400221700000",
+   "reason": "format-incoherent",
+   "detail": "3,29 € pour 0.35 kg = 9,40 €/kg, mais l'enseigne affiche 18,28 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -646,8 +654,8 @@
   {
    "chainId": "delhaize",
    "productKey": "F2017081400004900000",
-   "name": "Roti de porc savourette truffe",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Produits-de-fin-d-annee/Roti-de-porc-savourette-truffe/p/F2017081400004900000",
+   "name": "Roti de porc Savourette Truffe",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Produits-de-fin-d-annee/Roti-de-porc-Savourette-Truffe/p/F2017081400004900000",
    "reason": "format-incoherent",
    "detail": "7,75 € pour 0.4 kg = 19,38 €/kg, mais l'enseigne affiche 15,49 €/kg → publié sans format"
   },
@@ -1218,6 +1226,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromages-de-dessert/Autres-fromages-de-dessert/Queso-Iberico-Mini-portion/p/F2022072500104040000",
    "reason": "format-incoherent",
    "detail": "2,99 € pour 0.094 kg = 31,81 €/kg, mais l'enseigne affiche 25,34 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
+   "productKey": "F2022072700104240000",
+   "name": "Olives à l'ail",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Apero-et-entrees/Aperitifs-froids/Olives/Olives-a-l-ail/p/F2022072700104240000",
+   "reason": "format-incoherent",
+   "detail": "3,99 € pour 0.26 kg = 15,35 €/kg, mais l'enseigne affiche 14,00 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2253,6 +2269,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026050400284730000",
+   "name": "Poulet Aiguillettes Truffes",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Decoupe-de-poulet/Poulet-Aiguillettes-Truffes/p/F2026050400284730000",
+   "reason": "format-incoherent",
+   "detail": "7,60 € pour 0.4 kg = 19,00 €/kg, mais l'enseigne affiche 14,24 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026052100335870000",
    "name": "Filet de cuisse Coucou de Malines",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Decoupe-de-poulet/Filet-de-cuisse-Coucou-de-Malines/p/F2026052100335870000",
@@ -2493,6 +2517,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2026082700343080000",
+   "name": "Gouda Belg Blok",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-bloc/Gouda/Gouda-Belg-Blok/p/F2026082700343080000",
+   "reason": "format-incoherent",
+   "detail": "4,95 € pour 0.188 kg = 26,33 €/kg, mais l'enseigne affiche 19,79 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2026082800343110000",
    "name": "Gouda Vieux Bloc",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Fromages/Fromage-en-bloc/Gouda/Gouda-Vieux-Bloc/p/F2026082800343110000",
@@ -2529,7 +2561,7 @@
    "name": "Thon Huile d'olive",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Thon-en-conserve/Thon-Huile-d-olive/p/S1973120300126860000",
    "reason": "format-incoherent",
-   "detail": "2,29 € pour 0.1 kg = 22,90 €/kg, mais l'enseigne affiche 27,93 €/kg → publié sans format"
+   "detail": "2,25 € pour 0.1 kg = 22,50 €/kg, mais l'enseigne affiche 27,44 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2969,7 +3001,7 @@
    "name": "Haricots Blanc Bocal",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Blanc-Bocal/p/S2008060300112710000",
    "reason": "format-incoherent",
-   "detail": "2,65 € pour 0.36 kg = 7,36 €/kg, mais l'enseigne affiche 10,39 €/kg → publié sans format"
+   "detail": "2,59 € pour 0.36 kg = 7,19 €/kg, mais l'enseigne affiche 10,16 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -2985,7 +3017,7 @@
    "name": "Haricots blancs Géants",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-blancs-Geants/p/S2008060300112860000",
    "reason": "format-incoherent",
-   "detail": "2,89 € pour 0.36 kg = 8,03 €/kg, mais l'enseigne affiche 12,30 €/kg → publié sans format"
+   "detail": "2,95 € pour 0.36 kg = 8,19 €/kg, mais l'enseigne affiche 12,55 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3113,7 +3145,7 @@
    "name": "Fruits Cocktail Sirop léger Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Fruits-cocktail-en-conserve/Fruits-Cocktail-Sirop-leger-Boite/p/S2011102800104060000",
    "reason": "format-incoherent",
-   "detail": "1,93 € pour 0.227 kg = 8,50 €/kg, mais l'enseigne affiche 13,79 €/kg → publié sans format"
+   "detail": "1,89 € pour 0.227 kg = 8,33 €/kg, mais l'enseigne affiche 13,50 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3185,7 +3217,7 @@
    "name": "Petits pois-Carottes Très fin",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Pois-et-carottes-en-conserve/Melange-de-pois-et-carottes-en-conserve/Petits-pois-Carottes-Tres-fin/p/S2013051400111670000",
    "reason": "format-incoherent",
-   "detail": "4,25 € pour 0.61 kg = 6,97 €/kg, mais l'enseigne affiche 8,02 €/kg → publié sans format"
+   "detail": "4,15 € pour 0.61 kg = 6,80 €/kg, mais l'enseigne affiche 7,83 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3457,7 +3489,7 @@
    "name": "Haricots Rouges Kidney",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Rouges-Kidney/p/S2016021003628490000",
    "reason": "format-incoherent",
-   "detail": "2,39 € pour 0.31 kg = 7,71 €/kg, mais l'enseigne affiche 9,56 €/kg → publié sans format"
+   "detail": "2,35 € pour 0.31 kg = 7,58 €/kg, mais l'enseigne affiche 9,40 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3729,7 +3761,7 @@
    "name": "Sardines Huile d'olive",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Sardines-en-conserve/Sardines-Huile-d-olive/p/S2020041000419240000",
    "reason": "format-incoherent",
-   "detail": "2,69 € pour 0.125 kg = 21,52 €/kg, mais l'enseigne affiche 28,32 €/kg → publié sans format"
+   "detail": "2,75 € pour 0.125 kg = 22,00 €/kg, mais l'enseigne affiche 28,95 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3882,14 +3914,6 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Surgeles/Pizzas/Style-italien/Pizza-Salami/p/S2022020400603780000",
    "reason": "format-incoherent",
    "detail": "2,85 € pour 0.32 kg = 8,91 €/kg, mais l'enseigne affiche 8,38 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
-   "productKey": "S2022032500087090098",
-   "name": "Bonbons Spaghetti Red F!zz",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Confiserie/Bonbons/Bonbons-acidules/Bonbons-Spaghetti-Red-F-zz/p/S2022032500087090098",
-   "reason": "format-incoherent",
-   "detail": "1,00 € pour 0.07 kg = 14,29 €/kg, mais l'enseigne affiche 7,14 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4425,7 +4449,7 @@
    "name": "Huile de sésame Vierge Bio",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Bio-Eco-et-Fairtrade/Bio/Epicerie-salee/Huiles-et-vinaigres/Huile-de-sesame-Vierge-Bio/p/S2001040900005340000",
    "reason": "prix-aberrant",
-   "detail": "24,38 €/l contre une médiane de 5,44 €/l (huiles-sauces/huile/l)"
+   "detail": "24,38 €/l contre une médiane de 5,39 €/l (huiles-sauces/huile/l)"
   },
   {
    "chainId": "delhaize",
@@ -4433,7 +4457,7 @@
    "name": "Huile Cocos",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Autres-huiles/Huile-Cocos/p/S2024070300777470000",
    "reason": "prix-aberrant",
-   "detail": "27,92 €/l contre une médiane de 5,44 €/l (huiles-sauces/huile/l)"
+   "detail": "27,92 €/l contre une médiane de 5,39 €/l (huiles-sauces/huile/l)"
   },
   {
    "chainId": "delhaize",
@@ -4441,7 +4465,7 @@
    "name": "Huile Bébé",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Huiles-et-vinaigres/Autres-huiles/Huile-Bebe/p/S2024090400788620000",
    "reason": "prix-aberrant",
-   "detail": "27,96 €/l contre une médiane de 5,44 €/l (huiles-sauces/huile/l)"
+   "detail": "27,96 €/l contre une médiane de 5,39 €/l (huiles-sauces/huile/l)"
   },
   {
    "chainId": "aldi",
