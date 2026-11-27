@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T02:33:12.476Z",
- "checked": 12159,
+ "generatedAt": "2026-11-27T10:53:31.804Z",
+ "checked": 12155,
  "rejectedCount": 595,
  "rejected": [
   {
@@ -2653,14 +2653,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "S1988060300131290000",
-   "name": "Maquereaux Filets Sauce chili",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Poissons-en-conserve/Maquereau-en-conserve/Maquereaux-Filets-Sauce-chili/p/S1988060300131290000",
-   "reason": "format-incoherent",
-   "detail": "1,79 € pour 0.125 kg = 14,32 €/kg, mais l'enseigne affiche 10,59 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "S1988080500012080000",
    "name": "Cornichons Cocktail Vinaigre",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-salee/Condiments/Cornichons/Cornichons-Cocktail-Vinaigre/p/S1988080500012080000",
@@ -2969,7 +2961,7 @@
    "name": "Salsifis",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Autres-legumes-en-conserve/Salsifi-en-conserve/Salsifis/p/S2006042500115250000",
    "reason": "format-incoherent",
-   "detail": "3,45 € pour 0.34 kg = 10,15 €/kg, mais l'enseigne affiche 16,83 €/kg → publié sans format"
+   "detail": "3,39 € pour 0.34 kg = 9,97 €/kg, mais l'enseigne affiche 16,54 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4722,6 +4714,14 @@
    "sourceUrl": "https://www.delhaize.be/fr/shop/Cremerie-fromage-et-alternatives-vegetales/Yaourts-et-alternatives-vegetales/Yaourt-proteine/Protein-snack-Noix-de-coco/p/F2024022600131970000",
    "reason": "prix-aberrant",
    "detail": "39,75 €/kg contre une médiane de 6,30 €/kg (yaourts/vegetal/kg)"
+  },
+  {
+   "chainId": "aldi",
+   "productKey": "3006545",
+   "name": "Capsules de café lungo dessert, 20 pcs",
+   "sourceUrl": "https://www.aldi.be/fr/product/capsules-de-cafe-lungo-dessert-20-pcs-3006545.html",
+   "reason": "prix-aberrant",
+   "detail": "1,10 €/piece contre une médiane de 0,21 €/piece (cafe/capsules/piece)"
   },
   {
    "chainId": "delhaize",
