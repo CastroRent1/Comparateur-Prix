@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-26T20:23:52.351Z",
- "checked": 12167,
- "rejectedCount": 596,
+ "generatedAt": "2026-11-27T02:33:12.476Z",
+ "checked": 12159,
+ "rejectedCount": 595,
  "rejected": [
   {
    "chainId": "delhaize",
@@ -365,6 +365,14 @@
   },
   {
    "chainId": "delhaize",
+   "productKey": "F2009102800207710000",
+   "name": "Filets de hareng Oignons",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Hareng/Filets-de-hareng-Oignons/p/F2009102800207710000",
+   "reason": "format-incoherent",
+   "detail": "5,29 € pour 0.4 kg = 13,22 €/kg, mais l'enseigne affiche 10,58 €/kg → publié sans format"
+  },
+  {
+   "chainId": "delhaize",
    "productKey": "F2009102800215810000",
    "name": "Filet de hareng Sauce tartare",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Poissonnerie/Preparations/Hareng/Filet-de-hareng-Sauce-tartare/p/F2009102800215810000",
@@ -686,8 +694,8 @@
   {
    "chainId": "delhaize",
    "productKey": "F2018020600011970000",
-   "name": "Couronne de porc marinée poivre-sel",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Specialites/Couronne-de-porc-marinee-poivre-sel/p/F2018020600011970000",
+   "name": "Couronne de porc Marinée Poivre-sel",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Specialites/Couronne-de-porc-Marinee-Poivre-sel/p/F2018020600011970000",
    "reason": "format-incoherent",
    "detail": "5,25 € pour 0.25 kg = 21,00 €/kg, mais l'enseigne affiche 17,49 €/kg → publié sans format"
   },
@@ -1454,8 +1462,8 @@
   {
    "chainId": "delhaize",
    "productKey": "F2024021400131340000",
-   "name": "Ribs Provencaals",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Barbecue/Ribs-Provencaals/p/F2024021400131340000",
+   "name": "Ribs Provençale",
+   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Preparations/Barbecue/Ribs-Provencale/p/F2024021400131340000",
    "reason": "format-incoherent",
    "detail": "9,74 € pour 0.55 kg = 17,71 €/kg, mais l'enseigne affiche 12,99 €/kg → publié sans format"
   },
@@ -2309,14 +2317,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "F2026060500337050000",
-   "name": "Poulet Mini roti Cèpes",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Volaille/Poulet/Preparations-de-poulet/Poulet-Mini-roti-Cepes/p/F2026060500337050000",
-   "reason": "format-incoherent",
-   "detail": "9,50 € pour 0.38 kg = 25,00 €/kg, mais l'enseigne affiche 12,49 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "F2026060800337130000",
    "name": "Rôti de Marcassin",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Viandes-poissons-et-produits-vegetariens/Viande-fraiche/Gibier/Roti-de-Marcassin/p/F2026060800337130000",
@@ -2769,7 +2769,7 @@
    "name": "Pêches Demi Sirop léger Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Peches-en-conserve/Peches-Demi-Sirop-leger-Boite/p/S1997052700106050000",
    "reason": "format-incoherent",
-   "detail": "2,45 € pour 0.42 kg = 5,83 €/kg, mais l'enseigne affiche 10,43 €/kg → publié sans format"
+   "detail": "2,49 € pour 0.42 kg = 5,93 €/kg, mais l'enseigne affiche 10,60 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3057,7 +3057,7 @@
    "name": "Abricots Demi Sirop léger Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Abricots-en-conserve/Abricots-Demi-Sirop-leger-Boite/p/S2009081400095000000",
    "reason": "format-incoherent",
-   "detail": "5,29 € pour 0.825 kg = 6,41 €/kg, mais l'enseigne affiche 11,02 €/kg → publié sans format"
+   "detail": "5,39 € pour 0.825 kg = 6,53 €/kg, mais l'enseigne affiche 11,23 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3321,7 +3321,7 @@
    "name": "Ananas Tranches Jus Boîte",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Fruits-et-compotes-en-conserve/Fruits-en-conserve/Ananas-en-conserve/Ananas-Tranches-Jus-Boite/p/S2015020300103810000",
    "reason": "format-incoherent",
-   "detail": "5,45 € pour 0.82 kg = 6,65 €/kg, mais l'enseigne affiche 10,69 €/kg → publié sans format"
+   "detail": "5,55 € pour 0.82 kg = 6,77 €/kg, mais l'enseigne affiche 10,88 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -3569,7 +3569,7 @@
    "name": "Haricots Rouges",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Conserves/Legumes-en-conserve/Lentilles-haricots-et-autres-legumineuses-en-conserve/Haricots-en-conserve/Haricots-Rouges/p/S2018041600049770000",
    "reason": "format-incoherent",
-   "detail": "2,75 € pour 0.16 kg = 17,19 €/kg, mais l'enseigne affiche 22,92 €/kg → publié sans format"
+   "detail": "2,69 € pour 0.16 kg = 16,81 €/kg, mais l'enseigne affiche 22,42 €/kg → publié sans format"
   },
   {
    "chainId": "delhaize",
@@ -4325,14 +4325,6 @@
   },
   {
    "chainId": "delhaize",
-   "productKey": "S2026081200985060000",
-   "name": "Biscuits Cent Wafers Xtra Chocolat",
-   "sourceUrl": "https://www.delhaize.be/fr/shop/Epicerie-sucree/Biscuits/Biscuits-secs/Chocolat/Biscuits-Cent-Wafers-Xtra-Chocolat/p/S2026081200985060000",
-   "reason": "format-incoherent",
-   "detail": "2,59 € pour 0.02 kg = 129,50 €/kg, mais l'enseigne affiche 11,51 €/kg → publié sans format"
-  },
-  {
-   "chainId": "delhaize",
    "productKey": "S2026083100989670000",
    "name": "Lipton Ice tea Citron",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Sirops/Autres/Lipton-Ice-tea-Citron/p/S2026083100989670000",
@@ -4401,7 +4393,7 @@
    "name": "Eau minérale naturelle Pétillante",
    "sourceUrl": "https://www.delhaize.be/fr/shop/Boissons-froides-et-chaudes/Eaux/Eau-petillante/Eau-minerale-naturelle-Petillante/p/S2024030900757440099",
    "reason": "prix-aberrant",
-   "detail": "4,93 €/l contre une médiane de 0,99 €/l (eau/petillante/l)"
+   "detail": "4,93 €/l contre une médiane de 1,00 €/l (eau/petillante/l)"
   },
   {
    "chainId": "delhaize",
